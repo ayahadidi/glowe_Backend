@@ -3,8 +3,8 @@ import uuid
 from django.core.validators import MaxValueValidator
 
 class Cart(models.Model):
-    Id=models.UUIDField(primary_key=True,default=uuid.uuid4,editable=False)
-    TotalPrice=models.IntegerField(validators=[MaxValueValidator(100000)])
-    TotalItems=models.IntegerField(validators=[MaxValueValidator(100)])
-    UserId=models.ForeignKey('Backend.User',on_delete=models.CASCADE)
-    ProductId=models.ForeignKey('Backend.Products',on_delete=models.CASCADE)
+    id=models.UUIDField(primary_key=True,default=uuid.uuid4,editable=False)
+    total_price=models.IntegerField(validators=[MaxValueValidator(100000)])
+    total_items=models.IntegerField(validators=[MaxValueValidator(100)])
+    user=models.ForeignKey('Backend.User',on_delete=models.CASCADE)
+    product=models.ForeignKey('Backend.Products',on_delete=models.CASCADE)
