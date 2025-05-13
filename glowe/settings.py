@@ -27,11 +27,11 @@ DEBUG = True
 
 ALLOWED_HOSTS = []
 
-AUTH_USER_MODEL = 'Backend.CustomUser'
+AUTH_USER_MODEL = 'Backend.User'
 # Application definition
 
 INSTALLED_APPS = [
-    # 'Backend.apps.BackendConfig',
+    'Backend.apps.BackendConfig',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -40,8 +40,6 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'rest_framework',
     'rest_framework_simplejwt',
-
-    "Backend.models.user_model",
 ]
 
 REST_FRAMEWORK = {

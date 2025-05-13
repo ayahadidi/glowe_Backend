@@ -1,6 +1,5 @@
 from django.db import models
 import uuid
-from .promoCode_model import PromoCode
 from django.contrib.auth.models import AbstractBaseUser, PermissionsMixin, BaseUserManager
 
 
@@ -22,20 +21,19 @@ class CustomUser(BaseUserManager):
 
 
 class User(AbstractBaseUser, PermissionsMixin):
-    id = models.UUIDField(primary_key=True, default=uuid.uuid4, editable=False)
-    first_name = models.CharField(max_length=50)
-    last_name = models.CharField(max_length=50)
-    phone_number = models.CharField(max_length=10)
-    Password=models.CharField(max_length=30)
-    email = models.EmailField(unique=True)
-    location = models.CharField(max_length=200)
-    PromoCodeId=models.ForeignKey(PromoCode,on_delete=models.CASCADE)
+    Id = models.UUIDField(primary_key=True, default=uuid.uuid4, editable=False)
+    FirstName = models.CharField(max_length=50)
+    LastName = models.CharField(max_length=50)
+    PhoneNumber = models.CharField(max_length=10)
+    Email = models.EmailField(unique=True)
+    Location = models.CharField(max_length=200)
+    PromoCodeId=models.ForeignKey('Backend.PromoCode',on_delete=models.CASCADE)
 
     is_active = models.BooleanField(default=True)
     is_staff = models.BooleanField(default=False)
 
-    USERNAME_FIELD = 'email'
-    REQUIRED_FIELDS = ['first_name', 'last_name']
+    USERNAME_FIELD = 'Email'
+    REQUIRED_FIELDS = ['FirstName', 'LastName']
 
     objects = CustomUser()
 
