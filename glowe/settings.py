@@ -27,11 +27,11 @@ DEBUG = True
 
 ALLOWED_HOSTS = []
 
-AUTH_USER_MODEL = 'Backend'
+AUTH_USER_MODEL = 'Backend.CustomUser'
 # Application definition
 
 INSTALLED_APPS = [
-    'Backend.apps.BackendConfig',
+    # 'Backend.apps.BackendConfig',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -41,7 +41,7 @@ INSTALLED_APPS = [
     'rest_framework',
     'rest_framework_simplejwt',
 
-    # "Backend",
+    "Backend.models.user_model",
 ]
 
 REST_FRAMEWORK = {
@@ -82,7 +82,7 @@ WSGI_APPLICATION = 'glowe.wsgi.application'
 
 
 import pymysql,os
-from dotenv import load_dotenv 
+from dotenv import load_dotenv
 pymysql.install_as_MySQLdb()
 load_dotenv()
 DATABASES = {

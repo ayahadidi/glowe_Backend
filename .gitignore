@@ -1,4 +1,66 @@
-.env
-.env.local
+# Python __pycache__ and compiled files
 __pycache__/
-*.pyc
+*.py[cod]
+*$py.class
+
+# Virtual environments
+env/
+venv/
+ENV/
+VENV/
+.venv/
+.pipenv/
+.venv.bak/
+
+# Django migrations
+**/migrations/
+!*/migrations/__init__.py
+
+# Django settings secrets (if split out)
+*.env
+.env.*
+
+# SQLite database
+*.sqlite3
+
+# Logs
+*.log
+
+# Media and static files (optional if not managed manually)
+media/
+staticfiles/
+static/
+
+# IDEs and editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Coverage and testing
+htmlcov/
+.coverage
+.tox/
+.nox/
+.cache/
+pytest_cache/
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+.eggs/
+pip-wheel-metadata/
+
+# mypy, pyright, etc.
+.mypy_cache/
+.pyright/
+.pyre/
+.dmypy.json
+
+# Node modules (in case of frontend assets)
+node_modules/
