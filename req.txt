@@ -11,3 +11,4 @@ python-dotenv
 rest-framework-simplejwt
 sqlparse
 tzdata
+drf-yasg
