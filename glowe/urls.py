@@ -20,7 +20,7 @@ from Backend.views.authentication_view import RegisterView
 from rest_framework_simplejwt.views import TokenObtainPairView
 
 urlpatterns = [
-    path('admin/', admin.site.urls),
-    path('api/register', RegisterView.as_view()),
+    path('login', admin.site.urls),
+    path('register', RegisterView.as_view()),
     path('api/token/', TokenObtainPairView.as_view(), name='token_obtain_pair'),
 ]

@@ -9,5 +9,5 @@ from .rating_model import *
 from ..user_model import *
 from .wishlist_model import *
 from .promoCode_model import *
-
+from .userPromoCode_model import *
 __all__ = ['*']
