@@ -27,7 +27,6 @@ class User(AbstractBaseUser, PermissionsMixin):
     phone_number = models.CharField(max_length=10)
     email = models.EmailField(unique=True)
     location = models.CharField(max_length=200)
-    promo_code=models.ForeignKey('Backend.PromoCode',on_delete=models.CASCADE)
 
     is_active = models.BooleanField(default=True)
     is_staff = models.BooleanField(default=False)
