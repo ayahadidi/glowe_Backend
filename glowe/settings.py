@@ -27,11 +27,12 @@ DEBUG = True
 
 ALLOWED_HOSTS = []
 
-AUTH_USER_MODEL = 'Backend.User'
+AUTH_USER_MODEL = 'custom_user.User'
 # Application definition
 
 INSTALLED_APPS = [
     'Backend.apps.BackendConfig',
+    'custom_user.apps.CustomUserConfig',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',

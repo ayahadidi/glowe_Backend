@@ -1,12 +1,12 @@
 from rest_framework import serializers
-from ..user_model import User
+from .models import User
 
 class AuthenticationSerializer(serializers.ModelSerializer):
     password = serializers.CharField(write_only=True)
 
     class Meta:
         model = User
-        fields = ['id', 'first_name', 'last_name', 'email', 'password', 'phone_number', 'location','promo_code']
+        fields = ['id', 'first_name', 'last_name', 'email', 'password', 'phone_number', 'location']
 
     def create(self, validated_data):
         password = validated_data.pop('password')

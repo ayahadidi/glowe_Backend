@@ -3,5 +3,5 @@ import uuid
 
 class Wishlist(models.Model):
     id=models.UUIDField(primary_key=True,default=uuid.uuid4,editable=False)
-    user=models.ForeignKey('Backend.User',on_delete=models.CASCADE)
+    user=models.ForeignKey('custom_user.User',on_delete=models.CASCADE)
     product=models.ForeignKey('Backend.Products',on_delete=models.CASCADE)

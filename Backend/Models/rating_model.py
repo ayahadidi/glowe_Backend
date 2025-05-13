@@ -6,4 +6,4 @@ class Rating(models.Model):
     id=models.UUIDField(primary_key=True,default=uuid.uuid4,editable=False)
     value=models.IntegerField(validators=[MaxValueValidator(5)])
     comment=models.CharField(max_length=500)
-    user=models.ForeignKey('Backend.User',on_delete=models.CASCADE) 
+    user=models.ForeignKey('custom_user.User',on_delete=models.CASCADE) 
