@@ -3,7 +3,7 @@ import uuid
 from django.core.validators import MaxValueValidator
 
 class Rating(models.Model):
-    Id=models.UUIDField(primary_key=True,default=uuid.uuid4,editable=False)
-    Value=models.IntegerField(validators=[MaxValueValidator(5)])
-    Comment=models.CharField(max_length=500)
-    UserId=models.ForeignKey('Backend.User',on_delete=models.CASCADE) 
+    id=models.UUIDField(primary_key=True,default=uuid.uuid4,editable=False)
+    value=models.IntegerField(validators=[MaxValueValidator(5)])
+    comment=models.CharField(max_length=500)
+    user=models.ForeignKey('Backend.User',on_delete=models.CASCADE) 
