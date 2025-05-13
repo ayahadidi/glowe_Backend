@@ -1,6 +1,4 @@
 from django.db import models
-from .color_model import Colors
-from .rating_model import Rating
 import uuid
 from django.core.validators import MaxValueValidator
 
@@ -16,5 +14,5 @@ class Products(models.Model):
     ingredients=models.CharField(max_length=500)
     brandName=models.CharField(max_length=50)
     quantity=models.IntegerField(validators=[MaxValueValidator(100)])
-    colors=models.ForeignKey(Colors,on_delete=models.CASCADE)
-    ratings=models.ForeignKey(Rating,on_delete=models.CASCADE)
+    colors=models.ForeignKey('Backend.Colors',on_delete=models.CASCADE)
+    ratings=models.ForeignKey('Backend.Rating',on_delete=models.CASCADE)
