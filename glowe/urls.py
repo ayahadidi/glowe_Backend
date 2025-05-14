@@ -14,6 +14,9 @@ Including another URLconf
     1. Import the include() function: from django.urls import include, path
     2. Add a URL to urlpatterns:  path('blog/', include('blog.urls'))
 """
+
+# http://192.168.31.191:8000
+
 from django.contrib import admin
 from django.urls import path,include
 from custom_user.views import RegisterView
@@ -37,7 +40,7 @@ schema_view = get_schema_view(
 
 
 urlpatterns = [
-    path('login/', admin.site.urls),
+    path('admin/', admin.site.urls),
     path('backend', include('Backend.urls')),
     path('register/', RegisterView.as_view()),
     path('api/token/', TokenObtainPairView.as_view(), name='token_obtain_pair'),

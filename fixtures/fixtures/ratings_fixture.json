@@ -1,0 +1,163 @@
+[
+  {
+    "model": "Backend.Rating",
+    "fields": {
+      "value": 5,
+      "comment": "Amazing quality and fast shipping!",
+      "user": "14fea6bd889e43989c5e70ff5db75fe2"
+    }
+  },
+  {
+    "model": "Backend.Rating",
+    "fields": {
+      "value": 4,
+      "comment": "Loved the product, just wish it came in more shades.",
+      "user": "29ffd03c4b1c4272b8e7335cd51b0e74"
+    }
+  },
+  {
+    "model": "Backend.Rating",
+    "fields": {
+      "value": 3,
+      "comment": "Average experience. The packaging could be better.",
+      "user": "2d68a526a0344709bc2b4253d8ad8e86"
+    }
+  },
+  {
+    "model": "Backend.Rating",
+    "fields": {
+      "value": 5,
+      "comment": "I’m in love with this lipstick! Highly recommend.",
+      "user": "43d705b517fb4bff8f38c699c6700010"
+    }
+  },
+  {
+    "model": "Backend.Rating",
+    "fields": {
+      "value": 2,
+      "comment": "Not suitable for sensitive skin, sadly.",
+      "user": "4e47978883174360b14e1ce1dfa01a08"
+    }
+  },
+  {
+    "model": "Backend.Rating",
+    "fields": {
+      "value": 4,
+      "comment": "Great texture and easy to apply.",
+      "user": "4e6a7fd3443d433f96d350358bccdea9"
+    }
+  },
+  {
+    "model": "Backend.Rating",
+    "fields": {
+      "value": 5,
+      "comment": "Absolutely perfect! I’ll be buying again.",
+      "user": "5b974b8ac1f04d65a2a6ba37289a289d"
+    }
+  },
+
+  {
+    "model": "Backend.Rating",
+    "fields": {
+      "value": 3,
+      "comment": "It's okay, not too impressed for the price.",
+      "user": "63aa73b9d44947beb247c0af3fcb8da9"
+    }
+  },
+  {
+    "model": "Backend.Rating",
+    "fields": {
+      "value": 1,
+      "comment": "Product came damaged and had a weird smell.",
+      "user": "670c3646ed9e43629da158ec39e0f84b"
+    }
+  },
+  {
+    "model": "Backend.Rating",
+    "fields": {
+      "value": 4,
+      "comment": "Very hydrating, perfect for dry skin.",
+      "user": "6d31a728d02d42a284dfd0c7bb4972cf"
+    }
+  },
+  {
+    "model": "Backend.Rating",
+    "fields": {
+      "value": 5,
+      "comment": "Exceeded my expectations. Love the ingredients!",
+      "user": "6f06298f5e8b4fa88fc620fa25cf1a6a"
+    }
+  },
+  {
+    "model": "Backend.Rating",
+    "fields": {
+      "value": 3,
+      "comment": "Good but overpriced.",
+      "user": "70235dc6f77b4402b8e5830254ec4d95"
+    }
+  },
+  {
+    "model": "Backend.Rating",
+    "fields": {
+      "value": 4,
+      "comment": "Nice product, decent coverage.",
+      "user": "715246ac4b324d66a4b63b3b744d1801"
+    }
+  },
+  {
+    "model": "Backend.Rating",
+    "fields": {
+      "value": 2,
+      "comment": "Caused breakouts, won’t purchase again.",
+      "user": "7dacb98760db427486f68f46fdac3c28"
+    }
+  },
+  {
+    "model": "Backend.Rating",
+    "fields": {
+      "value": 5,
+      "comment": "Highly pigmented and long-lasting!",
+      "user": "81039bade5134ed9bb4167d0456848ad"
+    }
+  },
+  {
+    "model": "Backend.Rating",
+    "fields": {
+      "value": 1,
+      "comment": "Terrible quality, very disappointed.",
+      "user": "89ddb3795851427dbac12eb43b75a164"
+    }
+  },
+  {
+    "model": "Backend.Rating",
+    "fields": {
+      "value": 4,
+      "comment": "Good product and great customer service.",
+      "user": "902d0aac4a934bb3a0f3b4218c4f9226"
+    }
+  },
+  {
+    "model": "Backend.Rating",
+    "fields": {
+      "value": 5,
+      "comment": "Natural look, very flattering!",
+      "user": "a05d4afab6ac454ea9d2b18d6a4478ec"
+    }
+  },
+  {
+    "model": "Backend.Rating",
+    "fields": {
+      "value": 3,
+      "comment": "It's fine, but nothing special.",
+      "user": "a3141d8c7a274b62ab44aeaf045ab38c"
+    }
+  },
+  {
+    "model": "Backend.Rating",
+    "fields": {
+      "value": 4,
+      "comment": "Love the shimmer and how lightweight it feels.",
+      "user": "c5aa2d4d68194eb4bdcc8bbd3210184a"
+    }
+  }
+]
