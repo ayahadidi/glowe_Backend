@@ -1,0 +1,142 @@
+[
+  {
+    "model": "Backend.UserPromoCode",
+    "fields": {
+      "user": 1,
+      "promoCode": 1
+    }
+  },
+  {
+    "model": "Backend.UserPromoCode",
+    "fields": {
+      "user": 2,
+      "promoCode": 2
+    }
+  },
+  {
+    "model": "Backend.UserPromoCode",
+    "fields": {
+      "user": 3,
+      "promoCode": 3
+    }
+  },
+  {
+    "model": "Backend.UserPromoCode",
+    "fields": {
+      "user": 4,
+      "promoCode": 1
+    }
+  },
+  {
+    "model": "Backend.UserPromoCode",
+    "fields": {
+      "user": 5,
+      "promoCode": 2
+    }
+  },
+  {
+    "model": "Backend.UserPromoCode",
+    "fields": {
+      "user": 6,
+      "promoCode": 3
+    }
+  },
+  {
+    "model": "Backend.UserPromoCode",
+    "fields": {
+      "user": 7,
+      "promoCode": 1
+    }
+  },
+  {
+    "model": "Backend.UserPromoCode",
+    "fields": {
+      "user": 8,
+      "promoCode": 2
+    }
+  },
+  {
+    "model": "Backend.UserPromoCode",
+    "fields": {
+      "user": 9,
+      "promoCode": 3
+    }
+  },
+  {
+    "model": "Backend.UserPromoCode",
+    "fields": {
+      "user": 10,
+      "promoCode": 1
+    }
+  },
+  {
+    "model": "Backend.UserPromoCode",
+    "fields": {
+      "user": 11,
+      "promoCode": 2
+    }
+  },
+  {
+    "model": "Backend.UserPromoCode",
+    "fields": {
+      "user": 12,
+      "promoCode": 3
+    }
+  },
+  {
+    "model": "Backend.UserPromoCode",
+    "fields": {
+      "user": 13,
+      "promoCode": 1
+    }
+  },
+  {
+    "model": "Backend.UserPromoCode",
+    "fields": {
+      "user": 14,
+      "promoCode": 2
+    }
+  },
+  {
+    "model": "Backend.UserPromoCode",
+    "fields": {
+      "user": 15,
+      "promoCode": 3
+    }
+  },
+  {
+    "model": "Backend.UserPromoCode",
+    "fields": {
+      "user": 16,
+      "promoCode": 1
+    }
+  },
+  {
+    "model": "Backend.UserPromoCode",
+    "fields": {
+      "user": 17,
+      "promoCode": 2
+    }
+  },
+  {
+    "model": "Backend.UserPromoCode",
+    "fields": {
+      "user": 18,
+      "promoCode": 3
+    }
+  },
+  {
+    "model": "Backend.UserPromoCode",
+    "fields": {
+      "user": 19,
+      "promoCode": 1
+    }
+  },
+  {
+    "model": "Backend.UserPromoCode",
+    "fields": {
+      "user": 20,
+      "promoCode": 2
+    }
+  }
+]
