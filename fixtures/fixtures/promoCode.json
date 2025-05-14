@@ -1,0 +1,142 @@
+[
+  {
+    "model": "Backend.PromoCode",
+    "fields": {
+      "code": "SAVE10",
+      "discount_value": 10
+    }
+  },
+  {
+    "model": "Backend.PromoCode",
+    "fields": {
+      "code": "NEW20",
+      "discount_value": 20
+    }
+  },
+  {
+    "model": "Backend.PromoCode",
+    "fields": {
+      "code": "DEAL25",
+      "discount_value": 25
+    }
+  },
+  {
+    "model": "Backend.PromoCode",
+    "fields": {
+      "code": "OFF30",
+      "discount_value": 30
+    }
+  },
+  {
+    "model": "Backend.PromoCode",
+    "fields": {
+      "code": "PROMO15",
+      "discount_value": 15
+    }
+  },
+  {
+    "model": "Backend.PromoCode",
+    "fields": {
+      "code": "FLASH40",
+      "discount_value": 40
+    }
+  },
+  {
+    "model": "Backend.PromoCode",
+    "fields": {
+      "code": "SALE50",
+      "discount_value": 50
+    }
+  },
+  {
+    "model": "Backend.PromoCode",
+    "fields": {
+      "code": "GET60",
+      "discount_value": 60
+    }
+  },
+  {
+    "model": "Backend.PromoCode",
+    "fields": {
+      "code": "TRY5",
+      "discount_value": 5
+    }
+  },
+  {
+    "model": "Backend.PromoCode",
+    "fields": {
+      "code": "DEAL35",
+      "discount_value": 35
+    }
+  },
+  {
+    "model": "Backend.PromoCode",
+    "fields": {
+      "code": "HOT45",
+      "discount_value": 45
+    }
+  },
+  {
+    "model": "Backend.PromoCode",
+    "fields": {
+      "code": "FEST70",
+      "discount_value": 70
+    }
+  },
+  {
+    "model": "Backend.PromoCode",
+    "fields": {
+      "code": "LIMIT80",
+      "discount_value": 80
+    }
+  },
+  {
+    "model": "Backend.PromoCode",
+    "fields": {
+      "code": "NEW75",
+      "discount_value": 75
+    }
+  },
+  {
+    "model": "Backend.PromoCode",
+    "fields": {
+      "code": "SAVE90",
+      "discount_value": 90
+    }
+  },
+  {
+    "model": "Backend.PromoCode",
+    "fields": {
+      "code": "DEAL65",
+      "discount_value": 65
+    }
+  },
+  {
+    "model": "Backend.PromoCode",
+    "fields": {
+      "code": "EXTRA85",
+      "discount_value": 85
+    }
+  },
+  {
+    "model": "Backend.PromoCode",
+    "fields": {
+      "code": "OFF95",
+      "discount_value": 95
+    }
+  },
+  {
+    "model": "Backend.PromoCode",
+    "fields": {
+      "code": "SAVE100",
+      "discount_value": 100
+    }
+  },
+  {
+    "model": "Backend.PromoCode",
+    "fields": {
+      "code": "DISC55",
+      "discount_value": 55
+    }
+  }
+]
