@@ -4,7 +4,9 @@ from ..serializers.ProductSerializer import ProductSerializer
 
 class ProductListView(generics.ListAPIView):
     serializer_class=ProductSerializer
-    queryset = Products.objects.all()
+    
+    def get_queryset(self):
+        return Products.objects.order_by('-TotalSoldOfProduct')[:10]
 
 
 
