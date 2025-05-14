@@ -14,9 +14,9 @@ class Products(models.Model):
     ingredients=models.CharField(max_length=500)
     brandName=models.CharField(max_length=50)
     quantity=models.IntegerField(validators=[MaxValueValidator(100)])
+    TotalSoldOfProduct=models.IntegerField(default=0)
     colors=models.ForeignKey('Backend.Colors',on_delete=models.CASCADE)
     ratings=models.ForeignKey('Backend.Rating',on_delete=models.CASCADE)
-    TotalSoldOfProduct=models.IntegerField(default=0)
 
     def __str__(self):
         return self.name

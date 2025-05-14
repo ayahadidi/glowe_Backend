@@ -1,6 +1,7 @@
 [
   {
     "model": "custom_user.User",
+    "pk": "4a6172cc-846e-431f-9f9a-d72636424f7d",
     "fields": {
       "first_name": "Lena",
       "last_name": "Morgan",
@@ -14,6 +15,7 @@
   },
   {
     "model": "custom_user.User",
+    "pk": "08d8530d-3c00-4915-8077-a3c0a78e26e7",
     "fields": {
       "first_name": "Adam",
       "last_name": "Turner",
@@ -27,6 +29,7 @@
   },
   {
     "model": "custom_user.User",
+    "pk": "d3e53198-cb7f-4014-a5fc-9cd0f4e554a8",
     "fields": {
       "first_name": "Maya",
       "last_name": "Ali",
@@ -40,6 +43,7 @@
   },
   {
     "model": "custom_user.User",
+    "pk": "e3885753-ed1a-4be8-89f4-25263ba95171",
     "fields": {
       "first_name": "Rami",
       "last_name": "Khaled",
@@ -53,6 +57,7 @@
   },
   {
     "model": "custom_user.User",
+    "pk": "cc9edc62-0632-4bf2-95f0-66b974787612",
     "fields": {
       "first_name": "Noor",
       "last_name": "Yousef",
@@ -66,6 +71,7 @@
   },
   {
     "model": "custom_user.User",
+    "pk": "f13a157e-e8d4-435c-8fb5-daeddb128d85",
     "fields": {
       "first_name": "Layla",
       "last_name": "Salem",
@@ -79,6 +85,7 @@
   },
   {
     "model": "custom_user.User",
+    "pk": "c6eb0dfc-b456-44e5-b596-69dcec1bd0d5",
     "fields": {
       "first_name": "Sami",
       "last_name": "Haddad",
@@ -92,6 +99,7 @@
   },
   {
     "model": "custom_user.User",
+    "pk": "ded89f5b-6429-4498-b88a-d27eb69b95ad",
     "fields": {
       "first_name": "Dana",
       "last_name": "Shamoun",
@@ -105,6 +113,7 @@
   },
   {
     "model": "custom_user.User",
+    "pk": "df4ffaf4-d1ed-4467-afb7-b88d06ff39ef",
     "fields": {
       "first_name": "Tariq",
       "last_name": "Awad",
@@ -118,6 +127,7 @@
   },
   {
     "model": "custom_user.User",
+    "pk": "4a3ad2b6-463d-4bb9-bd38-656bb32c443c",
     "fields": {
       "first_name": "Fatima",
       "last_name": "Abbas",
@@ -132,6 +142,7 @@
 
   {
     "model": "custom_user.User",
+    "pk": "4a5c9db5-29cd-4573-8df2-29ff3ef3c5cb",
     "fields": {
       "first_name": "Nour",
       "last_name": "Said",
@@ -145,6 +156,7 @@
   },
   {
     "model": "custom_user.User",
+    "pk": "bef9cfef-1781-4c51-bced-f2c6415f5e58",
     "fields": {
       "first_name": "Ahmed",
       "last_name": "Jaber",
@@ -158,6 +170,7 @@
   },
   {
     "model": "custom_user.User",
+    "pk": "c3a385ee-0f3e-4d67-ba58-e414d84a9fda",
     "fields": {
       "first_name": "Sarah",
       "last_name": "Nasr",
@@ -172,6 +185,7 @@
 
   {
     "model": "custom_user.User",
+    "pk": "127220fc-07c2-452f-a4e5-800919ac7a60",
     "fields": {
       "first_name": "Omar",
       "last_name": "Farid",
@@ -186,6 +200,7 @@
 
   {
     "model": "custom_user.User",
+    "pk": "45ecef07-d25d-4f89-8975-4dac4d78953b",
     "fields": {
       "first_name": "Amira",
       "last_name": "Nabil",
@@ -200,6 +215,7 @@
 
   {
     "model": "custom_user.User",
+    "pk": "37879e2a-fe4b-4643-b226-4ca0acdb5363",
     "fields": {
       "first_name": "Khaled",
       "last_name": "Othman",
@@ -214,6 +230,7 @@
 
   {
     "model": "custom_user.User",
+    "pk": "4ec3f946-d1a3-4f05-a848-6918b5d7fcd7",
     "fields": {
       "first_name": "Hana",
       "last_name": "Majid",
@@ -228,6 +245,7 @@
 
   {
     "model": "custom_user.User",
+    "pk": "2743fb8e-a51d-4885-b004-28abffc5ff10",
     "fields": {
       "first_name": "Yara",
       "last_name": "Badr",
@@ -242,6 +260,7 @@
 
   {
     "model": "custom_user.User",
+    "pk": "4546465d-538a-4c3f-81e8-5efff785b625",
     "fields": {
       "first_name": "Bilal",
       "last_name": "Zein",
