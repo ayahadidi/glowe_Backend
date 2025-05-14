@@ -12,3 +12,4 @@ rest-framework-simplejwt
 sqlparse
 tzdata
 drf-yasg
+django-cors-headers

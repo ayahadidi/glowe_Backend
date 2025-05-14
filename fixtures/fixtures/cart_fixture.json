@@ -1,0 +1,192 @@
+[
+  {
+    "model": "Backend.Cart",
+    "pk": "e8f3a5b0-d1e2-4a7a-a9f1-123456789001",
+    "fields": {
+      "total_price": 45320,
+      "total_items": 7,
+      "user": "08d8530d-3c00-4915-8077-a3c0a78e26e7",
+      "product": "04ad7a68-7d49-4c94-924c-5d7e1a9d16cb"
+    }
+  },
+  {
+    "model": "Backend.Cart",
+    "pk": "b7c920d9-24f4-4b82-a61e-123456789002",
+    "fields": {
+      "total_price": 10250,
+      "total_items": 2,
+      "user": "127220fc-07c2-452f-a4e5-800919ac7a60",
+      "product": "13f88063-6343-4a52-803e-863937402e58"
+    }
+  },
+  {
+    "model": "Backend.Cart",
+    "pk": "bd8e81c0-5b6c-4c3b-b9db-123456789003",
+    "fields": {
+      "total_price": 8700,
+      "total_items": 1,
+      "user": "2743fb8e-a51d-4885-b004-28abffc5ff10",
+      "product": "41d42f9d-caf1-41b6-9e6d-1c6c5f871cd1"
+    }
+  },
+  {
+    "model": "Backend.Cart",
+    "pk": "6726bcec-22c9-4e3b-a56f-123456789004",
+    "fields": {
+      "total_price": 9999,
+      "total_items": 3,
+      "user": "37879e2a-fe4b-4643-b226-4ca0acdb5363",
+      "product": "4ad9787f-b1b9-470b-b929-bfd058e3ef7b"
+    }
+  },
+  {
+    "model": "Backend.Cart",
+    "pk": "20d59310-c5fc-4d50-ae15-123456789005",
+    "fields": {
+      "total_price": 15000,
+      "total_items": 5,
+      "user": "4546465d-538a-4c3f-81e8-5efff785b625",
+      "product": "6be03f1e-8b23-4d79-aad2-c1b4e57c2d01"
+    }
+  },
+  {
+    "model": "Backend.Cart",
+    "pk": "f3194b45-9e77-40aa-b134-123456789006",
+    "fields": {
+      "total_price": 48000,
+      "total_items": 10,
+      "user": "45ecef07-d25d-4f89-8975-4dac4d78953b",
+      "product": "8aa2c51e-47d9-4f94-bd93-b35dc0f812c6"
+    }
+  },
+  {
+    "model": "Backend.Cart",
+    "pk": "77c322d3-26a5-4e1b-a4ab-123456789007",
+    "fields": {
+      "total_price": 21500,
+      "total_items": 4,
+      "user": "4a3ad2b6-463d-4bb9-bd38-656bb32c443c",
+      "product": "90a9f2b1-2b9b-44fc-a5fd-9d3f79e7cf26"
+    }
+  },
+  {
+    "model": "Backend.Cart",
+    "pk": "a7c92e9e-b793-4be3-94d6-123456789008",
+    "fields": {
+      "total_price": 13200,
+      "total_items": 2,
+      "user": "4a5c9db5-29cd-4573-8df2-29ff3ef3c5cb",
+      "product": "a2a1c7df-7f53-4a34-902f-1e5f30f4dd3e"
+    }
+  },
+  {
+    "model": "Backend.Cart",
+    "pk": "cf79d509-b1a1-4571-bda3-123456789009",
+    "fields": {
+      "total_price": 9870,
+      "total_items": 1,
+      "user": "4a6172cc-846e-431f-9f9a-d72636424f7d",
+      "product": "a64ed40e-9f98-4cf6-9b58-01e1dc93f570"
+    }
+  },
+  {
+    "model": "Backend.Cart",
+    "pk": "7ae8ed60-2a97-4db0-82a5-123456789010",
+    "fields": {
+      "total_price": 7500,
+      "total_items": 1,
+      "user": "4ec3f946-d1a3-4f05-a848-6918b5d7fcd7",
+      "product": "ab0a1716-bd3a-4cb6-bc93-9309c3d40e0e"
+    }
+  },
+  {
+    "model": "Backend.Cart",
+    "pk": "aa348ef6-3c6d-46de-a5be-123456789011",
+    "fields": {
+      "total_price": 6200,
+      "total_items": 1,
+      "user": "bef9cfef-1781-4c51-bced-f2c6415f5e58",
+      "product": "b782098f-2ac0-4457-8bc6-5c2225a8cfde"
+    }
+  },
+  {
+    "model": "Backend.Cart",
+    "pk": "05ab9a7a-e1f7-464b-a1cb-123456789012",
+    "fields": {
+      "total_price": 9000,
+      "total_items": 2,
+      "user": "c3a385ee-0f3e-4d67-ba58-e414d84a9fda",
+      "product": "c34ae285-17d7-4e23-b6e3-d3f894ac2993"
+    }
+  },
+  {
+    "model": "Backend.Cart",
+    "pk": "38b3792b-20b2-4a4b-84ea-123456789013",
+    "fields": {
+      "total_price": 27000,
+      "total_items": 5,
+      "user": "c6eb0dfc-b456-44e5-b596-69dcec1bd0d5",
+      "product": "cc8c97ad-6751-41e9-864c-8a7a041756a3"
+    }
+  },
+  {
+    "model": "Backend.Cart",
+    "pk": "b31b9f88-3e0b-49d1-81ae-123456789015",
+    "fields": {
+      "total_price": 8200,
+      "total_items": 2,
+      "user": "cc9edc62-0632-4bf2-95f0-66b974787612",
+      "product": "da9c6a45-5d8f-4ea5-929b-d0bb321ec370"
+    }
+  },
+  {
+    "model": "Backend.Cart",
+    "pk": "91b15b56-f78f-4dd6-a5a1-123456789016",
+    "fields": {
+      "total_price": 10700,
+      "total_items": 3,
+      "user": "d3e53198-cb7f-4014-a5fc-9cd0f4e554a8",
+      "product": "eafc178f-810b-4c32-8fd6-5d848ad408e9"
+    }
+  },
+  {
+    "model": "Backend.Cart",
+    "pk": "d9d35059-dfcd-4383-8f0f-123456789017",
+    "fields": {
+      "total_price": 3000,
+      "total_items": 1,
+      "user": "ded89f5b-6429-4498-b88a-d27eb69b95ad",
+      "product": "ec5d0417-cf10-456c-a84a-f152045abc1c"
+    }
+  },
+  {
+    "model": "Backend.Cart",
+    "pk": "f2a6ef72-4e35-4197-91a3-123456789018",
+    "fields": {
+      "total_price": 6500,
+      "total_items": 1,
+      "user": "df4ffaf4-d1ed-4467-afb7-b88d06ff39ef",
+      "product": "eafc178f-810b-4c32-8fd6-5d848ad408e9"
+    }
+  },
+  {
+    "model": "Backend.Cart",
+    "pk": "41c8d9b5-2c9d-43bc-b437-123456789019",
+    "fields": {
+      "total_price": 33000,
+      "total_items": 6,
+      "user": "e3885753-ed1a-4be8-89f4-25263ba95171",
+      "product": "da9c6a45-5d8f-4ea5-929b-d0bb321ec370"
+    }
+  },
+  {
+    "model": "Backend.Cart",
+    "pk": "d3bc91f4-2f35-498c-aadc-123456789020",
+    "fields": {
+      "total_price": 12500,
+      "total_items": 2,
+      "user": "f13a157e-e8d4-435c-8fb5-daeddb128d85",
+      "product": "cdd4ecf2-845f-4c6e-a8e5-2d344207b143"
+    }
+  }
+]

@@ -1,0 +1,162 @@
+[
+  {
+    "model": "Backend.Inventory",
+    "pk": "a4c83b8f-bfd1-4d5e-bb84-000000000001",
+    "fields": {
+      "inStock": 250,
+      "products": "04ad7a68-7d49-4c94-924c-5d7e1a9d16cb"
+    }
+  },
+  {
+    "model": "Backend.Inventory",
+    "pk": "b1fbbafe-95e0-4b2f-bd1a-000000000002",
+    "fields": {
+      "inStock": 1000,
+      "products": "13f88063-6343-4a52-803e-863937402e58"
+    }
+  },
+  {
+    "model": "Backend.Inventory",
+    "pk": "c6d8f5c9-7f0a-4f94-bc7e-000000000003",
+    "fields": {
+      "inStock": 872,
+      "products": "41d42f9d-caf1-41b6-9e6d-1c6c5f871cd1"
+    }
+  },
+  {
+    "model": "Backend.Inventory",
+    "pk": "d9b0e0a7-71db-4e60-a7dc-000000000004",
+    "fields": {
+      "inStock": 130,
+      "products": "4ad9787f-b1b9-470b-b929-bfd058e3ef7b"
+    }
+  },
+  {
+    "model": "Backend.Inventory",
+    "pk": "e2a1cd67-6f6f-49cb-b1aa-000000000005",
+    "fields": {
+      "inStock": 999,
+      "products": "6be03f1e-8b23-4d79-aad2-c1b4e57c2d01"
+    }
+  },
+  {
+    "model": "Backend.Inventory",
+    "pk": "f17de688-cb4e-4a5c-bcb0-000000000006",
+    "fields": {
+      "inStock": 758,
+      "products": "8aa2c51e-47d9-4f94-bd93-b35dc0f812c6"
+    }
+  },
+  {
+    "model": "Backend.Inventory",
+    "pk": "09ec2ae6-1043-4bc6-8cc0-000000000007",
+    "fields": {
+      "inStock": 142,
+      "products": "90a9f2b1-2b9b-44fc-a5fd-9d3f79e7cf26"
+    }
+  },
+  {
+    "model": "Backend.Inventory",
+    "pk": "115347f2-4e6c-4a10-8de4-000000000008",
+    "fields": {
+      "inStock": 306,
+      "products": "a2a1c7df-7f53-4a34-902f-1e5f30f4dd3e"
+    }
+  },
+  {
+    "model": "Backend.Inventory",
+    "pk": "221ab630-32ee-48c4-a338-000000000009",
+    "fields": {
+      "inStock": 528,
+      "products": "a64ed40e-9f98-4cf6-9b58-01e1dc93f570"
+    }
+  },
+  {
+    "model": "Backend.Inventory",
+    "pk": "3162ef4b-d79d-4642-9f33-000000000010",
+    "fields": {
+      "inStock": 784,
+      "products": "ab0a1716-bd3a-4cb6-bc93-9309c3d40e0e"
+    }
+  },
+  {
+    "model": "Backend.Inventory",
+    "pk": "4287f25c-e7a7-4131-9b87-000000000011",
+    "fields": {
+      "inStock": 199,
+      "products": "b782098f-2ac0-4457-8bc6-5c2225a8cfde"
+    }
+  },
+  {
+    "model": "Backend.Inventory",
+    "pk": "53b2a8ea-2098-4d84-b84d-000000000012",
+    "fields": {
+      "inStock": 354,
+      "products": "c34ae285-17d7-4e23-b6e3-d3f894ac2993"
+    }
+  },
+  {
+    "model": "Backend.Inventory",
+    "pk": "64e358af-2891-4ee8-a1aa-000000000013",
+    "fields": {
+      "inStock": 721,
+      "products": "cc8c97ad-6751-41e9-864c-8a7a041756a3"
+    }
+  },
+  {
+    "model": "Backend.Inventory",
+    "pk": "757db35e-768c-4c83-8b13-000000000014",
+    "fields": {
+      "inStock": 180,
+      "products": "cdd4ecf2-845f-4c6e-a8e5-2d344207b143"
+    }
+  },
+  {
+    "model": "Backend.Inventory",
+    "pk": "86501c69-13c1-4c0e-bd92-000000000015",
+    "fields": {
+      "inStock": 800,
+      "products": "da9c6a45-5d8f-4ea5-929b-d0bb321ec370"
+    }
+  },
+  {
+    "model": "Backend.Inventory",
+    "pk": "97f7f7ec-3b2a-4db7-a8d5-000000000016",
+    "fields": {
+      "inStock": 623,
+      "products": "eafc178f-810b-4c32-8fd6-5d848ad408e9"
+    }
+  },
+  {
+    "model": "Backend.Inventory",
+    "pk": "a87aa6fa-5b4c-4cc2-8a68-000000000017",
+    "fields": {
+      "inStock": 59,
+      "products": "ec5d0417-cf10-456c-a84a-f152045abc1c"
+    }
+  },
+  {
+    "model": "Backend.Inventory",
+    "pk": "b98b6fa5-237e-4c7b-95ea-000000000018",
+    "fields": {
+      "inStock": 430,
+      "products": "eafc178f-810b-4c32-8fd6-5d848ad408e9"
+    }
+  },
+  {
+    "model": "Backend.Inventory",
+    "pk": "caaeaf18-b205-4fd7-8f5f-000000000019",
+    "fields": {
+      "inStock": 677,
+      "products": "da9c6a45-5d8f-4ea5-929b-d0bb321ec370"
+    }
+  },
+  {
+    "model": "Backend.Inventory",
+    "pk": "dcbbc488-44e7-4b8e-9e17-000000000020",
+    "fields": {
+      "inStock": 999,
+      "products": "cdd4ecf2-845f-4c6e-a8e5-2d344207b143"
+    }
+  }
+]

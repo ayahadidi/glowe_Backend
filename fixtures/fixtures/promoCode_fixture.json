@@ -1,6 +1,7 @@
 [
   {
     "model": "Backend.PromoCode",
+    "pk": "6cd433a3-4199-4f7e-9823-fe99a35a7911",
     "fields": {
       "code": "SAVE10",
       "discount_value": 10
@@ -8,6 +9,7 @@
   },
   {
     "model": "Backend.PromoCode",
+    "pk": "60e9442b-2a3b-43a0-b711-cb2191aabf69",
     "fields": {
       "code": "NEW20",
       "discount_value": 20
@@ -15,6 +17,7 @@
   },
   {
     "model": "Backend.PromoCode",
+    "pk": "d69b5086-5be8-4c82-8eff-e54991ef89a7",
     "fields": {
       "code": "DEAL25",
       "discount_value": 25
@@ -22,6 +25,7 @@
   },
   {
     "model": "Backend.PromoCode",
+    "pk": "6b636223-5066-457f-8f32-5682294ce798",
     "fields": {
       "code": "OFF30",
       "discount_value": 30
@@ -29,6 +33,7 @@
   },
   {
     "model": "Backend.PromoCode",
+    "pk": "478cf90e-1667-4942-8c2d-092cccf8a3b3",
     "fields": {
       "code": "PROMO15",
       "discount_value": 15
@@ -36,6 +41,7 @@
   },
   {
     "model": "Backend.PromoCode",
+    "pk": "bfc5cf8f-2e41-4f84-a2e9-17bde3130ea9",
     "fields": {
       "code": "FLASH40",
       "discount_value": 40
@@ -43,6 +49,7 @@
   },
   {
     "model": "Backend.PromoCode",
+    "pk": "f339e9ed-fbab-470f-adc2-a07e95321fba",
     "fields": {
       "code": "SALE50",
       "discount_value": 50
@@ -50,6 +57,7 @@
   },
   {
     "model": "Backend.PromoCode",
+    "pk": "75caa3a9-6f5a-4f22-b1dc-92708c662593",
     "fields": {
       "code": "GET60",
       "discount_value": 60
@@ -57,6 +65,7 @@
   },
   {
     "model": "Backend.PromoCode",
+    "pk": "0001ecee-a3d7-4aa5-a3ed-eb11b1a7c8b9",
     "fields": {
       "code": "TRY5",
       "discount_value": 5
@@ -64,6 +73,7 @@
   },
   {
     "model": "Backend.PromoCode",
+    "pk": "63cf242d-8711-4241-b627-f777041b2058",
     "fields": {
       "code": "DEAL35",
       "discount_value": 35
@@ -71,6 +81,7 @@
   },
   {
     "model": "Backend.PromoCode",
+    "pk": "501a5c68-08b0-48b8-88a4-5d90b12bd7a1",
     "fields": {
       "code": "HOT45",
       "discount_value": 45
@@ -78,6 +89,7 @@
   },
   {
     "model": "Backend.PromoCode",
+    "pk": "8d44cbb1-8651-4eb5-a50e-40a31342bfbb",
     "fields": {
       "code": "FEST70",
       "discount_value": 70
@@ -85,6 +97,7 @@
   },
   {
     "model": "Backend.PromoCode",
+    "pk": "64825bdb-bed8-41c7-9dcf-a1b1dc43f2c8",
     "fields": {
       "code": "LIMIT80",
       "discount_value": 80
@@ -92,6 +105,7 @@
   },
   {
     "model": "Backend.PromoCode",
+    "pk": "6c6b8927-6ba7-403f-9292-5e9ad7d2d0b2",
     "fields": {
       "code": "NEW75",
       "discount_value": 75
@@ -99,6 +113,7 @@
   },
   {
     "model": "Backend.PromoCode",
+    "pk": "3f2ca2c0-2076-48d3-814f-7d34a2515603",
     "fields": {
       "code": "SAVE90",
       "discount_value": 90
@@ -106,6 +121,7 @@
   },
   {
     "model": "Backend.PromoCode",
+    "pk": "07022429-95f2-40d2-95da-133ab01fde86",
     "fields": {
       "code": "DEAL65",
       "discount_value": 65
@@ -113,6 +129,7 @@
   },
   {
     "model": "Backend.PromoCode",
+    "pk": "b3bbc976-07c0-4517-ba7d-6e5371b10d92",
     "fields": {
       "code": "EXTRA85",
       "discount_value": 85
@@ -120,6 +137,7 @@
   },
   {
     "model": "Backend.PromoCode",
+    "pk": "bb987ad9-4bd8-4a60-9c63-2ce5814f9e5b",
     "fields": {
       "code": "OFF95",
       "discount_value": 95
@@ -127,6 +145,7 @@
   },
   {
     "model": "Backend.PromoCode",
+    "pk": "969e6824-5cbf-4553-8542-eeb4d7bcf4c3",
     "fields": {
       "code": "SAVE100",
       "discount_value": 100
@@ -134,6 +153,7 @@
   },
   {
     "model": "Backend.PromoCode",
+    "pk": "c9929b14-fc2a-404c-9525-91ad5dfdbbe3",
     "fields": {
       "code": "DISC55",
       "discount_value": 55

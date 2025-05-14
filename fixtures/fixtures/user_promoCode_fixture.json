@@ -1,142 +1,138 @@
 [
   {
     "model": "Backend.UserPromoCode",
+    "pk": "86bd71ab-b647-4c13-95f8-cb7870ececc9",
     "fields": {
-      "user": 1,
-      "promoCode": 1
+      "user": "127220fc-07c2-452f-a4e5-800919ac7a60",
+      "promoCode": "07022429-95f2-40d2-95da-133ab01fde86"
     }
   },
   {
     "model": "Backend.UserPromoCode",
+    "pk": "fced1749-d5f3-4914-8b32-30511eb88959",
     "fields": {
-      "user": 2,
-      "promoCode": 2
+      "user": "2743fb8e-a51d-4885-b004-28abffc5ff10",
+      "promoCode": "3f2ca2c0-2076-48d3-814f-7d34a2515603"
     }
   },
   {
     "model": "Backend.UserPromoCode",
+    "pk": "9d6fc0b5-5fe9-45ab-bf81-631b4ace226f",
     "fields": {
-      "user": 3,
-      "promoCode": 3
+      "user": "37879e2a-fe4b-4643-b226-4ca0acdb5363",
+      "promoCode": "478cf90e-1667-4942-8c2d-092cccf8a3b3"
     }
   },
   {
     "model": "Backend.UserPromoCode",
+    "pk": "790c7e76-f9a3-411c-b5dc-a58f0e195d82",
     "fields": {
-      "user": 4,
-      "promoCode": 1
+      "user": "4546465d-538a-4c3f-81e8-5efff785b625",
+      "promoCode": "501a5c68-08b0-48b8-88a4-5d90b12bd7a1"
     }
   },
   {
     "model": "Backend.UserPromoCode",
+    "pk": "25b583e6-cfa1-41fb-866d-f95a9e9758b3",
     "fields": {
-      "user": 5,
-      "promoCode": 2
+      "user": "45ecef07-d25d-4f89-8975-4dac4d78953b",
+      "promoCode": "60e9442b-2a3b-43a0-b711-cb2191aabf69"
     }
   },
   {
     "model": "Backend.UserPromoCode",
+    "pk": "3d81125b-c326-4569-894d-cfe1a8c31ac0",
     "fields": {
-      "user": 6,
-      "promoCode": 3
+      "user": "4a3ad2b6-463d-4bb9-bd38-656bb32c443c",
+      "promoCode": "63cf242d-8711-4241-b627-f777041b2058"
     }
   },
   {
     "model": "Backend.UserPromoCode",
+    "pk": "33d2f33c-2021-44a3-85b2-101860c645a9",
     "fields": {
-      "user": 7,
-      "promoCode": 1
+      "user": "4a5c9db5-29cd-4573-8df2-29ff3ef3c5cb",
+      "promoCode": "64825bdb-bed8-41c7-9dcf-a1b1dc43f2c8"
     }
   },
   {
     "model": "Backend.UserPromoCode",
+    "pk": "0044e98f-869a-47d8-92cc-2a0890cb31fd",
     "fields": {
-      "user": 8,
-      "promoCode": 2
+      "user": "4a6172cc-846e-431f-9f9a-d72636424f7d",
+      "promoCode": "6b636223-5066-457f-8f32-5682294ce798"
     }
   },
   {
     "model": "Backend.UserPromoCode",
+    "pk": "b65d8f45-891d-427d-8f41-cca02890ea62",
     "fields": {
-      "user": 9,
-      "promoCode": 3
+      "user": "4ec3f946-d1a3-4f05-a848-6918b5d7fcd7",
+      "promoCode": "6c6b8927-6ba7-403f-9292-5e9ad7d2d0b2"
     }
   },
   {
     "model": "Backend.UserPromoCode",
+    "pk": "6d763e6b-09d6-495a-b571-c8d42725e91a",
     "fields": {
-      "user": 10,
-      "promoCode": 1
+      "user": "bef9cfef-1781-4c51-bced-f2c6415f5e58",
+      "promoCode": "6cd433a3-4199-4f7e-9823-fe99a35a7911"
     }
   },
   {
     "model": "Backend.UserPromoCode",
+    "pk": "65f5f3c6-9a2a-4ce0-963e-b33cb9578742",
     "fields": {
-      "user": 11,
-      "promoCode": 2
+      "user": "c3a385ee-0f3e-4d67-ba58-e414d84a9fda",
+      "promoCode": "75caa3a9-6f5a-4f22-b1dc-92708c662593"
     }
   },
   {
     "model": "Backend.UserPromoCode",
+    "pk": "74c2a9c1-ee96-45bc-ad45-fc5fc76376ed",
     "fields": {
-      "user": 12,
-      "promoCode": 3
+      "user": "c6eb0dfc-b456-44e5-b596-69dcec1bd0d5",
+      "promoCode": "8d44cbb1-8651-4eb5-a50e-40a31342bfbb"
     }
   },
   {
     "model": "Backend.UserPromoCode",
+    "pk": "60a9ab8f-a079-4176-a815-9f2e32b5b982",
     "fields": {
-      "user": 13,
-      "promoCode": 1
+      "user": "cc9edc62-0632-4bf2-95f0-66b974787612",
+      "promoCode": "b3bbc976-07c0-4517-ba7d-6e5371b10d92"
     }
   },
   {
     "model": "Backend.UserPromoCode",
+    "pk": "7cf94d38-0292-4ff9-aa6f-23b237ff3810",
     "fields": {
-      "user": 14,
-      "promoCode": 2
+      "user": "ded89f5b-6429-4498-b88a-d27eb69b95ad",
+      "promoCode": "bb987ad9-4bd8-4a60-9c63-2ce5814f9e5b"
     }
   },
   {
     "model": "Backend.UserPromoCode",
+    "pk": "7d9d8efd-7ee4-4026-924f-9b211fc40f11",
     "fields": {
-      "user": 15,
-      "promoCode": 3
+      "user": "df4ffaf4-d1ed-4467-afb7-b88d06ff39ef",
+      "promoCode": "bfc5cf8f-2e41-4f84-a2e9-17bde3130ea9"
     }
   },
   {
     "model": "Backend.UserPromoCode",
+    "pk": "262f779e-0b10-4457-923e-4af324260a96",
     "fields": {
-      "user": 16,
-      "promoCode": 1
+      "user": "e3885753-ed1a-4be8-89f4-25263ba95171",
+      "promoCode": "c9929b14-fc2a-404c-9525-91ad5dfdbbe3"
     }
   },
   {
     "model": "Backend.UserPromoCode",
+    "pk": "54ef4510-bafa-4603-979f-0c3f941a87a8",
     "fields": {
-      "user": 17,
-      "promoCode": 2
-    }
-  },
-  {
-    "model": "Backend.UserPromoCode",
-    "fields": {
-      "user": 18,
-      "promoCode": 3
-    }
-  },
-  {
-    "model": "Backend.UserPromoCode",
-    "fields": {
-      "user": 19,
-      "promoCode": 1
-    }
-  },
-  {
-    "model": "Backend.UserPromoCode",
-    "fields": {
-      "user": 20,
-      "promoCode": 2
+      "user": "f13a157e-e8d4-435c-8fb5-daeddb128d85",
+      "promoCode": "f339e9ed-fbab-470f-adc2-a07e95321fba"
     }
   }
 ]
