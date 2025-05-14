@@ -1,0 +1,142 @@
+[
+  {
+    "model": "Backend.Categories",
+    "fields": {
+      "url": "makeup/face/foundation",
+      "category_name": "Foundation"
+    }
+  },
+  {
+    "model": "Backend.Categories",
+    "fields": {
+      "url": "makeup/face/concealer",
+      "category_name": "Concealer"
+    }
+  },
+  {
+    "model": "Backend.Categories",
+    "fields": {
+      "url": "makeup/face/powder",
+      "category_name": "Face Powder"
+    }
+  },
+  {
+    "model": "Backend.Categories",
+    "fields": {
+      "url": "makeup/eyes/eyeshadow",
+      "category_name": "Eyeshadow"
+    }
+  },
+  {
+    "model": "Backend.Categories",
+    "fields": {
+      "url": "makeup/eyes/eyeliner",
+      "category_name": "Eyeliner"
+    }
+  },
+  {
+    "model": "Backend.Categories",
+    "fields": {
+      "url": "makeup/eyes/mascara",
+      "category_name": "Mascara"
+    }
+  },
+  {
+    "model": "Backend.Categories",
+    "fields": {
+      "url": "makeup/lips/lipstick",
+      "category_name": "Lipstick"
+    }
+  },
+  {
+    "model": "Backend.Categories",
+    "fields": {
+      "url": "makeup/lips/lip-gloss",
+      "category_name": "Lip Gloss"
+    }
+  },
+  {
+    "model": "Backend.Categories",
+    "fields": {
+      "url": "makeup/lips/lip-liner",
+      "category_name": "Lip Liner"
+    }
+  },
+  {
+    "model": "Backend.Categories",
+    "fields": {
+      "url": "makeup/cheeks/blush",
+      "category_name": "Blush"
+    }
+  },
+  {
+    "model": "Backend.Categories",
+    "fields": {
+      "url": "makeup/cheeks/highlighter",
+      "category_name": "Highlighter"
+    }
+  },
+  {
+    "model": "Backend.Categories",
+    "fields": {
+      "url": "makeup/cheeks/bronzer",
+      "category_name": "Bronzer"
+    }
+  },
+  {
+    "model": "Backend.Categories",
+    "fields": {
+      "url": "skincare/cleanser",
+      "category_name": "Cleanser"
+    }
+  },
+  {
+    "model": "Backend.Categories",
+    "fields": {
+      "url": "skincare/toner",
+      "category_name": "Toner"
+    }
+  },
+  {
+    "model": "Backend.Categories",
+    "fields": {
+      "url": "skincare/moisturizer",
+      "category_name": "Moisturizer"
+    }
+  },
+  {
+    "model": "Backend.Categories",
+    "fields": {
+      "url": "skincare/serum",
+      "category_name": "Serum"
+    }
+  },
+  {
+    "model": "Backend.Categories",
+    "fields": {
+      "url": "skincare/sunscreen",
+      "category_name": "Sunscreen"
+    }
+  },
+  {
+    "model": "Backend.Categories",
+    "fields": {
+      "url": "skincare/exfoliator",
+      "category_name": "Exfoliator"
+    }
+  },
+  {
+    "model": "Backend.Categories",
+    "fields": {
+      "url": "skincare/eye-cream",
+      "category_name": "Eye Cream"
+    }
+  },
+  {
+    "model": "Backend.Categories",
+    "fields": {
+      "url": "skincare/face-mask",
+      "category_name": "Face Mask"
+    }
+  }
+]

@@ -1,0 +1,256 @@
+[
+  {
+    "model": "custom_user.User",
+    "fields": {
+      "first_name": "Lena",
+      "last_name": "Morgan",
+      "phone_number": "0712345678",
+      "email": "lena.morgan@example.com",
+      "location": "New York, USA",
+      "is_active": true,
+      "is_staff": false,
+      "password": "pbkdf2_sha256$260000$4DwXQDJqlxEk$OcR+qfHMPtaSFXw86+ESkZ3WxumEN/2kM5MJQHVGB2c="
+    }
+  },
+  {
+    "model": "custom_user.User",
+    "fields": {
+      "first_name": "Adam",
+      "last_name": "Turner",
+      "phone_number": "0723456789",
+      "email": "adam.turner@example.com",
+      "location": "London, UK",
+      "is_active": true,
+      "is_staff": false,
+      "password": "pbkdf2_sha256$260000$4DwXQDJqlxEk$OcR+qfHMPtaSFXw86+ESkZ3WxumEN/2kM5MJQHVGB2c="
+    }
+  },
+  {
+    "model": "custom_user.User",
+    "fields": {
+      "first_name": "Maya",
+      "last_name": "Ali",
+      "phone_number": "0734567890",
+      "email": "maya.ali@example.com",
+      "location": "Dubai, UAE",
+      "is_active": true,
+      "is_staff": false,
+      "password": "pbkdf2_sha256$260000$4DwXQDJqlxEk$OcR+qfHMPtaSFXw86+ESkZ3WxumEN/2kM5MJQHVGB2c="
+    }
+  },
+  {
+    "model": "custom_user.User",
+    "fields": {
+      "first_name": "Rami",
+      "last_name": "Khaled",
+      "phone_number": "0745678901",
+      "email": "rami.khaled@example.com",
+      "location": "Cairo, Egypt",
+      "is_active": true,
+      "is_staff": false,
+      "password": "pbkdf2_sha256$260000$4DwXQDJqlxEk$OcR+qfHMPtaSFXw86+ESkZ3WxumEN/2kM5MJQHVGB2c="
+    }
+  },
+  {
+    "model": "custom_user.User",
+    "fields": {
+      "first_name": "Noor",
+      "last_name": "Yousef",
+      "phone_number": "0756789012",
+      "email": "noor.yousef@example.com",
+      "location": "Amman, Jordan",
+      "is_active": true,
+      "is_staff": false,
+      "password": "pbkdf2_sha256$260000$4DwXQDJqlxEk$OcR+qfHMPtaSFXw86+ESkZ3WxumEN/2kM5MJQHVGB2c="
+    }
+  },
+  {
+    "model": "custom_user.User",
+    "fields": {
+      "first_name": "Layla",
+      "last_name": "Salem",
+      "phone_number": "0767890123",
+      "email": "layla.salem@example.com",
+      "location": "Beirut, Lebanon",
+      "is_active": true,
+      "is_staff": false,
+      "password": "pbkdf2_sha256$260000$4DwXQDJqlxEk$OcR+qfHMPtaSFXw86+ESkZ3WxumEN/2kM5MJQHVGB2c="
+    }
+  },
+  {
+    "model": "custom_user.User",
+    "fields": {
+      "first_name": "Sami",
+      "last_name": "Haddad",
+      "phone_number": "0778901234",
+      "email": "sami.haddad@example.com",
+      "location": "Riyadh, Saudi Arabia",
+      "is_active": true,
+      "is_staff": false,
+      "password": "pbkdf2_sha256$260000$4DwXQDJqlxEk$OcR+qfHMPtaSFXw86+ESkZ3WxumEN/2kM5MJQHVGB2c="
+    }
+  },
+  {
+    "model": "custom_user.User",
+    "fields": {
+      "first_name": "Dana",
+      "last_name": "Shamoun",
+      "phone_number": "0789012345",
+      "email": "dana.shamoun@example.com",
+      "location": "Istanbul, Turkey",
+      "is_active": true,
+      "is_staff": true,
+      "password": "pbkdf2_sha256$260000$4DwXQDJqlxEk$OcR+qfHMPtaSFXw86+ESkZ3WxumEN/2kM5MJQHVGB2c="
+    }
+  },
+  {
+    "model": "custom_user.User",
+    "fields": {
+      "first_name": "Tariq",
+      "last_name": "Awad",
+      "phone_number": "0790123456",
+      "email": "tariq.awad@example.com",
+      "location": "Tunis, Tunisia",
+      "is_active": true,
+      "is_staff": true,
+      "password": "pbkdf2_sha256$260000$4DwXQDJqlxEk$OcR+qfHMPtaSFXw86+ESkZ3WxumEN/2kM5MJQHVGB2c="
+    }
+  },
+  {
+    "model": "custom_user.User",
+    "fields": {
+      "first_name": "Fatima",
+      "last_name": "Abbas",
+      "phone_number": "0701234567",
+      "email": "fatima.abbas@example.com",
+      "location": "Baghdad, Iraq",
+      "is_active": true,
+      "is_staff": false,
+      "password": "pbkdf2_sha256$260000$4DwXQDJqlxEk$OcR+qfHMPtaSFXw86+ESkZ3WxumEN/2kM5MJQHVGB2c="
+    }
+  },
+
+  {
+    "model": "custom_user.User",
+    "fields": {
+      "first_name": "Nour",
+      "last_name": "Said",
+      "phone_number": "0702234567",
+      "email": "nour.said@example.com",
+      "location": "Casablanca, Morocco",
+      "is_active": true,
+      "is_staff": false,
+      "password": "pbkdf2_sha256$260000$4DwXQDJqlxEk$OcR+qfHMPtaSFXw86+ESkZ3WxumEN/2kM5MJQHVGB2c="
+    }
+  },
+  {
+    "model": "custom_user.User",
+    "fields": {
+      "first_name": "Ahmed",
+      "last_name": "Jaber",
+      "phone_number": "0703234567",
+      "email": "ahmed.jaber@example.com",
+      "location": "Khartoum, Sudan",
+      "is_active": true,
+      "is_staff": true,
+      "password": "pbkdf2_sha256$260000$4DwXQDJqlxEk$OcR+qfHMPtaSFXw86+ESkZ3WxumEN/2kM5MJQHVGB2c="
+    }
+  },
+  {
+    "model": "custom_user.User",
+    "fields": {
+      "first_name": "Sarah",
+      "last_name": "Nasr",
+      "phone_number": "0704234567",
+      "email": "sarah.nasr@example.com",
+      "location": "Doha, Qatar",
+      "is_active": true,
+      "is_staff": false,
+      "password": "pbkdf2_sha256$260000$4DwXQDJqlxEk$OcR+qfHMPtaSFXw86+ESkZ3WxumEN/2kM5MJQHVGB2c="
+    }
+  },
+
+  {
+    "model": "custom_user.User",
+    "fields": {
+      "first_name": "Omar",
+      "last_name": "Farid",
+      "phone_number": "0705234567",
+      "email": "omar.farid@example.com",
+      "location": "Kuwait City, Kuwait",
+      "is_active": true,
+      "is_staff": true,
+      "password": "pbkdf2_sha256$260000$4DwXQDJqlxEk$OcR+qfHMPtaSFXw86+ESkZ3WxumEN/2kM5MJQHVGB2c="
+    }
+  },
+
+  {
+    "model": "custom_user.User",
+    "fields": {
+      "first_name": "Amira",
+      "last_name": "Nabil",
+      "phone_number": "0706234567",
+      "email": "amira.nabil@example.com",
+      "location": "Muscat, Oman",
+      "is_active": true,
+      "is_staff": false,
+      "password": "pbkdf2_sha256$260000$4DwXQDJqlxEk$OcR+qfHMPtaSFXw86+ESkZ3WxumEN/2kM5MJQHVGB2c="
+    }
+  },
+
+  {
+    "model": "custom_user.User",
+    "fields": {
+      "first_name": "Khaled",
+      "last_name": "Othman",
+      "phone_number": "0707234567",
+      "email": "khaled.othman@example.com",
+      "location": "Algiers, Algeria",
+      "is_active": true,
+      "is_staff": false,
+      "password": "pbkdf2_sha256$260000$4DwXQDJqlxEk$OcR+qfHMPtaSFXw86+ESkZ3WxumEN/2kM5MJQHVGB2c="
+    }
+  },
+
+  {
+    "model": "custom_user.User",
+    "fields": {
+      "first_name": "Hana",
+      "last_name": "Majid",
+      "phone_number": "0708234567",
+      "email": "hana.majid@example.com",
+      "location": "Tripoli, Libya",
+      "is_active": true,
+      "is_staff": false,
+      "password": "pbkdf2_sha256$260000$4DwXQDJqlxEk$OcR+qfHMPtaSFXw86+ESkZ3WxumEN/2kM5MJQHVGB2c="
+    }
+  },
+
+  {
+    "model": "custom_user.User",
+    "fields": {
+      "first_name": "Yara",
+      "last_name": "Badr",
+      "phone_number": "0709234567",
+      "email": "yara.badr@example.com",
+      "location": "Ramallah, Palestine",
+      "is_active": true,
+      "is_staff": false,
+      "password": "pbkdf2_sha256$260000$4DwXQDJqlxEk$OcR+qfHMPtaSFXw86+ESkZ3WxumEN/2kM5MJQHVGB2c="
+    }
+  },
+
+  {
+    "model": "custom_user.User",
+    "fields": {
+      "first_name": "Bilal",
+      "last_name": "Zein",
+      "phone_number": "0710234567",
+      "email": "bilal.zein@example.com",
+      "location": "Manama, Bahrain",
+      "is_active": true,
+      "is_staff": true,
+      "password": "pbkdf2_sha256$260000$4DwXQDJqlxEk$OcR+qfHMPtaSFXw86+ESkZ3WxumEN/2kM5MJQHVGB2c="
+    }
+  }
+]
