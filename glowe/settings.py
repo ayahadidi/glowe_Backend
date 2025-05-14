@@ -33,6 +33,7 @@ AUTH_USER_MODEL = 'custom_user.User'
 INSTALLED_APPS = [
     'Backend.apps.BackendConfig',
     'custom_user.apps.CustomUserConfig',
+    'fixtures.apps.FixturesConfig',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
