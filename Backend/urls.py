@@ -5,5 +5,5 @@ from .views.productListByCategory_view import ProductListByCategory
 urlpatterns = [
     path('api/products/', ProductListView.as_view(), name='product-list'),
     path('api/categories/', CategoryListView.as_view(),name="category-list"),
-    path('api/productsByCategory/<uuid:category_id>/',ProductListByCategory.as_view(),name='product-list-by-category'),
+    path('api/productsByCategory/<int:category_id>/',ProductListByCategory.as_view(),name='product-list-by-category'),
 ]

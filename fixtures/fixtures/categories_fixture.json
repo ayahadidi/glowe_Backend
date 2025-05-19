@@ -1,7 +1,7 @@
 [
   {
     "model": "Backend.Categories",
-    "pk": "11424281-c4ec-408e-8d62-94abf268e5be",
+    "pk": "1",
     "fields": {
       "url": "makeup/face/foundation",
       "category_name": "Foundation"
@@ -9,7 +9,7 @@
   },
   {
     "model": "Backend.Categories",
-    "pk": "86c86f14-de3a-46dd-904e-1cf17b49039e",
+    "pk": "2",
     "fields": {
       "url": "makeup/face/concealer",
       "category_name": "Concealer"
@@ -17,7 +17,7 @@
   },
   {
     "model": "Backend.Categories",
-    "pk": "93f675a5-8d46-4a3c-9dde-fc01c7cdb641",
+    "pk": "3",
     "fields": {
       "url": "makeup/face/powder",
       "category_name": "Face Powder"
@@ -25,7 +25,7 @@
   },
   {
     "model": "Backend.Categories",
-    "pk": "e25829e1-b5f1-44b5-ab0a-6f7e5fc52f3c",
+    "pk": "4",
     "fields": {
       "url": "makeup/eyes/eyeshadow",
       "category_name": "Eyeshadow"
@@ -33,7 +33,7 @@
   },
   {
     "model": "Backend.Categories",
-    "pk": "a5519a3d-c06c-4a28-9fd5-0d2cb5c41426",
+    "pk": "5",
     "fields": {
       "url": "makeup/eyes/eyeliner",
       "category_name": "Eyeliner"
@@ -41,7 +41,7 @@
   },
   {
     "model": "Backend.Categories",
-    "pk": "18bbbd1b-aafb-4d68-8662-2dd4f1cfdd64",
+    "pk": "6",
     "fields": {
       "url": "makeup/eyes/mascara",
       "category_name": "Mascara"
@@ -49,7 +49,7 @@
   },
   {
     "model": "Backend.Categories",
-    "pk": "94de84cd-b95a-4593-a773-d7e7536b74a0",
+    "pk": "7",
     "fields": {
       "url": "makeup/lips/lipstick",
       "category_name": "Lipstick"
@@ -57,7 +57,7 @@
   },
   {
     "model": "Backend.Categories",
-    "pk": "91dcd54c-4809-4f20-b42b-3d62179fe07b",
+    "pk": "8",
     "fields": {
       "url": "makeup/lips/lip-gloss",
       "category_name": "Lip Gloss"
@@ -65,7 +65,7 @@
   },
   {
     "model": "Backend.Categories",
-    "pk": "0b36a772-95df-463a-bd0f-28464e90e5c1",
+    "pk": "9",
     "fields": {
       "url": "makeup/lips/lip-liner",
       "category_name": "Lip Liner"
@@ -73,7 +73,7 @@
   },
   {
     "model": "Backend.Categories",
-    "pk": "645a5744-ae50-4133-8b15-c2e6360cbc6f",
+    "pk": "10",
     "fields": {
       "url": "makeup/cheeks/blush",
       "category_name": "Blush"
@@ -81,7 +81,7 @@
   },
   {
     "model": "Backend.Categories",
-    "pk": "a3d5ccf6-a045-4ee3-85a5-dadc34873115",
+    "pk": "11",
     "fields": {
       "url": "makeup/cheeks/highlighter",
       "category_name": "Highlighter"
@@ -89,7 +89,7 @@
   },
   {
     "model": "Backend.Categories",
-    "pk": "02da47da-b455-49d7-935c-796f5a978f61",
+    "pk": "12",
     "fields": {
       "url": "makeup/cheeks/bronzer",
       "category_name": "Bronzer"
@@ -97,7 +97,7 @@
   },
   {
     "model": "Backend.Categories",
-    "pk": "894e03f2-4d7b-4814-bbd2-04b336e0b130",
+    "pk": "13",
     "fields": {
       "url": "skincare/cleanser",
       "category_name": "Cleanser"
@@ -105,7 +105,7 @@
   },
   {
     "model": "Backend.Categories",
-    "pk": "9f82bf4b-6292-4776-9510-1210143e2f74",
+    "pk": "14",
     "fields": {
       "url": "skincare/toner",
       "category_name": "Toner"
@@ -113,7 +113,7 @@
   },
   {
     "model": "Backend.Categories",
-    "pk": "3a74982d-1aa5-4ba1-8d6c-da3ca1385267",
+    "pk": "15",
     "fields": {
       "url": "skincare/moisturizer",
       "category_name": "Moisturizer"
@@ -121,7 +121,7 @@
   },
   {
     "model": "Backend.Categories",
-    "pk": "894e03f2-4d7b-4814-bbd2-04b336e0b130",
+    "pk": "16",
     "fields": {
       "url": "skincare/serum",
       "category_name": "Serum"
@@ -129,7 +129,7 @@
   },
   {
     "model": "Backend.Categories",
-    "pk": "aed6b4db-452a-4023-b4cf-abe0db11d8e7",
+    "pk": "17",
     "fields": {
       "url": "skincare/sunscreen",
       "category_name": "Sunscreen"
@@ -137,7 +137,7 @@
   },
   {
     "model": "Backend.Categories",
-    "pk": "8d233b7a-a4b5-431e-9522-e94de407d696",
+    "pk": "18",
     "fields": {
       "url": "skincare/exfoliator",
       "category_name": "Exfoliator"
@@ -145,7 +145,7 @@
   },
   {
     "model": "Backend.Categories",
-    "pk": "ac381544-2ed1-4bb9-8c29-00b2dba02dde",
+    "pk": "19",
     "fields": {
       "url": "skincare/eye-cream",
       "category_name": "Eye Cream"
@@ -153,7 +153,7 @@
   },
   {
     "model": "Backend.Categories",
-    "pk": "f13fe8ec-b472-4819-bbb4-6ec3b463dc02",
+    "pk": "20",
     "fields": {
       "url": "skincare/face-mask",
       "category_name": "Face Mask"
