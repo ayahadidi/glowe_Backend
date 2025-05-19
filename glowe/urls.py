@@ -19,7 +19,8 @@ Including another URLconf
 
 from django.contrib import admin
 from django.urls import path,include
-from custom_user.views import RegisterView
+from custom_user.views.Register_View import RegisterView
+from custom_user.views.Login_view import LoginView
 from rest_framework_simplejwt.views import TokenObtainPairView
 from rest_framework import permissions
 from drf_yasg.views import get_schema_view
@@ -43,6 +44,7 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('backend', include('Backend.urls')),
     path('register/', RegisterView.as_view()),
+    path('login/', LoginView.as_view()),
     path('api/token/', TokenObtainPairView.as_view(), name='token_obtain_pair'),
     path('', schema_view.with_ui('swagger', cache_timeout=0), name='schema-swagger-ui'),
     
