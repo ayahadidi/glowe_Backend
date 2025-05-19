@@ -45,7 +45,6 @@ urlpatterns = [
     path('backend', include('Backend.urls')),
     path('register/', RegisterView.as_view()),
     path('login/', LoginView.as_view()),
-    path('api/token/', TokenObtainPairView.as_view(), name='token_obtain_pair'),
     path('', schema_view.with_ui('swagger', cache_timeout=0), name='schema-swagger-ui'),
     
 ]
