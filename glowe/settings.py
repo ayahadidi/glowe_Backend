@@ -106,6 +106,17 @@ DATABASES = {
     }
 }
 
+SWAGGER_SETTINGS = {
+    'SECURITY_DEFINITIONS': {
+        'Bearer': {
+            'type': 'apiKey',
+            'name': 'Authorization',
+            'in': 'header',
+            'description': 'JWT Authorization header using the Bearer scheme. Example: "Bearer <your token>"',
+        }
+    },
+    'USE_SESSION_AUTH': False,  # important: disable email/password prompt
+}
 
 
 # Password validation
