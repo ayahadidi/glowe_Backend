@@ -7,6 +7,6 @@ class Cart(models.Model):
     total_price=models.IntegerField(validators=[MaxValueValidator(100000)])
     total_items=models.IntegerField(validators=[MaxValueValidator(100)])
     user=models.ForeignKey('custom_user.User',on_delete=models.CASCADE)
-    product=models.ForeignKey('Backend.Products',on_delete=models.CASCADE)
+    product_color=models.ForeignKey('Backend.ProductsColors',on_delete=models.CASCADE)
 
     

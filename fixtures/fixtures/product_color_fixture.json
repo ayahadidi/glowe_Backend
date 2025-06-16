@@ -1,0 +1,162 @@
+[
+    {
+        "model": "Backend.ProductsColors",
+        "pk": "6d5d99f0-8705-4c68-a84e-1a0b7e635981",
+        "fields": {
+            "products": "6be03f1e-8b23-4d79-aad2-c1b4e57c2d01",
+            "colors": "1"
+        }
+    },
+    {
+        "model": "Backend.ProductsColors",
+        "pk": "a6f4c2a1-5cf1-4c7a-9180-1a2c77ffcb17",
+        "fields": {
+            "products": "6be03f1e-8b23-4d79-aad2-c1b4e57c2d01",
+            "colors": "2"
+        }
+    },
+    {
+        "model": "Backend.ProductsColors",
+        "pk": "14200b6d-4db1-4c7c-a6c2-e13dca6f6464",
+        "fields": {
+            "products": "6be03f1e-8b23-4d79-aad2-c1b4e57c2d01",
+            "colors": "3"
+        }
+    },
+    {
+        "model": "Backend.ProductsColors",
+        "pk": "3e0716f7-5e30-4f42-ae7c-84b61a6f92b0",
+        "fields": {
+            "products": "6be03f1e-8b23-4d79-aad2-c1b4e57c2d01",
+            "colors": "4"
+        }
+    },
+    {
+        "model": "Backend.ProductsColors",
+        "pk": "dfeeb65a-0f7e-4a68-bf3e-d37991c8cfcb",
+        "fields": {
+            "products": "6be03f1e-8b23-4d79-aad2-c1b4e57c2d01",
+            "colors": "5"
+        }
+    },
+    {
+        "model": "Backend.ProductsColors",
+        "pk": "78d0e1a4-4219-4466-b3ef-7d95e5a4c6cd",
+        "fields": {
+            "products": "6be03f1e-8b23-4d79-aad2-c1b4e57c2d01",
+            "colors": "6"
+        }
+    },
+    {
+        "model": "Backend.ProductsColors",
+        "pk": "e9d2a2e2-0500-4a35-9e8f-777a9c64393d",
+        "fields": {
+            "products": "6be03f1e-8b23-4d79-aad2-c1b4e57c2d01",
+            "colors": "7"
+        }
+    },
+    {
+        "model": "Backend.ProductsColors",
+        "pk": "37318343-7471-4e97-a951-5c3e8ed09cb5",
+        "fields": {
+            "products": "6be03f1e-8b23-4d79-aad2-c1b4e57c2d01",
+            "colors": "8"
+        }
+    },
+    {
+        "model": "Backend.ProductsColors",
+        "pk": "8cf28432-0559-495a-b59a-16bcaf29b2f6",
+        "fields": {
+            "products": "6be03f1e-8b23-4d79-aad2-c1b4e57c2d01",
+            "colors": "9"
+        }
+    },
+    {
+        "model": "Backend.ProductsColors",
+        "pk": "c1244b32-6a61-4092-8b88-e676176e2f99",
+        "fields": {
+            "products": "6be03f1e-8b23-4d79-aad2-c1b4e57c2d01",
+            "colors": "10"
+        }
+    },
+    {
+        "model": "Backend.ProductsColors",
+        "pk": "91e84b85-bb87-4236-a6a9-239e38288561",
+        "fields": {
+            "products": "6be03f1e-8b23-4d79-aad2-c1b4e57c2d01",
+            "colors": "11"
+        }
+    },
+    {
+        "model": "Backend.ProductsColors",
+        "pk": "2df4097d-f7c2-4a44-b2f6-6cd263632f0b",
+        "fields": {
+            "products": "6be03f1e-8b23-4d79-aad2-c1b4e57c2d01",
+            "colors": "12"
+        }
+    },
+    {
+        "model": "Backend.ProductsColors",
+        "pk": "87f3a91e-f6c0-4075-8753-9783173f7297",
+        "fields": {
+            "products": "6be03f1e-8b23-4d79-aad2-c1b4e57c2d01",
+            "colors": "13"
+        }
+    },
+    {
+        "model": "Backend.ProductsColors",
+        "pk": "49813e6e-5063-4432-a37b-348dc429c7d0",
+        "fields": {
+            "products": "6be03f1e-8b23-4d79-aad2-c1b4e57c2d01",
+            "colors": "14"
+        }
+    },
+    {
+        "model": "Backend.ProductsColors",
+        "pk": "9c372f6d-054e-4e5f-9e4e-cac3d3a206d2",
+        "fields": {
+            "products": "6be03f1e-8b23-4d79-aad2-c1b4e57c2d01",
+            "colors": "15"
+        }
+    },
+    {
+        "model": "Backend.ProductsColors",
+        "pk": "b36112fb-1457-4e20-b170-5a861e5eecf1",
+        "fields": {
+            "products": "6be03f1e-8b23-4d79-aad2-c1b4e57c2d01",
+            "colors": "16"
+        }
+    },
+    {
+        "model": "Backend.ProductsColors",
+        "pk": "553b7d63-604f-420e-b16f-b75bd2b38d41",
+        "fields": {
+            "products": "6be03f1e-8b23-4d79-aad2-c1b4e57c2d01",
+            "colors": "17"
+        }
+    },
+    {
+        "model": "Backend.ProductsColors",
+        "pk": "5c51d729-9976-4fe3-9a94-cbce8dfd2c12",
+        "fields": {
+            "products": "6be03f1e-8b23-4d79-aad2-c1b4e57c2d01",
+            "colors": "18"
+        }
+    },
+    {
+        "model": "Backend.ProductsColors",
+        "pk": "27c30c2c-05bc-43bc-9c5f-b83b1e553abe",
+        "fields": {
+            "products": "6be03f1e-8b23-4d79-aad2-c1b4e57c2d01",
+            "colors": "19"
+        }
+    },
+    {
+        "model": "Backend.ProductsColors",
+        "pk": "9ad21f42-b6b0-41d5-8c1f-31e6c1df79e8",
+        "fields": {
+            "products": "6be03f1e-8b23-4d79-aad2-c1b4e57c2d01",
+            "colors": "20"
+        }
+    }
+]
