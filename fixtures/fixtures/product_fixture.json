@@ -5,7 +5,7 @@
     "fields": {
       "name": "Revita Glow Serum",
       "description": "Enhances skin radiance and smoothness.",
-      "image": "RevitaGlowSerum.png",
+      "image": "../assets/RevitaGlowSerum.png",
       "email": "seller1@example.com",
       "location": "Berlin, Germany",
       "usage": "Apply to clean skin every morning.",
@@ -23,7 +23,7 @@
     "fields": {
       "name": "Herbal Cleanser",
       "description": "Organic facial cleanser for daily use.",
-      "image": "https://example.com/images/cleanser1.png",
+      "image": "../assets/RevitaGlowSerum.png",
       "email": "store@naturalskin.com",
       "location": "Toronto, Canada",
       "usage": "Massage onto wet face, rinse thoroughly.",
@@ -41,7 +41,7 @@
     "fields": {
       "name": "Hydro Boost Lotion",
       "description": "Instant hydration and moisture lock-in.",
-      "image": "https://example.com/images/lotion1.jpg",
+      "image": "../assets/RevitaGlowSerum.png",
       "email": "contact@beautyhub.com",
       "location": "Paris, France",
       "usage": "Apply after cleansing for deep hydration.",
@@ -59,7 +59,7 @@
     "fields": {
       "name": "Matte Finish Foundation",
       "description": "Long-lasting matte foundation.",
-      "image": "https://example.com/images/foundation1.png",
+      "image": "../assets/RevitaGlowSerum.png",
       "email": "foundation@cosmex.com",
       "location": "London, UK",
       "usage": "Blend evenly on skin using a brush.",
@@ -77,7 +77,7 @@
     "fields": {
       "name": "Berry Lip Balm",
       "description": "Moisturizing lip balm with berry flavor.",
-      "image": "BerryLipBalm.jpg",
+      "image": "../assets/RevitaGlowSerum.png",
       "email": "sales@freshface.com",
       "location": "Stockholm, Sweden",
       "usage": "Apply as needed to dry lips.",
@@ -95,7 +95,7 @@
     "fields": {
       "name": "Glow Mist",
       "description": "Rejuvenating facial mist for all skin types.",
-      "image": "https://example.com/images/mist1.jpg",
+      "image": "../assets/RevitaGlowSerum.png",
       "email": "info@mistify.com",
       "location": "Milan, Italy",
       "usage": "Spray lightly on face for a refreshing feel.",
@@ -113,7 +113,7 @@
     "fields": {
       "name": "Charcoal Mask",
       "description": "Deep cleansing charcoal face mask.",
-      "image": "https://example.com/images/mask1.jpg",
+      "image": "../assets/RevitaGlowSerum.png",
       "email": "masks@pureelements.com",
       "location": "Los Angeles, USA",
       "usage": "Apply and rinse after 15 minutes.",
@@ -131,7 +131,7 @@
     "fields": {
       "name": "Nourishing Night Cream",
       "description": "Overnight cream for soft, supple skin.",
-      "image": "https://example.com/images/nightcream.jpg",
+      "image": "../assets/RevitaGlowSerum.png",
       "email": "support@skincareplus.com",
       "location": "Madrid, Spain",
       "usage": "Apply before bedtime daily.",
@@ -149,7 +149,7 @@
     "fields": {
       "name": "Aqua Sunscreen",
       "description": "Water-resistant sunscreen SPF 50.",
-      "image": "https://example.com/images/sunscreen.jpg",
+      "image": "../assets/RevitaGlowSerum.png",
       "email": "sunpro@beautyshield.com",
       "location": "Dubai, UAE",
       "usage": "Apply generously before sun exposure.",
@@ -167,7 +167,7 @@
     "fields": {
       "name": "Botanical Hair Oil",
       "description": "Revitalizing oil for stronger hair.",
-      "image": "https://example.com/images/hairoil.jpg",
+      "image": "../assets/RevitaGlowSerum.png",
       "email": "haircare@botanix.com",
       "location": "Cairo, Egypt",
       "usage": "Massage into scalp and leave overnight.",
@@ -185,7 +185,7 @@
     "fields": {
       "name": "Soothing Toner",
       "description": "Balances skin pH and reduces redness.",
-      "image": "https://example.com/images/toner.jpg",
+      "image": "../assets/RevitaGlowSerum.png",
       "email": "toners@freshglow.com",
       "location": "Oslo, Norway",
       "usage": "Apply with cotton pad after cleansing.",
@@ -203,7 +203,7 @@
     "fields": {
       "name": "Creamy Eye Contour",
       "description": "Reduces puffiness and brightens under eyes.",
-      "image": "https://example.com/images/eyecream.jpg",
+      "image": "../assets/RevitaGlowSerum.png",
       "email": "eyes@dermabeauty.com",
       "location": "Amsterdam, Netherlands",
       "usage": "Gently dab around the eyes twice daily.",
@@ -221,7 +221,7 @@
     "fields": {
       "name": "Lavender Body Scrub",
       "description": "Exfoliates and softens skin.",
-      "image": "https://example.com/images/scrub.jpg",
+      "image": "../assets/RevitaGlowSerum.png",
       "email": "scrub@relaxandglow.com",
       "location": "Sydney, Australia",
       "usage": "Massage gently onto wet skin.",
@@ -239,7 +239,7 @@
     "fields": {
       "name": "Vitamin C Serum",
       "description": "Brightens and evens skin tone.",
-      "image": "https://example.com/images/vitc.jpg",
+      "image": "../assets/RevitaGlowSerum.png",
       "email": "contact@glowlabs.com",
       "location": "New York, USA",
       "usage": "Apply before moisturizer in the morning.",
@@ -257,7 +257,7 @@
     "fields": {
       "name": "Aloe Face Gel",
       "description": "Cools and hydrates irritated skin.",
-      "image": "https://example.com/images/aloe.jpg",
+      "image": "../assets/RevitaGlowSerum.png",
       "email": "aloe@naturecool.com",
       "location": "Seoul, South Korea",
       "usage": "Apply liberally as needed.",
@@ -275,7 +275,7 @@
     "fields": {
       "name": "Cream Cleanser",
       "description": "Gently removes makeup and impurities.",
-      "image": "https://example.com/images/cleanser2.jpg",
+      "image": "../assets/RevitaGlowSerum.png",
       "email": "cream@skingentle.com",
       "location": "Vienna, Austria",
       "usage": "Use morning and night on wet skin.",
@@ -293,7 +293,7 @@
     "fields": {
       "name": "Peach Lip Tint",
       "description": "Adds a natural peach tint to lips.",
-      "image": "https://example.com/images/liptint.jpg",
+      "image": "../assets/RevitaGlowSerum.png",
       "email": "lipcare@shinepop.com",
       "location": "Bangkok, Thailand",
       "usage": "Apply evenly to lips.",
