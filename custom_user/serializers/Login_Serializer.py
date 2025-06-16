@@ -2,7 +2,6 @@ from rest_framework_simplejwt.serializers import TokenObtainPairSerializer
 from django.utils.timezone import now
 
 class CustomToken_ObtainPairSerializer(TokenObtainPairSerializer):
-    @classmethod
     def get_token(cls, user):
         token=super().get_token(user)
 
