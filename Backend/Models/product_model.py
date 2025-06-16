@@ -15,7 +15,6 @@ class Products(models.Model):
     brandName=models.CharField(max_length=50)
     quantity=models.IntegerField(validators=[MaxValueValidator(100)])
     TotalSoldOfProduct=models.IntegerField(default=0)
-    colors=models.ForeignKey('Backend.Colors',on_delete=models.CASCADE)
     ratings=models.ForeignKey('Backend.Rating',on_delete=models.CASCADE)
 
     def __str__(self):

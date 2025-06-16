@@ -13,7 +13,6 @@
             "ingredients": "Vitamin C, Hyaluronic Acid, Green Tea Extract",
             "brandName": "Glowify",
             "quantity": 20,
-            "colors": "0c88500b-3342-4bc6-aea5-0c40e6d997e3",
             "ratings": "02cd8ace-b933-481a-8313-7529ba07f7c1",
             "TotalSoldOfProduct": 54
         }
@@ -32,7 +31,6 @@
             "ingredients": "Aloe Vera, Chamomile, Jojoba Oil",
             "brandName": "NaturePure",
             "quantity": 35,
-            "colors": "123ac254-8217-436e-ad5d-8cecc5c2e4d8",
             "ratings": "0dcecabb-d903-44c0-800c-5c05cf8555a9",
             "TotalSoldOfProduct": 130
         }
@@ -51,7 +49,6 @@
             "ingredients": "Glycerin, Aloe Extract, Collagen",
             "brandName": "HydraSkin",
             "quantity": 40,
-            "colors": "2f244523-170f-4d6b-9fe0-daeedb6acc15",
             "ratings": "0f76e91e-eb32-4cb5-bc1f-8295ebd66609",
             "TotalSoldOfProduct": 89
         }
@@ -70,7 +67,6 @@
             "ingredients": "Silica, Titanium Dioxide, Vitamin E",
             "brandName": "Cosmex",
             "quantity": 28,
-            "colors": "394102ce-586b-4fff-a9f7-7caa9d6c713f",
             "ratings": "1bb9467c-8677-4526-868e-526d75b969e2",
             "TotalSoldOfProduct": 170
         }
@@ -89,7 +85,6 @@
             "ingredients": "Beeswax, Shea Butter, Berry Extract",
             "brandName": "FreshFace",
             "quantity": 60,
-            "colors": "3a8a58a8-e154-4785-a070-67b52fb673bd",
             "ratings": "2fd8bd0e-afe5-4a97-865e-ca766ae904af",
             "TotalSoldOfProduct": 450
         }
@@ -108,7 +103,6 @@
             "ingredients": "Rose Water, Ginseng, Vitamin B3",
             "brandName": "Mistify",
             "quantity": 24,
-            "colors": "44405440-3938-4f05-bc75-c4f76e756aa5",
             "ratings": "32292cc0-dee0-44ae-8205-7cbfe437be28",
             "TotalSoldOfProduct": 108
         }
@@ -127,7 +121,6 @@
             "ingredients": "Charcoal, Clay, Witch Hazel",
             "brandName": "PureElements",
             "quantity": 18,
-            "colors": "4da1dd08-21e4-4f3f-8599-96276ea79753",
             "ratings": "41b0318a-e589-48ba-a6a9-440f5f5b7e78",
             "TotalSoldOfProduct": 320
         }
@@ -146,7 +139,6 @@
             "ingredients": "Retinol, Vitamin E, Coconut Oil",
             "brandName": "SkinCare+",
             "quantity": 30,
-            "colors": "5a55e4a9-0cc6-496f-8118-c8dcd5b9e8e2",
             "ratings": "46864e56-9ac8-4a86-92db-12c0a87b3a54",
             "TotalSoldOfProduct": 95
         }
@@ -165,7 +157,6 @@
             "ingredients": "Zinc Oxide, Aloe Vera, Vitamin C",
             "brandName": "BeautyShield",
             "quantity": 22,
-            "colors": "743263a4-3132-4280-85da-4b4ebb931fb3",
             "ratings": "507bd87d-5a6b-4a72-a572-ff1058473b5c",
             "TotalSoldOfProduct": 140
         }
@@ -184,7 +175,6 @@
             "ingredients": "Argan Oil, Castor Oil, Rosemary",
             "brandName": "Botanix",
             "quantity": 38,
-            "colors": "76b80138-12c7-46ef-8e09-43bee3b8a1c7",
             "ratings": "32292cc0-dee0-44ae-8205-7cbfe437be28",
             "TotalSoldOfProduct": 300
         }
@@ -203,7 +193,6 @@
             "ingredients": "Cucumber Extract, Witch Hazel, Rose Oil",
             "brandName": "FreshGlow",
             "quantity": 26,
-            "colors": "77eb41cc-bc50-45e9-9333-993eb2ab3404",
             "ratings": "5e80311a-490e-4f05-b553-cdbea5a138c1",
             "TotalSoldOfProduct": 88
         }
@@ -222,7 +211,6 @@
             "ingredients": "Caffeine, Shea Butter, Vitamin K",
             "brandName": "DermaBeauty",
             "quantity": 16,
-            "colors": "804cf249-02b0-4f86-aaea-01f5b24e814b",
             "ratings": "6a3d33fd-8a2c-42f1-9be6-97e711fb3eb8",
             "TotalSoldOfProduct": 52
         }
@@ -241,7 +229,6 @@
             "ingredients": "Sea Salt, Lavender Oil, Almond Oil",
             "brandName": "RelaxGlow",
             "quantity": 29,
-            "colors": "9263b7d0-4f58-4cef-a653-ef2ce4a7be2a",
             "ratings": "8791839c-6e38-4173-a02a-2b0d5cb78742",
             "TotalSoldOfProduct": 180
         }
@@ -260,7 +247,6 @@
             "ingredients": "Ascorbic Acid, Ferulic Acid, Vitamin E",
             "brandName": "GlowLabs",
             "quantity": 34,
-            "colors": "a57cfe8b-7b93-425b-bd53-ffe56849b112",
             "ratings": "95be038d-924f-4128-89d1-be9ac783963d",
             "TotalSoldOfProduct": 222
         }
@@ -279,7 +265,6 @@
             "ingredients": "Aloe Vera, Mint Extract",
             "brandName": "NatureCool",
             "quantity": 47,
-            "colors": "c2459e1a-5edc-4dc5-b066-4c453d5f7f6a",
             "ratings": "994cb110-5add-4ebc-abd7-5a80d9f5e1e8",
             "TotalSoldOfProduct": 315
         }
@@ -298,7 +283,6 @@
             "ingredients": "Milk Proteins, Shea Butter, Vitamin B5",
             "brandName": "SkinGentle",
             "quantity": 21,
-            "colors": "cc7d3c3f-64a4-44bf-b3e0-6070280e6645",
             "ratings": "a8557f43-2c02-40e2-9092-2c9c68c427f5",
             "TotalSoldOfProduct": 144
         }
@@ -317,7 +301,6 @@
             "ingredients": "Beeswax, Peach Extract, Shea Butter",
             "brandName": "ShinePop",
             "quantity": 33,
-            "colors": "d18bdcd4-d15e-4a5b-981e-66186b78e245",
             "ratings": "afa3ab70-e2ae-44fd-b1e0-68af462c8ed3",
             "TotalSoldOfProduct": 410
         }
