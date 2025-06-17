@@ -7,7 +7,6 @@ from rest_framework import status
 from rest_framework.response import Response
 
 
-
 class addTo_WishList(APIView):
     permission_classes=[IsAuthenticated]
 
@@ -21,7 +20,7 @@ class addTo_WishList(APIView):
         
 
         Wishlist_entry, added = Wishlist.objects.get_or_create(user=user, product_color=product_color)
-        if not added:    #موجوده اصلا
+        if not added:    
             return Response({"message": "Product with this color is already in your wishlist."}, status=status.HTTP_200_OK)
 
         serializer = wishlistSerializer(Wishlist_entry)
