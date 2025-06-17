@@ -6,14 +6,10 @@
       "name": "Revita Glow Serum",
       "description": "Enhances skin radiance and smoothness.",
       "image": "static/RevitaGlowSerum.png",
-      "email": "seller1@example.com",
-      "location": "Berlin, Germany",
       "usage": "Apply to clean skin every morning.",
       "price": 199,
       "ingredients": "Vitamin C, Hyaluronic Acid, Green Tea Extract",
       "brandName": "Glowify",
-      "quantity": 20,
-      "ratings": "02cd8ace-b933-481a-8313-7529ba07f7c1",
       "TotalSoldOfProduct": 54
     }
   },
@@ -24,14 +20,10 @@
       "name": "Herbal Cleanser",
       "description": "Organic facial cleanser for daily use.",
       "image": "static/RevitaGlowSerum.png",
-      "email": "store@naturalskin.com",
-      "location": "Toronto, Canada",
       "usage": "Massage onto wet face, rinse thoroughly.",
       "price": 89,
       "ingredients": "Aloe Vera, Chamomile, Jojoba Oil",
       "brandName": "NaturePure",
-      "quantity": 35,
-      "ratings": "0dcecabb-d903-44c0-800c-5c05cf8555a9",
       "TotalSoldOfProduct": 130
     }
   },
@@ -42,14 +34,10 @@
       "name": "Hydro Boost Lotion",
       "description": "Instant hydration and moisture lock-in.",
       "image": "static/RevitaGlowSerum.png",
-      "email": "contact@beautyhub.com",
-      "location": "Paris, France",
       "usage": "Apply after cleansing for deep hydration.",
       "price": 250,
       "ingredients": "Glycerin, Aloe Extract, Collagen",
       "brandName": "HydraSkin",
-      "quantity": 40,
-      "ratings": "0f76e91e-eb32-4cb5-bc1f-8295ebd66609",
       "TotalSoldOfProduct": 89
     }
   },
@@ -60,14 +48,10 @@
       "name": "Matte Finish Foundation",
       "description": "Long-lasting matte foundation.",
       "image": "static/RevitaGlowSerum.png",
-      "email": "foundation@cosmex.com",
-      "location": "London, UK",
       "usage": "Blend evenly on skin using a brush.",
       "price": 315,
       "ingredients": "Silica, Titanium Dioxide, Vitamin E",
       "brandName": "Cosmex",
-      "quantity": 28,
-      "ratings": "1bb9467c-8677-4526-868e-526d75b969e2",
       "TotalSoldOfProduct": 170
     }
   },
@@ -78,14 +62,10 @@
       "name": "Berry Lip Balm",
       "description": "Moisturizing lip balm with berry flavor.",
       "image": "static/RevitaGlowSerum.png",
-      "email": "sales@freshface.com",
-      "location": "Stockholm, Sweden",
       "usage": "Apply as needed to dry lips.",
       "price": 45,
       "ingredients": "Beeswax, Shea Butter, Berry Extract",
       "brandName": "FreshFace",
-      "quantity": 60,
-      "ratings": "2fd8bd0e-afe5-4a97-865e-ca766ae904af",
       "TotalSoldOfProduct": 450
     }
   },
@@ -96,14 +76,10 @@
       "name": "Glow Mist",
       "description": "Rejuvenating facial mist for all skin types.",
       "image": "static/RevitaGlowSerum.png",
-      "email": "info@mistify.com",
-      "location": "Milan, Italy",
       "usage": "Spray lightly on face for a refreshing feel.",
       "price": 135,
       "ingredients": "Rose Water, Ginseng, Vitamin B3",
       "brandName": "Mistify",
-      "quantity": 24,
-      "ratings": "32292cc0-dee0-44ae-8205-7cbfe437be28",
       "TotalSoldOfProduct": 108
     }
   },
@@ -114,14 +90,10 @@
       "name": "Charcoal Mask",
       "description": "Deep cleansing charcoal face mask.",
       "image": "static/RevitaGlowSerum.png",
-      "email": "masks@pureelements.com",
-      "location": "Los Angeles, USA",
       "usage": "Apply and rinse after 15 minutes.",
       "price": 170,
       "ingredients": "Charcoal, Clay, Witch Hazel",
       "brandName": "PureElements",
-      "quantity": 18,
-      "ratings": "41b0318a-e589-48ba-a6a9-440f5f5b7e78",
       "TotalSoldOfProduct": 320
     }
   },
@@ -132,14 +104,10 @@
       "name": "Nourishing Night Cream",
       "description": "Overnight cream for soft, supple skin.",
       "image": "static/RevitaGlowSerum.png",
-      "email": "support@skincareplus.com",
-      "location": "Madrid, Spain",
       "usage": "Apply before bedtime daily.",
       "price": 390,
       "ingredients": "Retinol, Vitamin E, Coconut Oil",
       "brandName": "SkinCare+",
-      "quantity": 30,
-      "ratings": "46864e56-9ac8-4a86-92db-12c0a87b3a54",
       "TotalSoldOfProduct": 95
     }
   },
@@ -150,14 +118,10 @@
       "name": "Aqua Sunscreen",
       "description": "Water-resistant sunscreen SPF 50.",
       "image": "static/RevitaGlowSerum.png",
-      "email": "sunpro@beautyshield.com",
-      "location": "Dubai, UAE",
       "usage": "Apply generously before sun exposure.",
       "price": 220,
       "ingredients": "Zinc Oxide, Aloe Vera, Vitamin C",
       "brandName": "BeautyShield",
-      "quantity": 22,
-      "ratings": "507bd87d-5a6b-4a72-a572-ff1058473b5c",
       "TotalSoldOfProduct": 140
     }
   },
@@ -168,14 +132,10 @@
       "name": "Botanical Hair Oil",
       "description": "Revitalizing oil for stronger hair.",
       "image": "static/RevitaGlowSerum.png",
-      "email": "haircare@botanix.com",
-      "location": "Cairo, Egypt",
       "usage": "Massage into scalp and leave overnight.",
       "price": 160,
       "ingredients": "Argan Oil, Castor Oil, Rosemary",
       "brandName": "Botanix",
-      "quantity": 38,
-      "ratings": "32292cc0-dee0-44ae-8205-7cbfe437be28",
       "TotalSoldOfProduct": 300
     }
   },
@@ -186,14 +146,10 @@
       "name": "Soothing Toner",
       "description": "Balances skin pH and reduces redness.",
       "image": "static/RevitaGlowSerum.png",
-      "email": "toners@freshglow.com",
-      "location": "Oslo, Norway",
       "usage": "Apply with cotton pad after cleansing.",
       "price": 115,
       "ingredients": "Cucumber Extract, Witch Hazel, Rose Oil",
       "brandName": "FreshGlow",
-      "quantity": 26,
-      "ratings": "5e80311a-490e-4f05-b553-cdbea5a138c1",
       "TotalSoldOfProduct": 88
     }
   },
@@ -204,14 +160,10 @@
       "name": "Creamy Eye Contour",
       "description": "Reduces puffiness and brightens under eyes.",
       "image": "static/RevitaGlowSerum.png",
-      "email": "eyes@dermabeauty.com",
-      "location": "Amsterdam, Netherlands",
       "usage": "Gently dab around the eyes twice daily.",
       "price": 180,
       "ingredients": "Caffeine, Shea Butter, Vitamin K",
       "brandName": "DermaBeauty",
-      "quantity": 16,
-      "ratings": "6a3d33fd-8a2c-42f1-9be6-97e711fb3eb8",
       "TotalSoldOfProduct": 52
     }
   },
@@ -222,14 +174,10 @@
       "name": "Lavender Body Scrub",
       "description": "Exfoliates and softens skin.",
       "image": "static/RevitaGlowSerum.png",
-      "email": "scrub@relaxandglow.com",
-      "location": "Sydney, Australia",
       "usage": "Massage gently onto wet skin.",
       "price": 105,
       "ingredients": "Sea Salt, Lavender Oil, Almond Oil",
       "brandName": "RelaxGlow",
-      "quantity": 29,
-      "ratings": "8791839c-6e38-4173-a02a-2b0d5cb78742",
       "TotalSoldOfProduct": 180
     }
   },
@@ -240,14 +188,10 @@
       "name": "Vitamin C Serum",
       "description": "Brightens and evens skin tone.",
       "image": "static/RevitaGlowSerum.png",
-      "email": "contact@glowlabs.com",
-      "location": "New York, USA",
       "usage": "Apply before moisturizer in the morning.",
       "price": 299,
       "ingredients": "Ascorbic Acid, Ferulic Acid, Vitamin E",
       "brandName": "GlowLabs",
-      "quantity": 34,
-      "ratings": "95be038d-924f-4128-89d1-be9ac783963d",
       "TotalSoldOfProduct": 222
     }
   },
@@ -258,14 +202,10 @@
       "name": "Aloe Face Gel",
       "description": "Cools and hydrates irritated skin.",
       "image": "static/RevitaGlowSerum.png",
-      "email": "aloe@naturecool.com",
-      "location": "Seoul, South Korea",
       "usage": "Apply liberally as needed.",
       "price": 75,
       "ingredients": "Aloe Vera, Mint Extract",
       "brandName": "NatureCool",
-      "quantity": 47,
-      "ratings": "994cb110-5add-4ebc-abd7-5a80d9f5e1e8",
       "TotalSoldOfProduct": 315
     }
   },
@@ -276,14 +216,10 @@
       "name": "Cream Cleanser",
       "description": "Gently removes makeup and impurities.",
       "image": "static/RevitaGlowSerum.png",
-      "email": "cream@skingentle.com",
-      "location": "Vienna, Austria",
       "usage": "Use morning and night on wet skin.",
       "price": 135,
       "ingredients": "Milk Proteins, Shea Butter, Vitamin B5",
       "brandName": "SkinGentle",
-      "quantity": 21,
-      "ratings": "a8557f43-2c02-40e2-9092-2c9c68c427f5",
       "TotalSoldOfProduct": 144
     }
   },
@@ -294,14 +230,10 @@
       "name": "Peach Lip Tint",
       "description": "Adds a natural peach tint to lips.",
       "image": "static/RevitaGlowSerum.png",
-      "email": "lipcare@shinepop.com",
-      "location": "Bangkok, Thailand",
       "usage": "Apply evenly to lips.",
       "price": 55,
       "ingredients": "Beeswax, Peach Extract, Shea Butter",
       "brandName": "ShinePop",
-      "quantity": 33,
-      "ratings": "afa3ab70-e2ae-44fd-b1e0-68af462c8ed3",
       "TotalSoldOfProduct": 410
     }
   }

@@ -1,0 +1,154 @@
+[
+  {
+    "model": "Backend.wishlist_Item",
+    "pk": "934bb74d-3adf-4bc6-b18a-b7cf71c98e38",
+    "fields": {
+      "wishlist": "e7a08d3e-1340-4b92-8548-c8c2a597f348",
+      "product_color": "6d5d99f0-8705-4c68-a84e-1a0b7e635981"
+    }
+  },
+  {
+    "model": "Backend.wishlist_Item",
+    "pk": "f3986ff7-04f9-4b8b-a92b-0cf7552704e1",
+    "fields": {
+      "wishlist": "2fbb9264-e3e4-4b18-a937-7fc75fa12dc9",
+      "product_color": "a6f4c2a1-5cf1-4c7a-9180-1a2c77ffcb17"
+    }
+  },
+  {
+    "model": "Backend.wishlist_Item",
+    "pk": "e403499f-6f3c-4d80-a1a1-dcc68eebd1e4",
+    "fields": {
+      "wishlist": "dd71c327-b194-47c3-86f4-1714e9b317f6",
+      "product_color": "14200b6d-4db1-4c7c-a6c2-e13dca6f6464"
+    }
+  },
+  {
+    "model": "Backend.wishlist_Item",
+    "pk": "6247ce01-69d4-46a1-b3c6-473d0952f446",
+    "fields": {
+      "wishlist": "9e6d8413-032e-4ea6-9208-19a78ae7dc70",
+      "product_color": "3e0716f7-5e30-4f42-ae7c-84b61a6f92b0"
+    }
+  },
+  {
+    "model": "Backend.wishlist_Item",
+    "pk": "0a1c5b44-2364-41fc-a4da-0c9acda26c57",
+    "fields": {
+      "wishlist": "7dbf9f59-e47c-4716-a31c-36d0a22bb324",
+      "product_color": "dfeeb65a-0f7e-4a68-bf3e-d37991c8cfcb"
+    }
+  },
+  {
+    "model": "Backend.wishlist_Item",
+    "pk": "d8f2bb7b-7b99-4e78-91f5-b0c529a9e5d5",
+    "fields": {
+      "wishlist": "5b6f3b60-05e3-4197-aeb0-1843e22db96b",
+      "product_color": "78d0e1a4-4219-4466-b3ef-7d95e5a4c6cd"
+    }
+  },
+  {
+    "model": "Backend.wishlist_Item",
+    "pk": "1c32f9f2-b445-47c2-bc70-cce6b30b53dc",
+    "fields": {
+      "wishlist": "a8ed68b4-989f-4e57-8d48-b3fa3c87fd0a",
+      "product_color": "e9d2a2e2-0500-4a35-9e8f-777a9c64393d"
+    }
+  },
+  {
+    "model": "Backend.wishlist_Item",
+    "pk": "bdf28b6e-4c71-4e3b-b69f-8e3d2bd21c4d",
+    "fields": {
+      "wishlist": "eecb74c0-41b5-44c6-a193-30e65f729ed6",
+      "product_color": "37318343-7471-4e97-a951-5c3e8ed09cb5"
+    }
+  },
+  {
+    "model": "Backend.wishlist_Item",
+    "pk": "b50d2a00-5e55-4c4e-869e-b3066a08700f",
+    "fields": {
+      "wishlist": "285a3d0d-9ae7-4c94-8a4f-6d6f7d4c6a48",
+      "product_color": "8cf28432-0559-495a-b59a-16bcaf29b2f6"
+    }
+  },
+  {
+    "model": "Backend.wishlist_Item",
+    "pk": "db1d905f-df4c-4a89-bb3c-7f1c57795c00",
+    "fields": {
+      "wishlist": "93ae1469-3e59-4bcb-a788-87a2f582bcd2",
+      "product_color": "c1244b32-6a61-4092-8b88-e676176e2f99"
+    }
+  },
+  {
+    "model": "Backend.wishlist_Item",
+    "pk": "5cb6d258-d0f1-42b9-9434-19525b2d2fa2",
+    "fields": {
+      "wishlist": "b75476bb-dc4a-42ab-b5aa-3b9fa3b96ad3",
+      "product_color": "91e84b85-bb87-4236-a6a9-239e38288561"
+    }
+  },
+  {
+    "model": "Backend.wishlist_Item",
+    "pk": "abf4652a-5c7f-41f4-93b2-8c6c9568696a",
+    "fields": {
+      "wishlist": "42d9e06e-859b-4a85-b464-6de35ee77268",
+      "product_color": "2df4097d-f7c2-4a44-b2f6-6cd263632f0b"
+    }
+  },
+  {
+    "model": "Backend.wishlist_Item",
+    "pk": "205fa3e0-c7c3-46cb-9139-3341e43772a5",
+    "fields": {
+      "wishlist": "fa5f4cf2-f1c4-4266-944b-66b5931975c0",
+      "product_color": "87f3a91e-f6c0-4075-8753-9783173f7297"
+    }
+  },
+  {
+    "model": "Backend.wishlist_Item",
+    "pk": "5e302cc4-9e7e-43c3-b402-83794783f6a4",
+    "fields": {
+      "wishlist": "18061c9e-7468-4a9e-9c02-479bf6d9f2b6",
+      "product_color": "49813e6e-5063-4432-a37b-348dc429c7d0"
+    }
+  },
+  {
+    "model": "Backend.wishlist_Item",
+    "pk": "f72cd021-faaa-441c-a5a0-6f215acb5d43",
+    "fields": {
+      "wishlist": "7a1a52e0-ff5e-4bc0-b942-b3f8f2f063c6",
+      "product_color": "9c372f6d-054e-4e5f-9e4e-cac3d3a206d2"
+    }
+  },
+  {
+    "model": "Backend.wishlist_Item",
+    "pk": "9c3e012c-d5a7-49e3-b918-0915396c9c63",
+    "fields": {
+      "wishlist": "0a41ad8e-00f6-4f99-8f9e-f80f89b4f5d7",
+      "product_color": "b36112fb-1457-4e20-b170-5a861e5eecf1"
+    }
+  },
+  {
+    "model": "Backend.wishlist_Item",
+    "pk": "6bb3aa5e-d33e-4fc6-981b-8d2680b681e8",
+    "fields": {
+      "wishlist": "b09f8222-8442-4ab5-8b83-3b6df59ea94e",
+      "product_color": "553b7d63-604f-420e-b16f-b75bd2b38d41"
+    }
+  },
+  {
+    "model": "Backend.wishlist_Item",
+    "pk": "ba1c1c61-cf9f-407f-aaa0-f9ac9f7f7159",
+    "fields": {
+      "wishlist": "fd4165f5-4e53-429d-8c3c-35eb95873a34",
+      "product_color": "27c30c2c-05bc-43bc-9c5f-b83b1e553abe"
+    }
+  },
+  {
+    "model": "Backend.wishlist_Item",
+    "pk": "2e42b370-08ea-4cf3-8c83-18d296f01836",
+    "fields": {
+      "wishlist": "a2967bb2-f4e0-42ae-98eb-7e22e0ab7179",
+      "product_color": "9ad21f42-b6b0-41d5-8c1f-31e6c1df79e8"
+    }
+  }
+]

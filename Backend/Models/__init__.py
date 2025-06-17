@@ -10,4 +10,5 @@ from .wishlist_model import *
 from .promoCode_model import *
 from .userPromoCode_model import *
 from custom_user.models import *
+from .cart_item import *
 __all__ = ['*']
