@@ -4,14 +4,12 @@ from ..models.cart_model import Cart
 from ..models.productColor_model import ProductsColors
 
 class CartItem_Serializer(serializers.ModelSerializer):
-    product_color = serializers.PrimaryKeyRelatedField(queryset=ProductsColors.objects.all())
     class Meta:
         model = CartItem
         fields = ['id', 'product_color', 'cartItemQuantity', 'cartItemPrice']
 
     def create(self, validated_data):
-        request=self.context.get('request')
-        user=request.user
+        user=self.request.user
         cart,_=Cart.objects.get_or_create(user=user)
 
         product_color = validated_data.get('product_color')
