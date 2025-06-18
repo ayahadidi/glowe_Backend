@@ -5,8 +5,7 @@
     "fields": {
       "total_price": 45320,
       "total_items": 7,
-      "user": "08d8530d-3c00-4915-8077-a3c0a78e26e7",
-      "product_color": "6d5d99f0-8705-4c68-a84e-1a0b7e635981"
+      "user": "08d8530d-3c00-4915-8077-a3c0a78e26e7"
     }
   },
   {
@@ -15,8 +14,7 @@
     "fields": {
       "total_price": 10250,
       "total_items": 2,
-      "user": "127220fc-07c2-452f-a4e5-800919ac7a60",
-      "product_color": "a6f4c2a1-5cf1-4c7a-9180-1a2c77ffcb17"
+      "user": "127220fc-07c2-452f-a4e5-800919ac7a60"
     }
   },
   {
@@ -25,8 +23,7 @@
     "fields": {
       "total_price": 8700,
       "total_items": 1,
-      "user": "2743fb8e-a51d-4885-b004-28abffc5ff10",
-      "product_color": "14200b6d-4db1-4c7c-a6c2-e13dca6f6464"
+      "user": "2743fb8e-a51d-4885-b004-28abffc5ff10"
     }
   },
   {
@@ -35,8 +32,7 @@
     "fields": {
       "total_price": 9999,
       "total_items": 3,
-      "user": "37879e2a-fe4b-4643-b226-4ca0acdb5363",
-      "product_color": "3e0716f7-5e30-4f42-ae7c-84b61a6f92b0"
+      "user": "37879e2a-fe4b-4643-b226-4ca0acdb5363"
     }
   },
   {
@@ -45,8 +41,7 @@
     "fields": {
       "total_price": 15000,
       "total_items": 5,
-      "user": "4546465d-538a-4c3f-81e8-5efff785b625",
-      "product_color": "dfeeb65a-0f7e-4a68-bf3e-d37991c8cfcb"
+      "user": "4546465d-538a-4c3f-81e8-5efff785b625"
     }
   },
   {
@@ -55,8 +50,7 @@
     "fields": {
       "total_price": 48000,
       "total_items": 10,
-      "user": "45ecef07-d25d-4f89-8975-4dac4d78953b",
-      "product_color": "78d0e1a4-4219-4466-b3ef-7d95e5a4c6cd"
+      "user": "45ecef07-d25d-4f89-8975-4dac4d78953b"
     }
   },
   {
@@ -65,8 +59,7 @@
     "fields": {
       "total_price": 21500,
       "total_items": 4,
-      "user": "4a3ad2b6-463d-4bb9-bd38-656bb32c443c",
-      "product_color": "e9d2a2e2-0500-4a35-9e8f-777a9c64393d"
+      "user": "4a3ad2b6-463d-4bb9-bd38-656bb32c443c"
     }
   },
   {
@@ -75,8 +68,7 @@
     "fields": {
       "total_price": 13200,
       "total_items": 2,
-      "user": "4a5c9db5-29cd-4573-8df2-29ff3ef3c5cb",
-      "product_color": "37318343-7471-4e97-a951-5c3e8ed09cb5"
+      "user": "4a5c9db5-29cd-4573-8df2-29ff3ef3c5cb"
     }
   },
   {
@@ -85,8 +77,7 @@
     "fields": {
       "total_price": 9870,
       "total_items": 1,
-      "user": "4a6172cc-846e-431f-9f9a-d72636424f7d",
-      "product_color": "8cf28432-0559-495a-b59a-16bcaf29b2f6"
+      "user": "4a6172cc-846e-431f-9f9a-d72636424f7d"
     }
   },
   {
@@ -95,8 +86,7 @@
     "fields": {
       "total_price": 7500,
       "total_items": 1,
-      "user": "4ec3f946-d1a3-4f05-a848-6918b5d7fcd7",
-      "product_color": "c1244b32-6a61-4092-8b88-e676176e2f99"
+      "user": "4ec3f946-d1a3-4f05-a848-6918b5d7fcd7"
     }
   },
   {
@@ -105,8 +95,7 @@
     "fields": {
       "total_price": 6200,
       "total_items": 1,
-      "user": "bef9cfef-1781-4c51-bced-f2c6415f5e58",
-      "product_color": "91e84b85-bb87-4236-a6a9-239e38288561"
+      "user": "bef9cfef-1781-4c51-bced-f2c6415f5e58"
     }
   },
   {
@@ -115,8 +104,7 @@
     "fields": {
       "total_price": 9000,
       "total_items": 2,
-      "user": "c3a385ee-0f3e-4d67-ba58-e414d84a9fda",
-      "product_color": "2df4097d-f7c2-4a44-b2f6-6cd263632f0b"
+      "user": "c3a385ee-0f3e-4d67-ba58-e414d84a9fda"
     }
   },
   {
@@ -125,8 +113,7 @@
     "fields": {
       "total_price": 27000,
       "total_items": 5,
-      "user": "c6eb0dfc-b456-44e5-b596-69dcec1bd0d5",
-      "product_color": "87f3a91e-f6c0-4075-8753-9783173f7297"
+      "user": "c6eb0dfc-b456-44e5-b596-69dcec1bd0d5"
     }
   },
   {
@@ -135,8 +122,7 @@
     "fields": {
       "total_price": 8200,
       "total_items": 2,
-      "user": "cc9edc62-0632-4bf2-95f0-66b974787612",
-      "product_color": "49813e6e-5063-4432-a37b-348dc429c7d0"
+      "user": "cc9edc62-0632-4bf2-95f0-66b974787612"
     }
   },
   {
@@ -145,8 +131,7 @@
     "fields": {
       "total_price": 10700,
       "total_items": 3,
-      "user": "d3e53198-cb7f-4014-a5fc-9cd0f4e554a8",
-      "product_color": "9c372f6d-054e-4e5f-9e4e-cac3d3a206d2"
+      "user": "d3e53198-cb7f-4014-a5fc-9cd0f4e554a8"
     }
   },
   {
@@ -155,8 +140,7 @@
     "fields": {
       "total_price": 3000,
       "total_items": 1,
-      "user": "ded89f5b-6429-4498-b88a-d27eb69b95ad",
-      "product_color": "b36112fb-1457-4e20-b170-5a861e5eecf1"
+      "user": "ded89f5b-6429-4498-b88a-d27eb69b95ad"
     }
   },
   {
@@ -165,8 +149,7 @@
     "fields": {
       "total_price": 6500,
       "total_items": 1,
-      "user": "df4ffaf4-d1ed-4467-afb7-b88d06ff39ef",
-      "product_color": "553b7d63-604f-420e-b16f-b75bd2b38d41"
+      "user": "df4ffaf4-d1ed-4467-afb7-b88d06ff39ef"
     }
   },
   {
@@ -175,8 +158,7 @@
     "fields": {
       "total_price": 33000,
       "total_items": 6,
-      "user": "e3885753-ed1a-4be8-89f4-25263ba95171",
-      "product_color": "5c51d729-9976-4fe3-9a94-cbce8dfd2c12"
+      "user": "e3885753-ed1a-4be8-89f4-25263ba95171"
     }
   },
   {
@@ -185,8 +167,7 @@
     "fields": {
       "total_price": 12500,
       "total_items": 2,
-      "user": "f13a157e-e8d4-435c-8fb5-daeddb128d85",
-      "product_color": "27c30c2c-05bc-43bc-9c5f-b83b1e553abe"
+      "user": "f13a157e-e8d4-435c-8fb5-daeddb128d85"
     }
   }
 ]
