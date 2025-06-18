@@ -7,4 +7,4 @@ class ProductsColors(models.Model):
     colors=models.ForeignKey('Backend.Colors',on_delete=models.CASCADE)
 
     def __str__(self):
-        return f"{self.product.name} - {self.color.code}"
+        return f"{self.products.name} - {self.colors.code}"

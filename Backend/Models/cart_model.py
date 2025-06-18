@@ -8,5 +8,3 @@ class Cart(models.Model):
     total_items=models.IntegerField(validators=[MaxValueValidator(100)],default=0)
     user=models.ForeignKey('custom_user.User',on_delete=models.CASCADE)
     product_color=models.ForeignKey('Backend.ProductsColors',on_delete=models.CASCADE)
-
-    
