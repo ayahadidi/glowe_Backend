@@ -1,5 +1,5 @@
 from rest_framework import generics
-from ..models.cart_model import Cart
+from ..Models.cart_model import Cart
 from ..serializers.cart_serializer import CartSerializer
 from rest_framework.permissions import IsAuthenticated
 
