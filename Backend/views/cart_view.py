@@ -2,7 +2,7 @@ from rest_framework.views import APIView
 from rest_framework.permissions import IsAuthenticated
 from rest_framework import status
 from rest_framework.response import Response
-from ..models.productColor_model import ProductsColors
+from ..Models.productColor_model import ProductsColors
 from ..serializers.cart_serializer import CartSerializer
 
 class AddToCartView(APIView):

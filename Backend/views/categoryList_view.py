@@ -1,5 +1,5 @@
 from rest_framework import generics
-from Backend.models import Categories
+from Backend.Models import Categories
 from ..serializers.category_serializer import CategorySerializer
 
 class CategoryListView(generics.ListAPIView):
