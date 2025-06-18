@@ -4,7 +4,7 @@ from ..Models.cart_model import Cart
 class CartSerializer(serializers.ModelSerializer):
     class Meta:
         model=Cart
-        fields=['id','product_color','total_price','total_items']
+        fields=['id','product_color']
 
     def create(self,validated_data):
         request=self.context.get('request')

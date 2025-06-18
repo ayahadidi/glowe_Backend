@@ -29,7 +29,7 @@ VENV/
 # Media and static files (optional if not managed manually)
 media/
 staticfiles/
-static/
+#static/
 
 # IDEs and editors
 .vscode/

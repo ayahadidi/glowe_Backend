@@ -7,3 +7,4 @@ class Rating(models.Model):
     value=models.IntegerField(validators=[MaxValueValidator(5)])
     comment=models.CharField(max_length=500)
     user=models.ForeignKey('custom_user.User',on_delete=models.CASCADE) 
+    product=models.ForeignKey('Backend.Products',on_delete=models.CASCADE)
