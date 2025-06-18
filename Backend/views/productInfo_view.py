@@ -1,15 +1,3 @@
-# from rest_framework import generics
-# from ..models.product_model import Products
-# from ..serializers.Product_Serializer import productInfo_serializer
-# from rest_framework.response import Response
-# from rest_framework.views import APIView
-
-# class productInfo_view(APIView):
-#     def get(self, product_id):
-#         serializer= productInfo_serializer(Products)
-#         return Response(serializer.data)
-
-
 from rest_framework.views import APIView
 from rest_framework.response import Response
 from rest_framework import status
