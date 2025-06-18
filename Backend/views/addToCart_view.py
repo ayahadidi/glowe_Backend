@@ -13,7 +13,11 @@ class AddToCartView(APIView):
             product_color=ProductsColors.objects.get(id=product_color_id)
         except ProductsColors.DoesNotExist:
             return Response({"error": "This product isn't available in the selected color."}, status=status.HTTP_404_NOT_FOUND)
-        serializer=CartItem_Serializer(data={'product_color':product_color.id},context={'request':request})
+        serializer=CartItem_Serializer(data={
+            'product_color':product_color_id,
+            'cartItemQuantity':request.data.get('cartItemQuantity',1),
+            'cartItemPrice':request.data.get('cartItemPrice',product_color.products.price)
+            },context={'request':request})
         if serializer.is_valid():
             cart_item=serializer.save()
             return Response(CartItem_Serializer(cart_item).data, status=201)
