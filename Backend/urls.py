@@ -15,6 +15,6 @@ urlpatterns = [
     path('api/addToWishlist/<uuid:product_color_id>/', addTo_WishList.as_view(), name="wishlist"),
     path('api/AddToCartView/<uuid:product_color_id>/', AddToCartView.as_view(), name="cart"),
     path('api/productInfo/<uuid:product_id>/', productInfo_view.as_view(), name="productInfo"),
-    path('api/cartList_view/', cartList_view.as_view(), name="cartList"),
+    path('api/cartList_view/>/', cartList_view.as_view(), name="cartList"),
     path('api/wishlist_ListView/', wishlist_ListView.as_view(), name="wishlist_List"),
 ]
