@@ -1,21 +1,10 @@
 from rest_framework import serializers
 from ..models.cart_model import Cart
+from .cartItem_serializer import CartItem_Serializer
 
 class CartSerializer(serializers.ModelSerializer):
+    cart_items = CartItem_Serializer(source='cartitem_set', many=True, read_only=True)
+
     class Meta:
-        model=Cart
-        fields=['id','product_color']
-
-    def create(self,validated_data):
-        request=self.context.get('request')
-        product_color=validated_data['product_color']
-
-        cart_item,created=Cart.objects.get_or_create(
-            user=request.user,
-            product_color=product_color,
-        )
-        if not created:
-            cart_item.total_items+=1
-            cart_item.total_price+=product_color.products.price
-            cart_item.save()
-        return cart_item
+        model = Cart
+        fields = ['id', 'total_price', 'total_items', 'user', 'cart_items']

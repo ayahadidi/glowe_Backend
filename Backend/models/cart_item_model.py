@@ -8,3 +8,6 @@ class CartItem(models.Model):
     product_color=models.ForeignKey('Backend.ProductsColors',on_delete=models.CASCADE)
     cart=models.ForeignKey('Backend.Cart',on_delete=models.CASCADE)
 
+
+
+## C:\Users\hadid\Desktop\glowe_back\Backend\Models\__pycache__\__init__.cpython-313.pyc
