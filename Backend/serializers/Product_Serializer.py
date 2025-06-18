@@ -10,6 +10,7 @@ class ProductInList_Serializer(serializers.ModelSerializer):
 
 
 class productInfo_serializer(serializers.ModelSerializer):
+    ratings=RatingSerializer(many=True,read_only=True, source='rating_set')
     class Meta:
         model=Products
         fields=['id','name','description','image','usage','price',
