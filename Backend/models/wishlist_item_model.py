@@ -6,3 +6,4 @@ class wishlist_Item(models.Model):
     wishlist=models.ForeignKey('Backend.Wishlist',on_delete=models.CASCADE)
     product=models.ForeignKey('Backend.Products',on_delete=models.CASCADE)
     productColor=models.CharField(max_length=50)
+    ColorName=models.CharField(max_length=100)

@@ -9,6 +9,9 @@ class CartItem(models.Model):
     color_name=models.CharFied(max_length=100)
     product=models.ForeignKey('Backend.Products',on_delete=models.CASCADE)
     cart=models.ForeignKey('Backend.Cart',on_delete=models.CASCADE)
+    productColor=models.CharField(max_length=50)
+    ColorName=models.CharField(max_length=100)
+
 
 
 ## C:\Users\hadid\Desktop\glowe_back\Backend\Models\__pycache__\__init__.cpython-313.pyc
