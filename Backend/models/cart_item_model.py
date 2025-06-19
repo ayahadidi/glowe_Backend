@@ -6,11 +6,9 @@ class CartItem(models.Model):
     cartItemQuantity=models.IntegerField(validators=[MaxValueValidator(100)], default=0)
     cartItemPrice=models.IntegerField(validators=[MaxValueValidator(10000)], default=0)
     productColor=models.CharField(max_length=50)
-    color_name=models.CharFied(max_length=100)
+    color_name=models.CharField(max_length=100)
     product=models.ForeignKey('Backend.Products',on_delete=models.CASCADE)
     cart=models.ForeignKey('Backend.Cart',on_delete=models.CASCADE)
-    productColor=models.CharField(max_length=50)
-    ColorName=models.CharField(max_length=100)
 
 
 
