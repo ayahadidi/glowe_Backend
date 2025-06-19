@@ -1,7 +1,7 @@
 from django.test import TestCase
-from Backend.Models import Colors
-from Backend.Models import PromoCode
-from Backend.Models import UserPromoCode
+from Backend.models import Colors
+from Backend.models import PromoCode
+from Backend.models import UserPromoCode
 class ColorTestCase(TestCase):
     fixtures=['color.json']
     def test_color_count(self):
