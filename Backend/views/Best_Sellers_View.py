@@ -1,5 +1,5 @@
 from rest_framework import generics
-from ..Models.product_model import Products
+from ..models.product_model import Products
 from ..serializers.Product_Serializer import ProductInList_Serializer
 
 class Best_Sellers_View(generics.ListAPIView):

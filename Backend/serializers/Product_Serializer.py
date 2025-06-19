@@ -1,10 +1,6 @@
 from rest_framework import serializers
-<<<<<<< HEAD
-from ..Models.product_model import Products
-=======
 from ..models.product_model import Products
 from .rating_serializer import RatingSerializer
->>>>>>> origin/main
 
 class ProductInList_Serializer(serializers.ModelSerializer):
     ratings=RatingSerializer(many=True,read_only=True, source='rating_set')
