@@ -1,5 +1,5 @@
 from rest_framework import serializers
-from ..Models.wishlist_model import Wishlist
+from ..models.wishlist_model import Wishlist
 
 # cartitem_set to handle reverse for a ForeignKey in Djanggo
 class wishlistSerializer(serializers.ModelSerializer):

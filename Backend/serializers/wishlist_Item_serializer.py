@@ -1,6 +1,6 @@
 from rest_framework import serializers
-from ..Models.wishlist_model import Wishlist
-from ..Models.wishlist_item_model import wishlist_Item
+from ..models.wishlist_model import Wishlist
+from ..models.wishlist_item_model import wishlist_Item
 
 class wishlist_Item_serializer(serializers.ModelSerializer):
     class Meta:
