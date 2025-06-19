@@ -44,6 +44,7 @@ INSTALLED_APPS = [
     'rest_framework_simplejwt',
     'drf_yasg',
     'corsheaders',
+    
 ]
 
 REST_FRAMEWORK = {
@@ -101,6 +102,7 @@ import pymysql,os
 from dotenv import load_dotenv
 pymysql.install_as_MySQLdb()
 load_dotenv()
+
 DATABASES = {
     'default': {
         'ENGINE': os.getenv('DB_ENGINE'),
