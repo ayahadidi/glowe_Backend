@@ -10,3 +10,7 @@ class wishlist_ListView(generics.RetrieveAPIView):
     def get_object(self):
         user = self.request.user
         return Wishlist.objects.get(user=user)
+
+    
+    
+

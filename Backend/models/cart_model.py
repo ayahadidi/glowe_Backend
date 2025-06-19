@@ -15,5 +15,5 @@ class Cart(models.Model):
     total_price=models.IntegerField(validators=[MaxValueValidator(100000)],default=0)
     total_items=models.IntegerField(validators=[MaxValueValidator(100)],default=0)
     type=models.IntegerField(validators=[MaxValueValidator(10)],default=2)
-    promocode=models.ForeignKey('Backend.PromoCode',on_delete=models.CASCADE)
+    promocode=models.ForeignKey('Backend.PromoCode',on_delete=models.CASCADE,default=1)
     user=models.ForeignKey('custom_user.User',on_delete=models.CASCADE)

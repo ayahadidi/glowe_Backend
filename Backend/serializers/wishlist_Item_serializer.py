@@ -5,19 +5,25 @@ from ..models.wishlist_item_model import wishlist_Item
 class wishlist_Item_serializer(serializers.ModelSerializer):
     class Meta:
         model = wishlist_Item
-        fields = ['product_color']
+        fields = ['id', 'productColor','ColorName','product']
 
     def create(self, validated_data):
         user = self.context['request'].user  
         wishlist, _ = Wishlist.objects.get_or_create(user=user)
 
-        product_color = validated_data.get['product_color']
+        product_color = validated_data.get('productColor')
+        ColorName=validated_data.get('ColorName')
+        Product=validated_data.get('product')
+
 
         wishlist_item,_ = wishlist_Item.objects.get_or_create(
             wishlist=wishlist,
-            product_color=product_color,
+            product=Product,
             defaults={
-                'product_color': product_color,
+                'productColor': product_color,
+                'ColorName':ColorName,
+                
+
             }
         )
 
