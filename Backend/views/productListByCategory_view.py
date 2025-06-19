@@ -1,6 +1,6 @@
 from rest_framework.response import Response
 from rest_framework.views import APIView
-from Backend.models import Products, ProductsCategories
+from Backend.Models import Products, ProductsCategories
 from ..serializers.Product_Serializer import ProductInList_Serializer
 
 class ProductListByCategory(APIView):
