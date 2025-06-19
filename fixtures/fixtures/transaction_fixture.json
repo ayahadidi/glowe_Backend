@@ -5,7 +5,9 @@
     "fields": {
       "total_revenue": 5234,
       "total_sold_items": 17,
-      "products": "04ad7a68-7d49-4c94-924c-5d7e1a9d16cb"
+      "products": "04ad7a68-7d49-4c94-924c-5d7e1a9d16cb",
+      "checkoutDate":"2024-08-04T07:15:09",
+      "user":"4a6172cc-846e-431f-9f9a-d72636424f7d"
     }
   },
   {
@@ -14,7 +16,9 @@
     "fields": {
       "total_revenue": 7899,
       "total_sold_items": 30,
-      "products": "13f88063-6343-4a52-803e-863937402e58"
+      "products": "13f88063-6343-4a52-803e-863937402e58",
+      "checkoutDate":"2024-05-19T00:32:44",
+      "user":"08d8530d-3c00-4915-8077-a3c0a78e26e7"
     }
   },
   {
@@ -23,7 +27,9 @@
     "fields": {
       "total_revenue": 2140,
       "total_sold_items": 12,
-      "products": "41d42f9d-caf1-41b6-9e6d-1c6c5f871cd1"
+      "products": "41d42f9d-caf1-41b6-9e6d-1c6c5f871cd1",
+      "checkoutDate":"2023-09-17T02:29:18",
+      "user":"d3e53198-cb7f-4014-a5fc-9cd0f4e554a8"
     }
   },
   {
@@ -32,7 +38,9 @@
     "fields": {
       "total_revenue": 4560,
       "total_sold_items": 25,
-      "products": "4ad9787f-b1b9-470b-b929-bfd058e3ef7b"
+      "products": "4ad9787f-b1b9-470b-b929-bfd058e3ef7b",
+      "checkoutDate":"2025-02-08T11:24:56",
+      "user":"e3885753-ed1a-4be8-89f4-25263ba95171"
     }
   },
   {
@@ -41,7 +49,9 @@
     "fields": {
       "total_revenue": 3370,
       "total_sold_items": 19,
-      "products": "6be03f1e-8b23-4d79-aad2-c1b4e57c2d01"
+      "products": "6be03f1e-8b23-4d79-aad2-c1b4e57c2d01",
+      "checkoutDate":"2023-07-14T18:48:20",
+      "user":"cc9edc62-0632-4bf2-95f0-66b974787612"
     }
   },
   {
@@ -50,7 +60,9 @@
     "fields": {
       "total_revenue": 6020,
       "total_sold_items": 31,
-      "products": "8aa2c51e-47d9-4f94-bd93-b35dc0f812c6"
+      "products": "8aa2c51e-47d9-4f94-bd93-b35dc0f812c6",
+      "checkoutDate":"2024-01-22T21:36:00",
+      "user":"f13a157e-e8d4-435c-8fb5-daeddb128d85"
     }
   },
   {
@@ -59,7 +71,9 @@
     "fields": {
       "total_revenue": 1800,
       "total_sold_items": 8,
-      "products": "90a9f2b1-2b9b-44fc-a5fd-9d3f79e7cf26"
+      "products": "90a9f2b1-2b9b-44fc-a5fd-9d3f79e7cf26",
+      "checkoutDate":"2024-11-06T05:41:10",
+      "user":"c6eb0dfc-b456-44e5-b596-69dcec1bd0d5"
     }
   },
   {
@@ -68,7 +82,9 @@
     "fields": {
       "total_revenue": 9500,
       "total_sold_items": 43,
-      "products": "a2a1c7df-7f53-4a34-902f-1e5f30f4dd3e"
+      "products": "a2a1c7df-7f53-4a34-902f-1e5f30f4dd3e",
+      "checkoutDate":"2023-11-28T15:10:41",
+      "user":"ded89f5b-6429-4498-b88a-d27eb69b95ad"
     }
   },
   {
@@ -77,7 +93,9 @@
     "fields": {
       "total_revenue": 2675,
       "total_sold_items": 14,
-      "products": "a64ed40e-9f98-4cf6-9b58-01e1dc93f570"
+      "products": "a64ed40e-9f98-4cf6-9b58-01e1dc93f570",
+      "checkoutDate":"2023-02-03T09:00:16",
+      "user":"df4ffaf4-d1ed-4467-afb7-b88d06ff39ef"
     }
   },
   {
@@ -86,7 +104,9 @@
     "fields": {
       "total_revenue": 3300,
       "total_sold_items": 20,
-      "products": "ab0a1716-bd3a-4cb6-bc93-9309c3d40e0e"
+      "products": "ab0a1716-bd3a-4cb6-bc93-9309c3d40e0e",
+      "checkoutDate":"2025-06-06T16:14:03",
+      "user":"4a3ad2b6-463d-4bb9-bd38-656bb32c443c"
     }
   },
   {
@@ -95,7 +115,9 @@
     "fields": {
       "total_revenue": 1450,
       "total_sold_items": 6,
-      "products": "b782098f-2ac0-4457-8bc6-5c2225a8cfde"
+      "products": "b782098f-2ac0-4457-8bc6-5c2225a8cfde",
+      "checkoutDate":"2024-07-09T13:52:05",
+      "user":"4a5c9db5-29cd-4573-8df2-29ff3ef3c5cb"
     }
   },
   {
@@ -104,7 +126,9 @@
     "fields": {
       "total_revenue": 7100,
       "total_sold_items": 35,
-      "products": "c34ae285-17d7-4e23-b6e3-d3f894ac2993"
+      "products": "c34ae285-17d7-4e23-b6e3-d3f894ac2993",
+      "checkoutDate":"2023-06-23T03:35:59",
+      "user":"bef9cfef-1781-4c51-bced-f2c6415f5e58"
     }
   },
   {
@@ -113,7 +137,9 @@
     "fields": {
       "total_revenue": 8920,
       "total_sold_items": 39,
-      "products": "cc8c97ad-6751-41e9-864c-8a7a041756a3"
+      "products": "cc8c97ad-6751-41e9-864c-8a7a041756a3",
+      "checkoutDate":"2025-01-05T19:12:38",
+      "user":"3a385ee-0f3e-4d67-ba58-e414d84a9fda"
     }
   },
   {
@@ -122,7 +148,9 @@
     "fields": {
       "total_revenue": 3440,
       "total_sold_items": 21,
-      "products": "cdd4ecf2-845f-4c6e-a8e5-2d344207b143"
+      "products": "cdd4ecf2-845f-4c6e-a8e5-2d344207b143",
+      "checkoutDate":"2023-08-01T10:44:27",
+      "user":"127220fc-07c2-452f-a4e5-800919ac7a60"
     }
   },
   {
@@ -131,7 +159,9 @@
     "fields": {
       "total_revenue": 2144,
       "total_sold_items": 11,
-      "products": "da9c6a45-5d8f-4ea5-929b-d0bb321ec370"
+      "products": "da9c6a45-5d8f-4ea5-929b-d0bb321ec370",
+      "checkoutDate":"2024-10-17T22:51:48",
+      "user":"45ecef07-d25d-4f89-8975-4dac4d78953b"
     }
   },
   {
@@ -140,7 +170,9 @@
     "fields": {
       "total_revenue": 5055,
       "total_sold_items": 26,
-      "products": "eafc178f-810b-4c32-8fd6-5d848ad408e9"
+      "products": "eafc178f-810b-4c32-8fd6-5d848ad408e9",
+      "checkoutDate":"2024-06-28T17:24:13",
+      "user":"37879e2a-fe4b-4643-b226-4ca0acdb5363"
     }
   },
   {
@@ -149,7 +181,9 @@
     "fields": {
       "total_revenue": 6950,
       "total_sold_items": 33,
-      "products": "ec5d0417-cf10-456c-a84a-f152045abc1c"
+      "products": "ec5d0417-cf10-456c-a84a-f152045abc1c",
+      "checkoutDate":"2025-03-11T08:32:20",
+      "user":"4ec3f946-d1a3-4f05-a848-6918b5d7fcd7"
     }
   },
   {
@@ -158,7 +192,9 @@
     "fields": {
       "total_revenue": 4700,
       "total_sold_items": 23,
-      "products": "eafc178f-810b-4c32-8fd6-5d848ad408e9"
+      "products": "eafc178f-810b-4c32-8fd6-5d848ad408e9",
+      "checkoutDate":"2023-03-15T14:27:49",
+      "user":"2743fb8e-a51d-4885-b004-28abffc5ff10"
     }
   },
   {
@@ -167,7 +203,9 @@
     "fields": {
       "total_revenue": 3940,
       "total_sold_items": 18,
-      "products": "da9c6a45-5d8f-4ea5-929b-d0bb321ec370"
+      "products": "da9c6a45-5d8f-4ea5-929b-d0bb321ec370",
+      "checkoutDate":"2024-03-08T23:06:11",
+      "user":"4546465d-538a-4c3f-81e8-5efff785b625"
     }
   },
   {
@@ -176,7 +214,9 @@
     "fields": {
       "total_revenue": 8000,
       "total_sold_items": 36,
-      "products": "cdd4ecf2-845f-4c6e-a8e5-2d344207b143"
+      "products": "cdd4ecf2-845f-4c6e-a8e5-2d344207b143",
+      "checkoutDate":"2025-04-24T00:42:31",
+      "user":"2743fb8e-a51d-4885-b004-28abffc5ff10"
     }
   }
 ]

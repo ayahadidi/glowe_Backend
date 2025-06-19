@@ -14,9 +14,6 @@ class Cart(models.Model):
     id=models.UUIDField(primary_key=True,default=uuid.uuid4,editable=False)
     total_price=models.IntegerField(validators=[MaxValueValidator(100000)],default=0)
     total_items=models.IntegerField(validators=[MaxValueValidator(100)],default=0)
-    user=models.ForeignKey('custom_user.User',on_delete=models.CASCADE)
+    type=models.IntegerField(validators=[MaxValueValidator(10)],default=2)
     promocode=models.ForeignKey('Backend.PromoCode',on_delete=models.CASCADE)
-    type=models.IntegerField(validators=[MaxValueValidator(10)],default=0)
-    
-
-    
+    user=models.ForeignKey('custom_user.User',on_delete=models.CASCADE)

@@ -4,9 +4,11 @@
     "pk": "1",
     "fields": {
       "cart": "e8f3a5b0-d1e2-4a7a-a9f1-123456789001",
-      "product_color":"6d5d99f0-8705-4c68-a84e-1a0b7e635981",
+      "product_color": "6d5d99f0-8705-4c68-a84e-1a0b7e635981",
       "cartItemQuantity": 2,
-      "cartItemPrice": 150
+      "cartItemPrice": 150,
+      "productColor": "#FF0000",
+      "color_name": "Red"
     }
   },
   {
@@ -14,9 +16,11 @@
     "pk": "2",
     "fields": {
       "cart": "b7c920d9-24f4-4b82-a61e-123456789002",
-      "product_color":"a6f4c2a1-5cf1-4c7a-9180-1a2c77ffcb17",
+      "product_color": "a6f4c2a1-5cf1-4c7a-9180-1a2c77ffcb17",
       "cartItemQuantity": 1,
-      "cartItemPrice": 80
+      "cartItemPrice": 80,
+      "productColor": "#0000FF",
+      "color_name": "Blue"
     }
   },
   {
@@ -24,9 +28,11 @@
     "pk": "3",
     "fields": {
       "cart": "bd8e81c0-5b6c-4c3b-b9db-123456789003",
-      "product_color":"14200b6d-4db1-4c7c-a6c2-e13dca6f6464",
+      "product_color": "14200b6d-4db1-4c7c-a6c2-e13dca6f6464",
       "cartItemQuantity": 3,
-      "cartItemPrice": 240
+      "cartItemPrice": 240,
+      "productColor": "#00FF00",
+      "color_name": "Lime"
     }
   },
   {
@@ -34,9 +40,11 @@
     "pk": "4",
     "fields": {
       "cart": "6726bcec-22c9-4e3b-a56f-123456789004",
-      "product_color":"3e0716f7-5e30-4f42-ae7c-84b61a6f92b0",
+      "product_color": "3e0716f7-5e30-4f42-ae7c-84b61a6f92b0",
       "cartItemQuantity": 5,
-      "cartItemPrice": 500
+      "cartItemPrice": 500,
+      "productColor": "#FFFF00",
+      "color_name": "Yellow"
     }
   },
   {
@@ -44,9 +52,11 @@
     "pk": "5",
     "fields": {
       "cart": "20d59310-c5fc-4d50-ae15-123456789005",
-      "product_color":"dfeeb65a-0f7e-4a68-bf3e-d37991c8cfcb",
+      "product_color": "dfeeb65a-0f7e-4a68-bf3e-d37991c8cfcb",
       "cartItemQuantity": 2,
-      "cartItemPrice": 210
+      "cartItemPrice": 210,
+      "productColor": "#000000",
+      "color_name": "Black"
     }
   },
   {
@@ -54,9 +64,11 @@
     "pk": "6",
     "fields": {
       "cart": "f3194b45-9e77-40aa-b134-123456789006",
-      "product_color":"78d0e1a4-4219-4466-b3ef-7d95e5a4c6cd",
+      "product_color": "78d0e1a4-4219-4466-b3ef-7d95e5a4c6cd",
       "cartItemQuantity": 4,
-      "cartItemPrice": 340
+      "cartItemPrice": 340,
+      "productColor": "#FFFFFF",
+      "color_name": "White"
     }
   },
   {
@@ -64,9 +76,11 @@
     "pk": "7",
     "fields": {
       "cart": "77c322d3-26a5-4e1b-a4ab-123456789007",
-      "product_color":"e9d2a2e2-0500-4a35-9e8f-777a9c64393d",
+      "product_color": "e9d2a2e2-0500-4a35-9e8f-777a9c64393d",
       "cartItemQuantity": 1,
-      "cartItemPrice": 120
+      "cartItemPrice": 120,
+      "productColor": "#FFC0CB",
+      "color_name": "Pink"
     }
   },
   {
@@ -74,9 +88,11 @@
     "pk": "8",
     "fields": {
       "cart": "a7c92e9e-b793-4be3-94d6-123456789008",
-      "product_color":"37318343-7471-4e97-a951-5c3e8ed09cb5",
+      "product_color": "37318343-7471-4e97-a951-5c3e8ed09cb5",
       "cartItemQuantity": 2,
-      "cartItemPrice": 240
+      "cartItemPrice": 240,
+      "productColor": "#800080",
+      "color_name": "Purple"
     }
   },
   {
@@ -84,9 +100,11 @@
     "pk": "9",
     "fields": {
       "cart": "cf79d509-b1a1-4571-bda3-123456789009",
-      "product_color":"8cf28432-0559-495a-b59a-16bcaf29b2f6",
+      "product_color": "8cf28432-0559-495a-b59a-16bcaf29b2f6",
       "cartItemQuantity": 3,
-      "cartItemPrice": 285
+      "cartItemPrice": 285,
+      "productColor": "#808080",
+      "color_name": "Gray"
     }
   },
   {
@@ -96,7 +114,9 @@
       "cart": "7ae8ed60-2a97-4db0-82a5-123456789010",
       "product_color": "c1244b32-6a61-4092-8b88-e676176e2f99",
       "cartItemQuantity": 1,
-      "cartItemPrice": 130
+      "cartItemPrice": 130,
+      "productColor": "#A52A2A",
+      "color_name": "Brown"
     }
   },
   {
@@ -104,9 +124,11 @@
     "pk": "11",
     "fields": {
       "cart": "aa348ef6-3c6d-46de-a5be-123456789011",
-      "product_color":"91e84b85-bb87-4236-a6a9-239e38288561",
+      "product_color": "91e84b85-bb87-4236-a6a9-239e38288561",
       "cartItemQuantity": 5,
-      "cartItemPrice": 620
+      "cartItemPrice": 620,
+      "productColor": "#00FFFF",
+      "color_name": "Cyan"
     }
   },
   {
@@ -114,9 +136,11 @@
     "pk": "12",
     "fields": {
       "cart": "05ab9a7a-e1f7-464b-a1cb-123456789012",
-      "product_color":"2df4097d-f7c2-4a44-b2f6-6cd263632f0b",
+      "product_color": "2df4097d-f7c2-4a44-b2f6-6cd263632f0b",
       "cartItemQuantity": 2,
-      "cartItemPrice": 200
+      "cartItemPrice": 200,
+      "productColor": "#FF00FF",
+      "color_name": "Magenta"
     }
   },
   {
@@ -124,9 +148,11 @@
     "pk": "13",
     "fields": {
       "cart": "38b3792b-20b2-4a4b-84ea-123456789013",
-      "product_color":"87f3a91e-f6c0-4075-8753-9783173f7297",
+      "product_color": "87f3a91e-f6c0-4075-8753-9783173f7297",
       "cartItemQuantity": 4,
-      "cartItemPrice": 460
+      "cartItemPrice": 460,
+      "productColor": "#ADD8E6",
+      "color_name": "Light Blue"
     }
   },
   {
@@ -134,9 +160,11 @@
     "pk": "14",
     "fields": {
       "cart": "b31b9f88-3e0b-49d1-81ae-123456789015",
-      "product_color":"49813e6e-5063-4432-a37b-348dc429c7d0",
+      "product_color": "49813e6e-5063-4432-a37b-348dc429c7d0",
       "cartItemQuantity": 3,
-      "cartItemPrice": 375
+      "cartItemPrice": 375,
+      "productColor": "#00008B",
+      "color_name": "Dark Blue"
     }
   },
   {
@@ -144,9 +172,11 @@
     "pk": "15",
     "fields": {
       "cart": "91b15b56-f78f-4dd6-a5a1-123456789016",
-      "product_color":"9c372f6d-054e-4e5f-9e4e-cac3d3a206d2",
+      "product_color": "9c372f6d-054e-4e5f-9e4e-cac3d3a206d2",
       "cartItemQuantity": 1,
-      "cartItemPrice": 100
+      "cartItemPrice": 100,
+      "productColor": "#90EE90",
+      "color_name": "Light Green"
     }
   },
   {
@@ -154,9 +184,11 @@
     "pk": "16",
     "fields": {
       "cart": "d9d35059-dfcd-4383-8f0f-123456789017",
-      "product_color":"b36112fb-1457-4e20-b170-5a861e5eecf1",
+      "product_color": "b36112fb-1457-4e20-b170-5a861e5eecf1",
       "cartItemQuantity": 2,
-      "cartItemPrice": 220
+      "cartItemPrice": 220,
+      "productColor": "#006400",
+      "color_name": "Dark Green"
     }
   },
   {
@@ -164,9 +196,11 @@
     "pk": "17",
     "fields": {
       "cart": "f2a6ef72-4e35-4197-91a3-123456789018",
-      "product_color":"553b7d63-604f-420e-b16f-b75bd2b38d41",
+      "product_color": "553b7d63-604f-420e-b16f-b75bd2b38d41",
       "cartItemQuantity": 4,
-      "cartItemPrice": 440
+      "cartItemPrice": 440,
+      "productColor": "#FFA500",
+      "color_name": "Orange"
     }
   }
 ]
