@@ -5,7 +5,9 @@
     "fields": {
       "total_price": 45320,
       "total_items": 7,
-      "user": "08d8530d-3c00-4915-8077-a3c0a78e26e7"
+      "user": "08d8530d-3c00-4915-8077-a3c0a78e26e7",
+      "promocode":1,
+      "type":2
     }
   },
   {
@@ -14,7 +16,9 @@
     "fields": {
       "total_price": 10250,
       "total_items": 2,
-      "user": "127220fc-07c2-452f-a4e5-800919ac7a60"
+      "user": "127220fc-07c2-452f-a4e5-800919ac7a60",
+      "promocode":2,
+      "type":2
     }
   },
   {
@@ -23,7 +27,9 @@
     "fields": {
       "total_price": 8700,
       "total_items": 1,
-      "user": "2743fb8e-a51d-4885-b004-28abffc5ff10"
+      "user": "2743fb8e-a51d-4885-b004-28abffc5ff10",
+      "promocode":3,
+      "type":2
     }
   },
   {
@@ -32,7 +38,9 @@
     "fields": {
       "total_price": 9999,
       "total_items": 3,
-      "user": "37879e2a-fe4b-4643-b226-4ca0acdb5363"
+      "user": "37879e2a-fe4b-4643-b226-4ca0acdb5363",
+      "promocode":4,
+      "type":2
     }
   },
   {
@@ -41,7 +49,9 @@
     "fields": {
       "total_price": 15000,
       "total_items": 5,
-      "user": "4546465d-538a-4c3f-81e8-5efff785b625"
+      "user": "4546465d-538a-4c3f-81e8-5efff785b625",
+      "promocode":5,
+      "type":2
     }
   },
   {
@@ -50,7 +60,9 @@
     "fields": {
       "total_price": 48000,
       "total_items": 10,
-      "user": "45ecef07-d25d-4f89-8975-4dac4d78953b"
+      "user": "45ecef07-d25d-4f89-8975-4dac4d78953b",
+      "promocode":6,
+      "type":2
     }
   },
   {
@@ -59,7 +71,9 @@
     "fields": {
       "total_price": 21500,
       "total_items": 4,
-      "user": "4a3ad2b6-463d-4bb9-bd38-656bb32c443c"
+      "user": "4a3ad2b6-463d-4bb9-bd38-656bb32c443c",
+      "promocode":7,
+      "type":2
     }
   },
   {
@@ -68,7 +82,9 @@
     "fields": {
       "total_price": 13200,
       "total_items": 2,
-      "user": "4a5c9db5-29cd-4573-8df2-29ff3ef3c5cb"
+      "user": "4a5c9db5-29cd-4573-8df2-29ff3ef3c5cb",
+      "promocode":8,
+      "type":2
     }
   },
   {
@@ -77,7 +93,9 @@
     "fields": {
       "total_price": 9870,
       "total_items": 1,
-      "user": "4a6172cc-846e-431f-9f9a-d72636424f7d"
+      "user": "4a6172cc-846e-431f-9f9a-d72636424f7d",
+      "promocode":9,
+      "type":2
     }
   },
   {
@@ -86,7 +104,9 @@
     "fields": {
       "total_price": 7500,
       "total_items": 1,
-      "user": "4ec3f946-d1a3-4f05-a848-6918b5d7fcd7"
+      "user": "4ec3f946-d1a3-4f05-a848-6918b5d7fcd7",
+      "promocode":10,
+      "type":2
     }
   },
   {
@@ -95,7 +115,9 @@
     "fields": {
       "total_price": 6200,
       "total_items": 1,
-      "user": "bef9cfef-1781-4c51-bced-f2c6415f5e58"
+      "user": "bef9cfef-1781-4c51-bced-f2c6415f5e58",
+      "promocode":11,
+      "type":2
     }
   },
   {
@@ -104,7 +126,9 @@
     "fields": {
       "total_price": 9000,
       "total_items": 2,
-      "user": "c3a385ee-0f3e-4d67-ba58-e414d84a9fda"
+      "user": "c3a385ee-0f3e-4d67-ba58-e414d84a9fda",
+      "promocode":12,
+      "type":2
     }
   },
   {
@@ -113,7 +137,9 @@
     "fields": {
       "total_price": 27000,
       "total_items": 5,
-      "user": "c6eb0dfc-b456-44e5-b596-69dcec1bd0d5"
+      "user": "c6eb0dfc-b456-44e5-b596-69dcec1bd0d5",
+      "promocode":13,
+      "type":2
     }
   },
   {
@@ -122,7 +148,9 @@
     "fields": {
       "total_price": 8200,
       "total_items": 2,
-      "user": "cc9edc62-0632-4bf2-95f0-66b974787612"
+      "user": "cc9edc62-0632-4bf2-95f0-66b974787612",
+      "promocode":14,
+      "type":2
     }
   },
   {
@@ -131,7 +159,9 @@
     "fields": {
       "total_price": 10700,
       "total_items": 3,
-      "user": "d3e53198-cb7f-4014-a5fc-9cd0f4e554a8"
+      "user": "d3e53198-cb7f-4014-a5fc-9cd0f4e554a8",
+      "promocode":15,
+      "type":2
     }
   },
   {
@@ -140,7 +170,9 @@
     "fields": {
       "total_price": 3000,
       "total_items": 1,
-      "user": "ded89f5b-6429-4498-b88a-d27eb69b95ad"
+      "user": "ded89f5b-6429-4498-b88a-d27eb69b95ad",
+      "promocode":16,
+      "type":2
     }
   },
   {
@@ -149,7 +181,9 @@
     "fields": {
       "total_price": 6500,
       "total_items": 1,
-      "user": "df4ffaf4-d1ed-4467-afb7-b88d06ff39ef"
+      "user": "df4ffaf4-d1ed-4467-afb7-b88d06ff39ef",
+      "promocode":17,
+      "type":2
     }
   },
   {
@@ -158,7 +192,9 @@
     "fields": {
       "total_price": 33000,
       "total_items": 6,
-      "user": "e3885753-ed1a-4be8-89f4-25263ba95171"
+      "user": "e3885753-ed1a-4be8-89f4-25263ba95171",
+      "promocode":18,
+      "type":2
     }
   },
   {
@@ -167,7 +203,9 @@
     "fields": {
       "total_price": 12500,
       "total_items": 2,
-      "user": "f13a157e-e8d4-435c-8fb5-daeddb128d85"
+      "user": "f13a157e-e8d4-435c-8fb5-daeddb128d85",
+      "promocode":19,
+      "type":2
     }
   }
 ]

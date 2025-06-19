@@ -8,14 +8,17 @@ class wishlist_Item_serializer(serializers.ModelSerializer):
         fields = ['product_color']
 
     def create(self, validated_data):
-        user = self.context['request'].user  # Access request from context
+        user = self.context['request'].user  
         wishlist, _ = Wishlist.objects.get_or_create(user=user)
 
-        product_color = validated_data['product_color']
+        product_color = validated_data.get['product_color']
 
-        wishlist_item, created = wishlist_Item.objects.get_or_create(
+        wishlist_item,_ = wishlist_Item.objects.get_or_create(
             wishlist=wishlist,
-            product_color=product_color
+            product_color=product_color,
+            defaults={
+                'product_color': product_color,
+            }
         )
 
         return wishlist_item

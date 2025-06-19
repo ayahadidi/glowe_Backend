@@ -4,5 +4,6 @@ from django.core.validators import MaxValueValidator
 class wishlist_Item(models.Model):
     id = models.AutoField(primary_key=True, editable=False)
     wishlist=models.ForeignKey('Backend.Wishlist',on_delete=models.CASCADE)
-    product_color=models.ForeignKey('Backend.ProductsColors',on_delete=models.CASCADE)
-
+    product=models.ForeignKey('Backend.Products',on_delete=models.CASCADE)
+    productColor=models.CharField(max_length=50)
+    ColorName=models.CharField(max_length=100)
