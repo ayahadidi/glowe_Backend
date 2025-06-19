@@ -9,14 +9,6 @@ https://docs.djangoproject.com/en/5.2/topics/settings/
 For the full list of settings and their values, see
 https://docs.djangoproject.com/en/5.2/ref/settings/
 """
-from dotenv import load_dotenv
-import os
-
-load_dotenv()  # loads variables from .env into environment
-
-# Now you can use os.getenv to get variables
-db_name = os.getenv('DB_NAME')
-
 
 from pathlib import Path
 
