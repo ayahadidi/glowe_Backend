@@ -9,7 +9,7 @@ class CartItem_Serializer(serializers.ModelSerializer):
         fields = ['id', 'product_color', 'cartItemQuantity', 'cartItemPrice']
 
     def create(self, validated_data):
-        user=self.request.user
+        user = self.context['request'].user
         cart,_=Cart.objects.get_or_create(user=user)
 
         product_color = validated_data.get('product_color')
