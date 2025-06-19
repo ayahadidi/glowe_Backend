@@ -8,6 +8,7 @@ class CartItem(models.Model):
     product=models.ForeignKey('Backend.Products',on_delete=models.CASCADE)
     cart=models.ForeignKey('Backend.Cart',on_delete=models.CASCADE)
     productColor=models.CharField(max_length=50)
+    ColorName=models.CharField(max_length=100)
 
 
 
