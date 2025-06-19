@@ -10,7 +10,8 @@
       "price": 199,
       "ingredients": "Vitamin C, Hyaluronic Acid, Green Tea Extract",
       "brandName": "Glowify",
-      "TotalSoldOfProduct": 54
+      "TotalSoldOfProduct": 54,
+      "TotalRating": 0
     }
   },
   {
@@ -24,7 +25,8 @@
       "price": 89,
       "ingredients": "Aloe Vera, Chamomile, Jojoba Oil",
       "brandName": "NaturePure",
-      "TotalSoldOfProduct": 130
+      "TotalSoldOfProduct": 130,
+      "TotalRating": 0
     }
   },
   {
@@ -38,7 +40,8 @@
       "price": 250,
       "ingredients": "Glycerin, Aloe Extract, Collagen",
       "brandName": "HydraSkin",
-      "TotalSoldOfProduct": 89
+      "TotalSoldOfProduct": 89,
+      "TotalRating": 0
     }
   },
   {
@@ -52,7 +55,8 @@
       "price": 315,
       "ingredients": "Silica, Titanium Dioxide, Vitamin E",
       "brandName": "Cosmex",
-      "TotalSoldOfProduct": 170
+      "TotalSoldOfProduct": 170,
+      "TotalRating": 0
     }
   },
   {
@@ -66,7 +70,8 @@
       "price": 45,
       "ingredients": "Beeswax, Shea Butter, Berry Extract",
       "brandName": "FreshFace",
-      "TotalSoldOfProduct": 450
+      "TotalSoldOfProduct": 450,
+      "TotalRating": 0
     }
   },
   {
@@ -80,7 +85,8 @@
       "price": 135,
       "ingredients": "Rose Water, Ginseng, Vitamin B3",
       "brandName": "Mistify",
-      "TotalSoldOfProduct": 108
+      "TotalSoldOfProduct": 108,
+      "TotalRating": 0
     }
   },
   {
@@ -94,7 +100,8 @@
       "price": 170,
       "ingredients": "Charcoal, Clay, Witch Hazel",
       "brandName": "PureElements",
-      "TotalSoldOfProduct": 320
+      "TotalSoldOfProduct": 320,
+      "TotalRating": 0
     }
   },
   {
@@ -108,7 +115,8 @@
       "price": 390,
       "ingredients": "Retinol, Vitamin E, Coconut Oil",
       "brandName": "SkinCare+",
-      "TotalSoldOfProduct": 95
+      "TotalSoldOfProduct": 95,
+      "TotalRating": 0
     }
   },
   {
@@ -122,7 +130,8 @@
       "price": 220,
       "ingredients": "Zinc Oxide, Aloe Vera, Vitamin C",
       "brandName": "BeautyShield",
-      "TotalSoldOfProduct": 140
+      "TotalSoldOfProduct": 140,
+      "TotalRating": 0
     }
   },
   {
@@ -136,7 +145,8 @@
       "price": 160,
       "ingredients": "Argan Oil, Castor Oil, Rosemary",
       "brandName": "Botanix",
-      "TotalSoldOfProduct": 300
+      "TotalSoldOfProduct": 300,
+      "TotalRating": 0
     }
   },
   {
@@ -150,7 +160,8 @@
       "price": 115,
       "ingredients": "Cucumber Extract, Witch Hazel, Rose Oil",
       "brandName": "FreshGlow",
-      "TotalSoldOfProduct": 88
+      "TotalSoldOfProduct": 88,
+      "TotalRating": 0
     }
   },
   {
@@ -164,7 +175,8 @@
       "price": 180,
       "ingredients": "Caffeine, Shea Butter, Vitamin K",
       "brandName": "DermaBeauty",
-      "TotalSoldOfProduct": 52
+      "TotalSoldOfProduct": 52,
+      "TotalRating": 0
     }
   },
   {
@@ -178,7 +190,8 @@
       "price": 105,
       "ingredients": "Sea Salt, Lavender Oil, Almond Oil",
       "brandName": "RelaxGlow",
-      "TotalSoldOfProduct": 180
+      "TotalSoldOfProduct": 180,
+      "TotalRating": 0
     }
   },
   {
@@ -192,7 +205,8 @@
       "price": 299,
       "ingredients": "Ascorbic Acid, Ferulic Acid, Vitamin E",
       "brandName": "GlowLabs",
-      "TotalSoldOfProduct": 222
+      "TotalSoldOfProduct": 222,
+      "TotalRating": 0
     }
   },
   {
@@ -206,7 +220,8 @@
       "price": 75,
       "ingredients": "Aloe Vera, Mint Extract",
       "brandName": "NatureCool",
-      "TotalSoldOfProduct": 315
+      "TotalSoldOfProduct": 315,
+      "TotalRating": 0
     }
   },
   {
@@ -220,7 +235,8 @@
       "price": 135,
       "ingredients": "Milk Proteins, Shea Butter, Vitamin B5",
       "brandName": "SkinGentle",
-      "TotalSoldOfProduct": 144
+      "TotalSoldOfProduct": 144,
+      "TotalRating": 0
     }
   },
   {
@@ -234,7 +250,8 @@
       "price": 55,
       "ingredients": "Beeswax, Peach Extract, Shea Butter",
       "brandName": "ShinePop",
-      "TotalSoldOfProduct": 410
+      "TotalSoldOfProduct": 410,
+      "TotalRating": 0
     }
   }
 ]
