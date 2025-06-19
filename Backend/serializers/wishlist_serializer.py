@@ -1,7 +1,15 @@
 from rest_framework import serializers
 from ..Models.wishlist_model import Wishlist
 
-class wishlistSerializer(serializers.Serializer):
+# cartitem_set to handle reverse for a ForeignKey in Djanggo
+class wishlistSerializer(serializers.ModelSerializer):
+
+    wishList_items = wishlist_Item_serializer(source='wishlistitem_set', many=True, read_only=True)
+
     class Meta:
         model=Wishlist
-        fields=['product_color']
+        fields=['id','user','wishList_items']
+
+
+
+
