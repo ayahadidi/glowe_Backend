@@ -11,7 +11,6 @@ class addTo_WishList(APIView):
     permission_classes=[IsAuthenticated]
 
     def post(self, request,product_color_id):
-        user=request.user
 
         try:
             product_color=ProductsColors.objects.get(id=product_color_id)
