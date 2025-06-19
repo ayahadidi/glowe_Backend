@@ -102,6 +102,7 @@ import pymysql,os
 from dotenv import load_dotenv
 pymysql.install_as_MySQLdb()
 load_dotenv()
+
 DATABASES = {
     'default': {
         'ENGINE': os.getenv('DB_ENGINE'),
