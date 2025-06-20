@@ -20,7 +20,7 @@ class CartItem_Serializer(serializers.ModelSerializer):
 
         cart_item, created = CartItem.objects.get_or_create(
             cart=cart,
-            Product =Product,
+            product =Product,
             defaults={
                 'cartItemQuantity': quantity,
                 'cartItemPrice': price,
