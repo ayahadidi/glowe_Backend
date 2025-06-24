@@ -7,7 +7,9 @@
       "total_sold_items": 17,
       "products": "04ad7a68-7d49-4c94-924c-5d7e1a9d16cb",
       "checkoutDate":"2024-08-04T07:15:09",
-      "user":"4a6172cc-846e-431f-9f9a-d72636424f7d"
+      "user":"4a6172cc-846e-431f-9f9a-d72636424f7d",
+      "cart":"e8f3a5b0-d1e2-4a7a-a9f1-123456789001",
+      "inventory":"a4c83b8f-bfd1-4d5e-bb84-000000000001"
     }
   },
   {
@@ -18,7 +20,9 @@
       "total_sold_items": 30,
       "products": "13f88063-6343-4a52-803e-863937402e58",
       "checkoutDate":"2024-05-19T00:32:44",
-      "user":"08d8530d-3c00-4915-8077-a3c0a78e26e7"
+      "user":"08d8530d-3c00-4915-8077-a3c0a78e26e7",
+      "cart":"b7c920d9-24f4-4b82-a61e-123456789002",
+      "inventory":"b1fbbafe-95e0-4b2f-bd1a-000000000002"
     }
   },
   {
@@ -29,7 +33,9 @@
       "total_sold_items": 12,
       "products": "41d42f9d-caf1-41b6-9e6d-1c6c5f871cd1",
       "checkoutDate":"2023-09-17T02:29:18",
-      "user":"d3e53198-cb7f-4014-a5fc-9cd0f4e554a8"
+      "user":"d3e53198-cb7f-4014-a5fc-9cd0f4e554a8",
+      "cart":"bd8e81c0-5b6c-4c3b-b9db-123456789003",
+      "inventory":"c6d8f5c9-7f0a-4f94-bc7e-000000000003"
     }
   },
   {
@@ -40,7 +46,9 @@
       "total_sold_items": 25,
       "products": "4ad9787f-b1b9-470b-b929-bfd058e3ef7b",
       "checkoutDate":"2025-02-08T11:24:56",
-      "user":"e3885753-ed1a-4be8-89f4-25263ba95171"
+      "user":"e3885753-ed1a-4be8-89f4-25263ba95171",
+      "cart":"6726bcec-22c9-4e3b-a56f-123456789004",
+      "inventory":"d9b0e0a7-71db-4e60-a7dc-000000000004"
     }
   },
   {
@@ -51,7 +59,9 @@
       "total_sold_items": 19,
       "products": "6be03f1e-8b23-4d79-aad2-c1b4e57c2d01",
       "checkoutDate":"2023-07-14T18:48:20",
-      "user":"cc9edc62-0632-4bf2-95f0-66b974787612"
+      "user":"cc9edc62-0632-4bf2-95f0-66b974787612",
+      "cart":"20d59310-c5fc-4d50-ae15-123456789005",
+      "inventory":"e2a1cd67-6f6f-49cb-b1aa-000000000005"
     }
   },
   {
@@ -62,7 +72,9 @@
       "total_sold_items": 31,
       "products": "8aa2c51e-47d9-4f94-bd93-b35dc0f812c6",
       "checkoutDate":"2024-01-22T21:36:00",
-      "user":"f13a157e-e8d4-435c-8fb5-daeddb128d85"
+      "user":"f13a157e-e8d4-435c-8fb5-daeddb128d85",
+      "cart":"f3194b45-9e77-40aa-b134-123456789006",
+      "inventory":"f17de688-cb4e-4a5c-bcb0-000000000006"
     }
   },
   {
@@ -73,7 +85,9 @@
       "total_sold_items": 8,
       "products": "90a9f2b1-2b9b-44fc-a5fd-9d3f79e7cf26",
       "checkoutDate":"2024-11-06T05:41:10",
-      "user":"c6eb0dfc-b456-44e5-b596-69dcec1bd0d5"
+      "user":"c6eb0dfc-b456-44e5-b596-69dcec1bd0d5",
+      "cart":"77c322d3-26a5-4e1b-a4ab-123456789007",
+      "inventory":"09ec2ae6-1043-4bc6-8cc0-000000000007"
     }
   },
   {
@@ -84,7 +98,9 @@
       "total_sold_items": 43,
       "products": "a2a1c7df-7f53-4a34-902f-1e5f30f4dd3e",
       "checkoutDate":"2023-11-28T15:10:41",
-      "user":"ded89f5b-6429-4498-b88a-d27eb69b95ad"
+      "user":"ded89f5b-6429-4498-b88a-d27eb69b95ad",
+      "cart":"a7c92e9e-b793-4be3-94d6-123456789008",
+      "inventory":"115347f2-4e6c-4a10-8de4-000000000008"
     }
   },
   {
@@ -95,7 +111,9 @@
       "total_sold_items": 14,
       "products": "a64ed40e-9f98-4cf6-9b58-01e1dc93f570",
       "checkoutDate":"2023-02-03T09:00:16",
-      "user":"df4ffaf4-d1ed-4467-afb7-b88d06ff39ef"
+      "user":"df4ffaf4-d1ed-4467-afb7-b88d06ff39ef",
+      "cart":"cf79d509-b1a1-4571-bda3-123456789009",
+      "inventory":"221ab630-32ee-48c4-a338-000000000009"
     }
   },
   {
@@ -106,7 +124,9 @@
       "total_sold_items": 20,
       "products": "ab0a1716-bd3a-4cb6-bc93-9309c3d40e0e",
       "checkoutDate":"2025-06-06T16:14:03",
-      "user":"4a3ad2b6-463d-4bb9-bd38-656bb32c443c"
+      "user":"4a3ad2b6-463d-4bb9-bd38-656bb32c443c",
+      "cart":"7ae8ed60-2a97-4db0-82a5-123456789010",
+      "inventory":"3162ef4b-d79d-4642-9f33-000000000010"
     }
   },
   {
@@ -117,7 +137,9 @@
       "total_sold_items": 6,
       "products": "b782098f-2ac0-4457-8bc6-5c2225a8cfde",
       "checkoutDate":"2024-07-09T13:52:05",
-      "user":"4a5c9db5-29cd-4573-8df2-29ff3ef3c5cb"
+      "user":"4a5c9db5-29cd-4573-8df2-29ff3ef3c5cb",
+      "cart":"aa348ef6-3c6d-46de-a5be-123456789011",
+      "inventory":"4287f25c-e7a7-4131-9b87-000000000011"
     }
   },
   {
@@ -128,7 +150,9 @@
       "total_sold_items": 35,
       "products": "c34ae285-17d7-4e23-b6e3-d3f894ac2993",
       "checkoutDate":"2023-06-23T03:35:59",
-      "user":"bef9cfef-1781-4c51-bced-f2c6415f5e58"
+      "user":"bef9cfef-1781-4c51-bced-f2c6415f5e58",
+      "cart":"05ab9a7a-e1f7-464b-a1cb-123456789012",
+      "inventory":"53b2a8ea-2098-4d84-b84d-000000000012"
     }
   },
   {
@@ -139,7 +163,9 @@
       "total_sold_items": 39,
       "products": "cc8c97ad-6751-41e9-864c-8a7a041756a3",
       "checkoutDate":"2025-01-05T19:12:38",
-      "user":"c3a385ee-0f3e-4d67-ba58-e414d84a9fda"
+      "user":"c3a385ee-0f3e-4d67-ba58-e414d84a9fda",
+      "cart":"38b3792b-20b2-4a4b-84ea-123456789013",
+      "inventory":"64e358af-2891-4ee8-a1aa-000000000013"
     }
   },
   {
@@ -150,7 +176,9 @@
       "total_sold_items": 21,
       "products": "cdd4ecf2-845f-4c6e-a8e5-2d344207b143",
       "checkoutDate":"2023-08-01T10:44:27",
-      "user":"127220fc-07c2-452f-a4e5-800919ac7a60"
+      "user":"127220fc-07c2-452f-a4e5-800919ac7a60",
+      "cart":"b31b9f88-3e0b-49d1-81ae-123456789015",
+      "inventory":"757db35e-768c-4c83-8b13-000000000014"
     }
   },
   {
@@ -161,7 +189,9 @@
       "total_sold_items": 11,
       "products": "da9c6a45-5d8f-4ea5-929b-d0bb321ec370",
       "checkoutDate":"2024-10-17T22:51:48",
-      "user":"45ecef07-d25d-4f89-8975-4dac4d78953b"
+      "user":"45ecef07-d25d-4f89-8975-4dac4d78953b",
+      "cart":"91b15b56-f78f-4dd6-a5a1-123456789016",
+      "inventory":"86501c69-13c1-4c0e-bd92-000000000015"
     }
   },
   {
@@ -172,7 +202,9 @@
       "total_sold_items": 26,
       "products": "eafc178f-810b-4c32-8fd6-5d848ad408e9",
       "checkoutDate":"2024-06-28T17:24:13",
-      "user":"37879e2a-fe4b-4643-b226-4ca0acdb5363"
+      "user":"37879e2a-fe4b-4643-b226-4ca0acdb5363",
+      "cart":"d9d35059-dfcd-4383-8f0f-123456789017",
+      "inventory":"97f7f7ec-3b2a-4db7-a8d5-000000000016"
     }
   },
   {
@@ -183,7 +215,9 @@
       "total_sold_items": 33,
       "products": "ec5d0417-cf10-456c-a84a-f152045abc1c",
       "checkoutDate":"2025-03-11T08:32:20",
-      "user":"4ec3f946-d1a3-4f05-a848-6918b5d7fcd7"
+      "user":"4ec3f946-d1a3-4f05-a848-6918b5d7fcd7",
+      "cart":"f2a6ef72-4e35-4197-91a3-123456789018",
+      "inventory":"a87aa6fa-5b4c-4cc2-8a68-000000000017"
     }
   },
   {
@@ -194,7 +228,9 @@
       "total_sold_items": 23,
       "products": "eafc178f-810b-4c32-8fd6-5d848ad408e9",
       "checkoutDate":"2023-03-15T14:27:49",
-      "user":"2743fb8e-a51d-4885-b004-28abffc5ff10"
+      "user":"2743fb8e-a51d-4885-b004-28abffc5ff10",
+      "cart":"41c8d9b5-2c9d-43bc-b437-123456789019",
+      "inventory":"b98b6fa5-237e-4c7b-95ea-000000000018"
     }
   },
   {
@@ -205,7 +241,9 @@
       "total_sold_items": 18,
       "products": "da9c6a45-5d8f-4ea5-929b-d0bb321ec370",
       "checkoutDate":"2024-03-08T23:06:11",
-      "user":"4546465d-538a-4c3f-81e8-5efff785b625"
+      "user":"4546465d-538a-4c3f-81e8-5efff785b625",
+      "cart":"d3bc91f4-2f35-498c-aadc-123456789020",
+      "inventory":"caaeaf18-b205-4fd7-8f5f-000000000019"
     }
   },
   {
@@ -216,7 +254,9 @@
       "total_sold_items": 36,
       "products": "cdd4ecf2-845f-4c6e-a8e5-2d344207b143",
       "checkoutDate":"2025-04-24T00:42:31",
-      "user":"2743fb8e-a51d-4885-b004-28abffc5ff10"
+      "user":"2743fb8e-a51d-4885-b004-28abffc5ff10",
+      "cart":"41c8d9b5-2c9d-43bc-b437-123456789019",
+      "inventory":"dcbbc488-44e7-4b8e-9e17-000000000020"
     }
   }
 ]
