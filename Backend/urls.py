@@ -7,8 +7,8 @@ from .views.addToCart_view import AddToCartView
 from .views.productInfo_view import productInfo_view
 from .views.wishlist_ListView import wishlist_ListView
 from .views.cartList_view import cartList_view
-from .views.delete_cart_item import delete_cart_item
-from .views.minus_cartItem import minus_cartItem
+from .views.delete_cart_item_view import delete_cart_item
+from .views.minus_cartItem_view import minus_cartItem
 from .views.CheckoutView import CheckoutView
 
 
