@@ -10,7 +10,7 @@ from .views.cartList_view import cartList_view
 from .views.delete_cart_item_view import delete_cart_item
 from .views.minus_cartItem_view import minus_cartItem
 from .views.CheckoutView import CheckoutView
-
+from .views.clearItems_view import Clear
 
 urlpatterns = [
     path('api/bestSellers/', Best_Sellers_View.as_view(), name='product-list'),
@@ -23,7 +23,6 @@ urlpatterns = [
     path('api/wishlist_ListView/', wishlist_ListView.as_view(), name="wishlist_List"),
     path('api/delete_cart_item/<int:cartItem_id>', delete_cart_item.as_view(), name="delete_cart_item"),
     path('api/minus_cartItem/<int:cartItem_id>', minus_cartItem.as_view(), name="minus_cartItem"),
-    path('checkout/', CheckoutView.as_view(), name='checkout')
-
-    
+    path('checkout/', CheckoutView.as_view(), name='checkout'),
+    path('api/clear_items/<uuid:cart_or_wishlist_id>/',Clear.as_view(),name='clear_items')
 ]
