@@ -23,7 +23,6 @@ urlpatterns = [
     path('api/wishlist_ListView/', wishlist_ListView.as_view(), name="wishlist_List"),
     path('api/delete_cart_item/<int:cartItem_id>', delete_cart_item.as_view(), name="delete_cart_item"),
     path('api/minus_cartItem/<int:cartItem_id>', minus_cartItem.as_view(), name="minus_cartItem"),
+    path('api/clear_items/<uuid:cart_or_wishlist_id>/',Clear.as_view(),name='clear_items')
     #path('checkout/', CheckoutView.as_view(), name='checkout')
-
-    
 ]
