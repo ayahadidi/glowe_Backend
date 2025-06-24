@@ -9,7 +9,9 @@ from .views.wishlist_ListView import wishlist_ListView
 from .views.cartList_view import cartList_view
 from .views.delete_cart_item import delete_cart_item
 from .views.minus_cartItem import minus_cartItem
-from Backend.views.CheckoutView import CheckoutView
+from .views.CheckoutView import CheckoutView
+
+
 urlpatterns = [
     path('api/bestSellers/', Best_Sellers_View.as_view(), name='product-list'),
     path('api/categories/', CategoryListView.as_view(),name="category-list"),

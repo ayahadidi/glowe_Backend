@@ -1,3 +1,4 @@
+#inventory model
 from django.db import models
 import uuid
 from .product_model import Products
