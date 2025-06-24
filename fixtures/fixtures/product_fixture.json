@@ -11,7 +11,9 @@
       "ingredients": "Vitamin C, Hyaluronic Acid, Green Tea Extract",
       "brandName": "Glowify",
       "TotalSoldOfProduct": 54,
-      "TotalRating": 0
+      "TotalRating": 0,
+      "sumOfRatings": 0,
+      "numberOfRatings": 0
     }
   },
   {
@@ -26,7 +28,9 @@
       "ingredients": "Aloe Vera, Chamomile, Jojoba Oil",
       "brandName": "NaturePure",
       "TotalSoldOfProduct": 130,
-      "TotalRating": 0
+      "TotalRating": 0,
+      "sumOfRatings": 0,
+      "numberOfRatings": 0
     }
   },
   {
@@ -41,7 +45,9 @@
       "ingredients": "Glycerin, Aloe Extract, Collagen",
       "brandName": "HydraSkin",
       "TotalSoldOfProduct": 89,
-      "TotalRating": 0
+      "TotalRating": 0,
+      "sumOfRatings": 0,
+      "numberOfRatings": 0
     }
   },
   {
@@ -56,7 +62,9 @@
       "ingredients": "Silica, Titanium Dioxide, Vitamin E",
       "brandName": "Cosmex",
       "TotalSoldOfProduct": 170,
-      "TotalRating": 0
+      "TotalRating": 0,
+      "sumOfRatings": 0,
+      "numberOfRatings": 0
     }
   },
   {
@@ -71,7 +79,9 @@
       "ingredients": "Beeswax, Shea Butter, Berry Extract",
       "brandName": "FreshFace",
       "TotalSoldOfProduct": 450,
-      "TotalRating": 0
+      "TotalRating": 0,
+      "sumOfRatings": 0,
+      "numberOfRatings": 0
     }
   },
   {
@@ -86,7 +96,9 @@
       "ingredients": "Rose Water, Ginseng, Vitamin B3",
       "brandName": "Mistify",
       "TotalSoldOfProduct": 108,
-      "TotalRating": 0
+      "TotalRating": 0,
+      "sumOfRatings": 0,
+      "numberOfRatings": 0
     }
   },
   {
@@ -101,7 +113,9 @@
       "ingredients": "Charcoal, Clay, Witch Hazel",
       "brandName": "PureElements",
       "TotalSoldOfProduct": 320,
-      "TotalRating": 0
+      "TotalRating": 0,
+      "sumOfRatings": 0,
+      "numberOfRatings": 0
     }
   },
   {
@@ -116,7 +130,9 @@
       "ingredients": "Retinol, Vitamin E, Coconut Oil",
       "brandName": "SkinCare+",
       "TotalSoldOfProduct": 95,
-      "TotalRating": 0
+      "TotalRating": 0,
+      "sumOfRatings": 0,
+      "numberOfRatings": 0
     }
   },
   {
@@ -131,7 +147,9 @@
       "ingredients": "Zinc Oxide, Aloe Vera, Vitamin C",
       "brandName": "BeautyShield",
       "TotalSoldOfProduct": 140,
-      "TotalRating": 0
+      "TotalRating": 0,
+      "sumOfRatings": 0,
+      "numberOfRatings": 0
     }
   },
   {
@@ -146,7 +164,9 @@
       "ingredients": "Argan Oil, Castor Oil, Rosemary",
       "brandName": "Botanix",
       "TotalSoldOfProduct": 300,
-      "TotalRating": 0
+      "TotalRating": 0,
+      "sumOfRatings": 0,
+      "numberOfRatings": 0
     }
   },
   {
@@ -161,7 +181,9 @@
       "ingredients": "Cucumber Extract, Witch Hazel, Rose Oil",
       "brandName": "FreshGlow",
       "TotalSoldOfProduct": 88,
-      "TotalRating": 0
+      "TotalRating": 0,
+      "sumOfRatings": 0,
+      "numberOfRatings": 0
     }
   },
   {
@@ -176,7 +198,9 @@
       "ingredients": "Caffeine, Shea Butter, Vitamin K",
       "brandName": "DermaBeauty",
       "TotalSoldOfProduct": 52,
-      "TotalRating": 0
+      "TotalRating": 0,
+      "sumOfRatings": 0,
+      "numberOfRatings": 0
     }
   },
   {
@@ -191,7 +215,9 @@
       "ingredients": "Sea Salt, Lavender Oil, Almond Oil",
       "brandName": "RelaxGlow",
       "TotalSoldOfProduct": 180,
-      "TotalRating": 0
+      "TotalRating": 0,
+      "sumOfRatings": 0,
+      "numberOfRatings": 0
     }
   },
   {
@@ -206,7 +232,9 @@
       "ingredients": "Ascorbic Acid, Ferulic Acid, Vitamin E",
       "brandName": "GlowLabs",
       "TotalSoldOfProduct": 222,
-      "TotalRating": 0
+      "TotalRating": 0,
+      "sumOfRatings": 0,
+      "numberOfRatings": 0
     }
   },
   {
@@ -221,7 +249,9 @@
       "ingredients": "Aloe Vera, Mint Extract",
       "brandName": "NatureCool",
       "TotalSoldOfProduct": 315,
-      "TotalRating": 0
+      "TotalRating": 0,
+      "sumOfRatings": 0,
+      "numberOfRatings": 0
     }
   },
   {
@@ -236,7 +266,9 @@
       "ingredients": "Milk Proteins, Shea Butter, Vitamin B5",
       "brandName": "SkinGentle",
       "TotalSoldOfProduct": 144,
-      "TotalRating": 0
+      "TotalRating": 0,
+      "sumOfRatings": 0,
+      "numberOfRatings": 0
     }
   },
   {
@@ -251,7 +283,9 @@
       "ingredients": "Beeswax, Peach Extract, Shea Butter",
       "brandName": "ShinePop",
       "TotalSoldOfProduct": 410,
-      "TotalRating": 0
+      "TotalRating": 0,
+      "sumOfRatings": 0,
+      "numberOfRatings": 0
     }
   }
 ]
