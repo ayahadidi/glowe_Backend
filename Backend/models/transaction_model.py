@@ -11,3 +11,5 @@ class Transactions(models.Model):
     user=models.ForeignKey('custom_user.user',on_delete=models.CASCADE)
     products=models.ForeignKey('Backend.Products',on_delete=models.CASCADE)
     
+    def __str__(self):
+       return f"{self.user} - {self.products.brandName} - {self.total_sold_items} pcs"
