@@ -19,10 +19,11 @@ urlpatterns = [
     path('api/addToWishlist/<uuid:product_id>/<int:color_id>', addTo_WishList.as_view(), name="wishlist"),
     path('api/AddToCartView/<uuid:product_id>/<int:color_id>', AddToCartView.as_view(), name="cart"),
     path('api/productInfo/<uuid:product_id>/', productInfo_view.as_view(), name="productInfo"),
-    path('api/cartList_view/>/', cartList_view.as_view(), name="cartList"),
+    path('api/cartList_view/', cartList_view.as_view(), name="cartList"),
     path('api/wishlist_ListView/', wishlist_ListView.as_view(), name="wishlist_List"),
     path('api/delete_cart_item/<int:cartItem_id>', delete_cart_item.as_view(), name="delete_cart_item"),
     path('api/minus_cartItem/<int:cartItem_id>', minus_cartItem.as_view(), name="minus_cartItem"),
-    path('checkout/', CheckoutView.as_view(), name='checkout'),
-    path('api/clear_items/<uuid:cart_or_wishlist_id>/',Clear.as_view(),name='clear_items')
+    #path('checkout/', CheckoutView.as_view(), name='checkout')
+
+    
 ]
