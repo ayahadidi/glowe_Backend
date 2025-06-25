@@ -13,6 +13,7 @@ from .views.CheckoutView import CheckoutView
 from .views.clearItems_view import Clear
 from .views.add_rating_view import AddRatingView
 from .views.product_total_rating_view import ProductTotalRating
+from .views.product_comments_view import AllCommentsView
 
 
 urlpatterns = [
@@ -30,6 +31,7 @@ urlpatterns = [
     path('checkout/', CheckoutView.as_view(), name='checkout'),
     path('api/add_rating/<uuid:product_id>/', AddRatingView.as_view(), name='product-ratings'),
     path('api/products/<uuid:product_id>/total_rating/', ProductTotalRating.as_view(), name='average-rating'),
+    path('api/products/<uuid:product_id>/comments', AllCommentsView.as_view(), name='all-ratings'),
 
     
 ]
