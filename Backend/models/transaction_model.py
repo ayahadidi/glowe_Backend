@@ -11,8 +11,8 @@ class Transactions(models.Model):
     checkoutDate=models.DateTimeField(default=timezone.now)
     user=models.ForeignKey('custom_user.user',on_delete=models.CASCADE)
     products=models.ForeignKey('Backend.Products',on_delete=models.CASCADE)
-    inventory=models.ForeignKey('Backend.Inventory',on_delete=models.CASCADE)
-    cart=models.ForeignKey('Backend.Cart',on_delete=models.CASCADE)
+    inventory=models.ForeignKey('Backend.Inventory',on_delete=models.CASCADE, null=True, blank=True)
+    cart=models.ForeignKey('Backend.Cart',on_delete=models.CASCADE, null=True, blank=True)
     
     
     def __str__(self):
