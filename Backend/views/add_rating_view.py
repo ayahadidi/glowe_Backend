@@ -43,7 +43,7 @@ class AddRatingView(APIView):
         return Response({
             "message": "Rating submitted successfully.",
             "product_id": str(product.id),
-            "user_id": request.user,
+            "user_id": str(request.user),
             "comment": comment,
             "new_total_rating": product.TotalRating
         }, status=status.HTTP_201_CREATED)
