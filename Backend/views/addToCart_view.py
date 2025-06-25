@@ -20,20 +20,21 @@ class AddToCartView(APIView):
             product=Products.objects.get(id=product_id)
             color = Colors.objects.get(id=color_id, product=product)
         except (Colors.DoesNotExist, Products.DoesNotExist):
-            return Response({"error": "This product isn't available in the selected color."}, status=status.HTTP_404_NOT_FOUND)
+            return Response({"error": "This product isn't available in the selected color."}, status=201)
         
         askednumber=int(request.data.get('cartItemQuantity',1))
         
         try:
             inventory = Inventory.objects.get(products=product)
         except Inventory.DoesNotExist:
-            return Response({"error": "Inventory data not available for this product."},
-                            status=status.HTTP_500_INTERNAL_SERVER_ERROR)
+            return Response({"error": "Not enough product quantity in the inventory"})
         
         try:
             cart = Cart.objects.get(user=request.user, type=2)  
         except Cart.DoesNotExist:
-            return Response({"error": "Cart not found."}, status=status.HTTP_404_NOT_FOUND)
+            cart = Cart.objects.create(
+                user=request.user
+            )
 
        
         existing_item = CartItem.objects.filter(cart=cart, product=product, productColor=color.code).first()
@@ -45,7 +46,7 @@ class AddToCartView(APIView):
             return Response(
                 {"error": f"Only {inventory.inStock} item(s) available in stock. "
                           f"You already have {existing_quantity} in your cart."},
-                status=status.HTTP_400_BAD_REQUEST
+                status==201
             )
 
         serializer=CartItem_Serializer(data={
