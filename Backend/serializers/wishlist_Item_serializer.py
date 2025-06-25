@@ -1,8 +1,9 @@
 from rest_framework import serializers
 from ..models.wishlist_model import Wishlist
 from ..models.wishlist_item_model import wishlist_Item
-
+from .Product_Serializer import productInfo_serializer
 class wishlist_Item_serializer(serializers.ModelSerializer):
+    product=productInfo_serializer(read_only=True)
     class Meta:
         model = wishlist_Item
         fields = ['id', 'productColor','ColorName','product']
