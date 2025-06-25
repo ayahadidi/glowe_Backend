@@ -5,6 +5,12 @@ from rest_framework.response import Response
 from ..models.product_model import Products
 from ..serializers.cartItem_serializer import CartItem_Serializer
 from ..models.color_model import Colors
+from ..models.product_model import Products
+from ..models.inventory_model import Inventory
+from ..models.cart_item_model import CartItem
+from ..models.cart_model import Cart
+
+
 
 class AddToCartView(APIView):
     permission=[IsAuthenticated]
@@ -14,12 +20,38 @@ class AddToCartView(APIView):
             product=Products.objects.get(id=product_id)
             color = Colors.objects.get(id=color_id, product=product)
         except (Colors.DoesNotExist, Products.DoesNotExist):
-            return Response({"error": "This product isn't available in the selected color."}, status=status.HTTP_404_NOT_FOUND)
+            return Response({"error": "This product isn't available in the selected color."}, status=201)
         
+        askednumber=int(request.data.get('cartItemQuantity',1))
         
+        try:
+            inventory = Inventory.objects.get(products=product)
+        except Inventory.DoesNotExist:
+            return Response({"error": "Not enough product quantity in the inventory"})
+        
+        try:
+            cart = Cart.objects.get(user=request.user, type=2)  
+        except Cart.DoesNotExist:
+            cart = Cart.objects.create(
+                user=request.user
+            )
+
+       
+        existing_item = CartItem.objects.filter(cart=cart, product=product, productColor=color.code).first()
+        existing_quantity = existing_item.cartItemQuantity if existing_item else 0
+
+        total_requested = existing_quantity + askednumber
+
+        if total_requested > inventory.inStock:
+            return Response(
+                {"error": f"Only {inventory.inStock} item(s) available in stock. "
+                          f"You already have {existing_quantity} in your cart."},
+                status==201
+            )
+
         serializer=CartItem_Serializer(data={
             'product':product_id,
-            'cartItemQuantity':request.data.get('cartItemQuantity',1),
+            'cartItemQuantity':askednumber,
             'cartItemPrice':request.data.get('cartItemPrice',product.price),
             'productColor':request.data.get('productColor',color.code),
             'color_name':request.data.get('color_name',color.ColorName),

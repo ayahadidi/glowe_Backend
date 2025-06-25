@@ -3,8 +3,8 @@
     "model": "Backend.PromoCode",
     "pk":1,
     "fields": {
-      "code": "SAVE10",
-      "discount_value": 10
+      "code": "NotSave",
+      "discount_value": 0
     }
   },
   {
