@@ -50,13 +50,12 @@ class AddToCartView(APIView):
             )
 
         serializer=CartItem_Serializer(data={
-            'product':product_id,
             'cartItemQuantity':askednumber,
             'cartItemPrice':request.data.get('cartItemPrice',product.price),
             'productColor':request.data.get('productColor',color.code),
             'color_name':request.data.get('color_name',color.ColorName),
 
-            },context={'request':request})
+            },context={'request':request,'product':product})
         
         if serializer.is_valid():
             cart_item=serializer.save()
