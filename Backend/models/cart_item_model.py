@@ -8,7 +8,7 @@ class CartItem(models.Model):
     productColor=models.CharField(max_length=50)
     color_name=models.CharField(max_length=100)
     product=models.ForeignKey('Backend.Products',on_delete=models.CASCADE)
-    cart=models.ForeignKey('Backend.Cart',on_delete=models.CASCADE)
+    cart=models.ForeignKey('Backend.Cart',on_delete=models.CASCADE,null=True ,blank=True)
 
 
 

@@ -13,6 +13,6 @@ class Products(models.Model):
     brandName=models.CharField(max_length=50)
     TotalSoldOfProduct=models.IntegerField(default=0)
     TotalRating=models.IntegerField(validators=[MaxValueValidator(5)],default=0)
-
+    
     def __str__(self):
         return self.name

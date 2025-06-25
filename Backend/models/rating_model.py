@@ -8,3 +8,9 @@ class Rating(models.Model):
     comment=models.CharField(max_length=500)
     user=models.ForeignKey('custom_user.User',on_delete=models.CASCADE) 
     product=models.ForeignKey('Backend.Products',on_delete=models.CASCADE)
+    
+    class Meta:
+        unique_together = ('user', 'product')  # Each user can rate a product once
+
+    def __str__(self):
+        return f"{self.user} rated {self.product} ({self.value})"
