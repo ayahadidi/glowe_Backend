@@ -10,6 +10,8 @@ from .views.cartList_view import cartList_view
 from .views.delete_cart_item_view import delete_cart_item
 from .views.minus_cartItem_view import minus_cartItem
 from .views.CheckoutView import CheckoutView
+from .views.add_rating_view import AddRatingView
+from .views.product_total_rating_view import ProductTotalRating
 
 
 urlpatterns = [
@@ -19,11 +21,14 @@ urlpatterns = [
     path('api/addToWishlist/<uuid:product_id>/<int:color_id>', addTo_WishList.as_view(), name="wishlist"),
     path('api/AddToCartView/<uuid:product_id>/<int:color_id>', AddToCartView.as_view(), name="cart"),
     path('api/productInfo/<uuid:product_id>/', productInfo_view.as_view(), name="productInfo"),
-    path('api/cartList_view/>/', cartList_view.as_view(), name="cartList"),
+    path('api/cartList_view/', cartList_view.as_view(), name="cartList"),
     path('api/wishlist_ListView/', wishlist_ListView.as_view(), name="wishlist_List"),
     path('api/delete_cart_item/<int:cartItem_id>', delete_cart_item.as_view(), name="delete_cart_item"),
     path('api/minus_cartItem/<int:cartItem_id>', minus_cartItem.as_view(), name="minus_cartItem"),
-    path('checkout/', CheckoutView.as_view(), name='checkout')
-
+    path('checkout/', CheckoutView.as_view(), name='checkout'),
+    path('api/addRating/<uuid:product_id>/', AddRatingView.as_view(), name='product-ratings'),
+    path('api/products/<uuid:product_id>/TotalRating/', ProductTotalRating.as_view(), name='average-rating'),
+    #path('api/products/ratings/average-post/', PostGetRatingView.as_view(), name='average-rating-post'),
+    
     
 ]
