@@ -35,7 +35,3 @@ class User(AbstractBaseUser, PermissionsMixin):
     REQUIRED_FIELDS = ['first_name', 'last_name']
 
     objects = CustomUser()
-
-    def __str__(self):
-        return self.id
-

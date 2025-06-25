@@ -258,5 +258,18 @@
       "cart":"41c8d9b5-2c9d-43bc-b437-123456789019",
       "inventory":"dcbbc488-44e7-4b8e-9e17-000000000020"
     }
+  },
+  {
+    "model": "Backend.Transactions",
+    "pk": "0f7a1e94-3762-45cc-a1c2-bdbc56b7c132",
+    "fields": {
+      "total_revenue": 8000,
+      "total_sold_items": 36,
+      "products": "90a9f2b1-2b9b-44fc-a5fd-9d3f79e7cf26",
+      "checkoutDate":"2025-04-24T00:42:31",
+      "user":"f0f3b099-c36d-4bd1-a004-ede272843d9c",
+      "cart":"bb88637c-23c0-4803-b344-c94001f4737d",
+      "inventory":"09ec2ae6-1043-4bc6-8cc0-000000000007"
+    }
   }
 ]

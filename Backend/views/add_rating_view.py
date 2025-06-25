@@ -1,5 +1,4 @@
 from django.shortcuts import get_object_or_404
-from django.db.models import Avg
 from rest_framework.views import APIView
 from rest_framework.response import Response
 from rest_framework import status, permissions
@@ -8,6 +7,7 @@ from drf_yasg.utils import swagger_auto_schema
 
 from ..models.product_model import Products
 from Backend.models.rating_model import Rating
+from Backend.models.transaction_model import Transactions
 from Backend.serializers.rating_serializer import RatingSerializer
 
 
@@ -23,6 +23,12 @@ class AddRatingView(APIView):
         rating_value = request.data.get("value")
         comment = request.data.get("comment")
         product =get_object_or_404(Products,id=product_id)
+        
+        
+        if not Transactions.objects.filter(user=request.user,products=product):
+            return Response({
+                "error": "You can only rate products you have purchased."}, status=status.HTTP_403_FORBIDDEN)
+        
         if Rating.objects.filter(product=product, user=request.user).exists():
             return Response(
                 {"error": "You have already rated this product."},
@@ -40,12 +46,8 @@ class AddRatingView(APIView):
         product.TotalRating = product.sumOfRatings / product.numberOfRatings
         product.save()
 
-        return Response({
-            "message": "Rating submitted successfully.",
-            "product_id": str(product.id),
-            "user_id": str(request.user),
-            "comment": comment,
-            "new_total_rating": product.TotalRating
-        }, status=status.HTTP_201_CREATED)
+        serializer = RatingSerializer(rating)
+
+        return Response(serializer.data, status=status.HTTP_201_CREATED)
         
         
