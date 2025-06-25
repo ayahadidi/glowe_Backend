@@ -1,3 +1,5 @@
+# serializers/rating_serializer.py
+
 from rest_framework import serializers
 from Backend.models.rating_model import Rating
 
