@@ -26,7 +26,10 @@ urlpatterns = [
     path('api/wishlist_ListView/', wishlist_ListView.as_view(), name="wishlist_List"),
     path('api/delete_cart_item/<int:cartItem_id>', delete_cart_item.as_view(), name="delete_cart_item"),
     path('api/minus_cartItem/<int:cartItem_id>', minus_cartItem.as_view(), name="minus_cartItem"),
-    path('checkout/', CheckoutView.as_view(), name='checkout')
+    path('api/clear_items/<uuid:cart_or_wishlist_id>/',Clear.as_view(),name='clear_items'),
+    path('checkout/', CheckoutView.as_view(), name='checkout'),
+    path('api/add_rating/<uuid:product_id>/', AddRatingView.as_view(), name='product-ratings'),
+    path('api/products/<uuid:product_id>/total_rating/', ProductTotalRating.as_view(), name='average-rating'),
 
     
 ]
