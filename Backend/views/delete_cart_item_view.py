@@ -9,7 +9,7 @@ class delete_cart_item(APIView):
     
     def delete(self,request,cart_item_id):
         try:
-            cart=Cart.objects.get(user=request.user)
+            cart=Cart.objects.get(user=request.user,type=1)
             cart_item=CartItem.objects.get(id=cart_item_id)
         except CartItem.DoesNotExist:
             return Response({"error": "Cart item not found."})

@@ -28,7 +28,7 @@ class Clear(APIView):
         
         if obj=='cart':
             try:
-                cart=Cart.objects.get(id=cart_or_wishlist_id,user=request.user)
+                cart=Cart.objects.get(id=cart_or_wishlist_id,user=request.user, type=1)
                 cart.delete()
                 return Response({"message": f"Cart {cart_or_wishlist_id} and its items deleted."}, status=status.HTTP_200_OK) 
             except Cart.DoesNotExist:
