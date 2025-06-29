@@ -14,7 +14,7 @@ from .views.clearItems_view import Clear
 from .views.add_rating_view import AddRatingView
 from .views.product_total_rating_view import ProductTotalRating
 from .views.product_comments_view import AllCommentsView
-
+from .views.product_colors_view import ProductColorsView
 
 urlpatterns = [
     path('api/bestSellers/', Best_Sellers_View.as_view(), name='product-list'),
@@ -32,6 +32,7 @@ urlpatterns = [
     path('api/add_rating/<uuid:product_id>/', AddRatingView.as_view(), name='product-ratings'),
     path('api/products/<uuid:product_id>/total_rating/', ProductTotalRating.as_view(), name='average-rating'),
     path('api/products/<uuid:product_id>/comments', AllCommentsView.as_view(), name='all-ratings'),
+    path('api/products/<uuid:product_id>/colors/', ProductColorsView.as_view(), name='product-colors'),
 
     
 ]
