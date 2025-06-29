@@ -48,7 +48,7 @@ class AddToCartView(APIView):
             return Response({"error": "Not enough product quantity in the inventory"})
         
         try:
-            cart = Cart.objects.get(user=request.user, type=2)  
+            cart = Cart.objects.get(user=request.user, type=1)  
         except Cart.DoesNotExist:
             cart = Cart.objects.create(
                 user=request.user

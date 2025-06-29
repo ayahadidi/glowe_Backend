@@ -6,6 +6,6 @@ from rest_framework.permissions import IsAuthenticated
 class cartList_view(generics.RetrieveAPIView):
     permission_classes = [IsAuthenticated]
     serializer_class = CartSerializer
-
+    
     def get_object(self):
-        return Cart.objects.get(user=self.request.user)
+        return Cart.objects.get(user=self.request.user,type=1)

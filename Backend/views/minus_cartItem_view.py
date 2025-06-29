@@ -3,16 +3,20 @@ from rest_framework.response import Response
 from rest_framework import status
 from ..models.cart_item_model import CartItem
 from rest_framework.permissions import IsAuthenticated
-
-
+from ..models.cart_model import Cart
+from django.shortcuts import get_object_or_404
 class minus_cartItem(APIView):
     permission_classes=[IsAuthenticated]
 
     def patch(self, request, cartItem_id):
         try:
-            cart_item=CartItem.objects.get(id=cartItem_id, cart__user=request.user)
-            cart=cart_item.cart
-
+            cart = get_object_or_404(Cart, user=request.user, type=1)
+            cart_item = get_object_or_404(
+                    CartItem,
+                    id=cartItem_id,
+                    cart=cart
+                )
+            
             if cart_item.cartItemQuantity>1:
                 unit_price=cart_item.cartItemPrice//cart_item.cartItemQuantity
                 cart_item.cartItemQuantity-=1
