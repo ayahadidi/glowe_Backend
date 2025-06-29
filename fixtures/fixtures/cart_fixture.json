@@ -207,5 +207,16 @@
       "promocode":19,
       "type":2
     }
+  },
+  {
+    "model": "Backend.Cart",
+    "pk": "fa95bb17-ef2e-4244-b1cf-791e1f997be2",
+    "fields": {
+      "total_price": 12500,
+      "total_items": 2,
+      "user": "b7fdf934-031c-4b09-a69f-475903bc64d6",
+      "promocode":19,
+      "type":2
+    }
   }
 ]

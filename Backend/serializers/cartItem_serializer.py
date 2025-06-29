@@ -31,7 +31,7 @@ class CartItem_Serializer(serializers.ModelSerializer):
         )
 
         cart.total_items+=1
-        cart.total_price+=cart_item.cartItemPrice
+        cart.total_price+=product.price
         cart.save()
         if not created:
             cart_item.cartItemQuantity += quantity
