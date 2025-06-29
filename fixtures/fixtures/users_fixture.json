@@ -271,5 +271,20 @@
       "is_staff": true,
       "password": "pbkdf2_sha256$260000$4DwXQDJqlxEk$OcR+qfHMPtaSFXw86+ESkZ3WxumEN/2kM5MJQHVGB2c="
     }
-  }
+  },
+  {
+    "model": "custom_user.User",
+    "pk": "b7fdf934-031c-4b09-a69f-475903bc64d6",
+    "fields": {
+      "first_name": "Yasmin",
+      "last_name": "Almohtaseb",
+      "phone_number": "0710234567",
+      "email": "yasmin@gmail.com",
+      "location": "Manama, Bahrain",
+      "is_active": true,
+      "is_staff": true,
+      "password": "pbkdf2_sha256$1000000$hAMJ2Oesx7WZJlDgoEg8Ce$/mTdN6iKjokW6af5yDWRZqlz/47iRKcZpN7wYqIws8g="
+      }
+    }
+  
 ]
