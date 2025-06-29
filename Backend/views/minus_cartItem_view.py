@@ -26,10 +26,8 @@ class minus_cartItem(APIView):
 
                 return Response({'message': 'Item quantity decreased.'}, status=status.HTTP_200_OK)
             else:
-                cart.total_items -= 1
-                cart.total_price -= cart_item.cartItemPrice
-                cart.save()
                 cart_item.delete()
+                cart.delete()
                 return Response({'message': 'Item removed because quantity was 1.'}, status=status.HTTP_200_OK)
             
         except CartItem.DoesNotExist:
