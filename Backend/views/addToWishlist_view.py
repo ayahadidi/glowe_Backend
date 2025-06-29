@@ -20,10 +20,9 @@ class addTo_WishList(APIView):
         
         
         serializer = wishlist_Item_serializer(data={
-            'product': product_id,
             'ColorName':request.data.get('ColorName',color.ColorName),
             'productColor':request.data.get('productColor',color.code),
-            },context={'request': request})
+            },context={'request': request,'product':product})
 
         
         if serializer.is_valid():
