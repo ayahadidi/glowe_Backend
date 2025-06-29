@@ -283,7 +283,7 @@
       "location": "Manama, Bahrain",
       "is_active": true,
       "is_staff": true,
-      "password": "pbkdf2_sha256$260000$uVv0zVDRKi2D$W60AUNyyjROpOG6ljl4MSD1CJHZIgNCZdIoU+Yhv5YA="
+      "password": "plain"
       }
     },
   {
@@ -297,7 +297,7 @@
       "location": "Manama, Bahrain",
       "is_active": true,
       "is_staff": true,
-      "password": "pbkdf2_sha256$1000000$XYIrIdZ7PMvWutWW9JnJNc$kqKH4terVkvG4KY++9jZcXxYeanyOWW/DzbxLBVkVf0="
+      "password": "plain"
       }
     },
   {
@@ -311,7 +311,7 @@
       "location": "Manama, Bahrain",
       "is_active": true,
       "is_staff": true,
-      "password": "pbkdf2_sha256$1000000$TOvfP9zaOWzgRvVTI4TkAW$OOHEZRptVg3hZreOCyCgioMivF2CKwhXTV1l3jqMxvE="
+      "password": "plain"
       }
     },
   {
@@ -325,7 +325,7 @@
       "location": "Manama, Bahrain",
       "is_active": true,
       "is_staff": true,
-      "password": "pbkdf2_sha256$1000000$o6lDnYHVb3OD85VOyWKMse$ep4q2n7iO6RQ32H3Wqb69hgzB0k5LfTEooblBQDm6kE="
+      "password": "plain"
       }
     },
   {
@@ -339,7 +339,7 @@
       "location": "Manama, Bahrain",
       "is_active": true,
       "is_staff": true,
-      "password": "pbkdf2_sha256$1000000$hgUi4y7972R1dtOL1Y0YNt$hYsYqz1uI1vlJB4vmMRfZ5dPqB7Rd4ozs0u5W3Lli5A="
+      "password": "plain"
       }
     },
   {
@@ -353,7 +353,7 @@
       "location": "Manama, Bahrain",
       "is_active": true,
       "is_staff": true,
-      "password": "pbkdf2_sha256$1000000$EfFDA60vXTC4yaUcDFdjLz$Fpe9WjHGFx4GxLrZYvjdY35UbSw9xJfkPuc/ecR13U0="
+      "password": "plain"
       }
     }
   
