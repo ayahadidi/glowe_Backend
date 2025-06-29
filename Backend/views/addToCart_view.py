@@ -9,11 +9,11 @@ from ..models.product_model import Products
 from ..models.inventory_model import Inventory
 from ..models.cart_item_model import CartItem
 from ..models.cart_model import Cart
+from ..utils.cart import get_or_create_guest_cart
 
 
 
 class AddToCartView(APIView):
-    permission=[IsAuthenticated]
 
     def post(self,request,product_id, color_id):
         try:
@@ -29,12 +29,20 @@ class AddToCartView(APIView):
         except Inventory.DoesNotExist:
             return Response({"error": "Not enough product quantity in the inventory"})
         
-        try:
-            cart = Cart.objects.get(user=request.user, type=2)  
-        except Cart.DoesNotExist:
-            cart = Cart.objects.create(
-                user=request.user
-            )
+        # try:
+        #     cart = Cart.objects.get(user=request.user, type=2)  
+        # except Cart.DoesNotExist:
+        #     cart = Cart.objects.create(
+        #         user=request.user
+        #     )
+
+
+
+        if request.user.is_authenticated:
+            cart, _ = Cart.objects.get_or_create(user=request.user, type=2)
+        else:
+            cart = get_or_create_guest_cart(request)
+
 
        
         existing_item = CartItem.objects.filter(cart=cart, product=product, productColor=color.code).first()
@@ -48,8 +56,16 @@ class AddToCartView(APIView):
                           f"You already have {existing_quantity} in your cart."},
                 status==201
             )
+        
+        if existing_item:
+            existing_item.cartItemQuantity += askednumber
+            existing_item.save()
+            return Response(CartItem_Serializer(existing_item).data, status=200)
+
 
         serializer=CartItem_Serializer(data={
+            'product': str(product.id),
+            'cart': str(cart.id),
             'cartItemQuantity':askednumber,
             'cartItemPrice':request.data.get('cartItemPrice',product.price),
             'productColor':request.data.get('productColor',color.code),

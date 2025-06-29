@@ -7,8 +7,7 @@ class RatingSerializer(serializers.ModelSerializer):
         fields = ['value', 'comment','user','product',]
         read_only_fields= ['product','user']
 
-from rest_framework import serializers
-from Backend.models.rating_model import Rating
+
 
 class ProductCommentsSerializer(serializers.ModelSerializer):
     user=UserProfile_Serializer(read_only=True)
