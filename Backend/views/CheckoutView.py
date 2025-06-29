@@ -15,7 +15,7 @@ from decimal import Decimal
 class CheckoutView(APIView):
     permission_classes = [IsAuthenticated]
 
-    def post(self, request):
+    def post(self, request ):
         user = request.user
         promo_code = request.data.get('promo_code')
 
@@ -72,11 +72,12 @@ class CheckoutView(APIView):
                         total_sold_items=item.cartItemQuantity
                     )
 
-                # Clear cart
+                # Delete the current cart
                 cart_items.delete()
-                cart.total_items = 0
-                cart.total_price = Decimal('0.00')
-                cart.save()
+                cart.delete()
+
+                # Create a new empty cart for the user
+                Cart.objects.create(user=user, total_items=0, total_price=Decimal('0.00'))
 
             return Response({
                 "message": "Checkout successful.",
