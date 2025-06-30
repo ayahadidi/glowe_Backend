@@ -6,8 +6,10 @@ from Backend.utils.cart import merge_guest_cart_with_user_cart
 class LoginView(TokenObtainPairView):
     serializer_class = CustomToken_ObtainPairSerializer
     permission_classes = [AllowAny]
+    
 
     def post(self, request, *args, **kwargs):
+        request.session.modified = True  
         response = super().post(request, *args, **kwargs)
 
         if response.status_code == 200:

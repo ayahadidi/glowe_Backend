@@ -2,6 +2,8 @@
 from ..models.cart_model import Cart
 from ..models.wishlist_model import Wishlist
 from ..models.cart_item_model import CartItem
+from ..models.color_model import Colors
+
 
 def get_or_create_guest_cart(request):
     cart_id = request.session.get('cart_id')
@@ -37,6 +39,57 @@ def get_or_create_guest_wishlist(request):
 
 
 
+
+
+
+
+
+
+def add_product_to_cart(cart, product, color, quantity):
+    from ..models.cart_item_model import CartItem
+    from ..models.inventory_model import Inventory
+
+    inventory = Inventory.objects.get(products=product)
+
+    existing_item = CartItem.objects.filter(cart=cart, product=product, productColor=color.code).first()
+    existing_quantity = existing_item.cartItemQuantity if existing_item else 0
+    total_requested = existing_quantity + quantity
+
+    if total_requested > inventory.inStock:
+        raise ValueError(f"Only {inventory.inStock} item(s) available in stock. "
+                         f"You already have {existing_quantity} in your cart.")
+
+    unit_price = product.price
+
+    if existing_item:
+        existing_item.cartItemQuantity += quantity
+        existing_item.cartItemPrice += quantity * unit_price
+        existing_item.save()
+    else:
+        existing_item = CartItem.objects.create(
+            cart=cart,
+            product=product,
+            productColor=color.code,
+            color_name=color.ColorName,
+            cartItemQuantity=quantity,
+            cartItemPrice=quantity * unit_price
+        )
+
+    cart.total_items += quantity
+    cart.total_price += quantity * unit_price
+    cart.save()
+
+    return existing_item
+
+
+
+
+
+
+
+
+
+
 def merge_guest_cart_with_user_cart(request, user):
     guest_cart_id = request.session.get('cart_id')
     if not guest_cart_id:
@@ -49,33 +102,13 @@ def merge_guest_cart_with_user_cart(request, user):
 
     user_cart, _ = Cart.objects.get_or_create(user=user, type=1)
 
-    
     for item in CartItem.objects.filter(cart=guest_cart):
-        existing = CartItem.objects.filter(
-            cart=user_cart,
-            product=item.product,
-            productColor=item.productColor
-        ).first()
-
-        if existing:
-            unit_price = item.cartItemPrice / item.cartItemQuantity
-            existing.cartItemQuantity += item.cartItemQuantity
-            existing.cartItemPrice = existing.cartItemQuantity * unit_price
-            existing.save()
-        else:
-            item.cart = user_cart
-            item.save()
-
-   
-    total_items = 0
-    total_price = 0.0
-    for item in CartItem.objects.filter(cart=user_cart):
-        total_items += item.cartItemQuantity
-        total_price += item.cartItemPrice
-
-    user_cart.total_items = total_items
-    user_cart.total_price = total_price
-    user_cart.save()
+        try:
+            color = Colors.objects.get(code=item.productColor, product=item.product)
+            add_product_to_cart(user_cart, item.product, color, item.cartItemQuantity)
+        except Exception as e:
+            print(f"Failed to merge item: {e}")
+            continue
 
     guest_cart.delete()
     if 'cart_id' in request.session:
