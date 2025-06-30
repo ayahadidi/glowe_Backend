@@ -11,7 +11,7 @@ class cartList_view(generics.RetrieveAPIView):
     def get_object(self):
         request=self.request
         if request.user.is_authenticated:
-            cart, _ = Cart.objects.get_or_create(user=request.user, defaults={'type': 1})
+            cart, _ = Cart.objects.get(user=request.user, defaults={'type': 1})
         else:
             cart = get_or_create_guest_cart(request)
 

@@ -16,7 +16,6 @@ class CartItem_Serializer(serializers.ModelSerializer):
 
  
     def create(self, validated_data):
-        user = self.context['request'].user
         cart = validated_data.pop('cart')  
         product = self.context.get('product')
 
@@ -38,20 +37,12 @@ class CartItem_Serializer(serializers.ModelSerializer):
         )
 
 
-        if created:
-            # New item added: increment cart totals by this quantity and price
-            cart.total_items += quantity
-            cart.total_price += price
-        else:
-            # Existing item: update quantity and price on the item
+        cart.total_items += 1
+        cart.total_price += product.price
+        cart.save()
+        if not created:
             cart_item.cartItemQuantity += quantity
             cart_item.cartItemPrice += price
             cart_item.save()
-
-            # Increment cart totals by the additional quantity and price only
-            cart.total_items += quantity
-            cart.total_price += price
-
-        cart.save()
 
         return cart_item
