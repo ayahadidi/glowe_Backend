@@ -10,7 +10,7 @@ class plus_cartItem(APIView):
     def patch(self, request, cartItem_id):
         if request.user.is_authenticated:
             try:
-                cart = Cart.objects.get(user=request.user, type=2)
+                cart = Cart.objects.get(user=request.user, type=1)
             except Cart.DoesNotExist:
                 return Response({'error': 'Cart not found.'}, status=status.HTTP_404_NOT_FOUND)
         else:

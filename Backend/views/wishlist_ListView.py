@@ -12,7 +12,7 @@ class wishlist_ListView(generics.RetrieveAPIView):
     def get_object(self):
         request=self.request
         if request.user.is_authenticated:
-            wishlist, _ = Wishlist.objects.get_or_create(user=request.user, type=1)
+            wishlist, _ = Wishlist.objects.get_or_create(user=request.user)
         else:
             wishlist = get_or_create_guest_wishlist(request)
 
