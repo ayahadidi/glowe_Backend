@@ -13,7 +13,7 @@ def get_or_create_guest_cart(request):
             pass  
 
     
-    new_cart = Cart.objects.create(type=2)  # ACTIVE type
+    new_cart = Cart.objects.create(type=1)  
     request.session['cart_id'] = str(new_cart.id)
     return new_cart
 
@@ -47,7 +47,7 @@ def merge_guest_cart_with_user_cart(request, user):
     except Cart.DoesNotExist:
         return
 
-    user_cart, _ = Cart.objects.get_or_create(user=user, defaults={'type': 1})
+    user_cart, _ = Cart.objects.get_or_create(user=user, type=1)
 
     
     for item in CartItem.objects.filter(cart=guest_cart):
