@@ -8,8 +8,11 @@ from ..models.inventory_model import Inventory
 from ..models.transaction_model import Transactions
 from ..models.promoCode_model import PromoCode
 from ..serializers.checkout_serializer import CheckoutSerializer
+from rest_framework.permissions import IsAuthenticated
+
 
 class checkoutView(APIView):
+    permission_classes=[IsAuthenticated]
     def post(self, request, cart_id):
         serializer = CheckoutSerializer(data=request.data)
         if not serializer.is_valid():
@@ -66,7 +69,7 @@ class checkoutView(APIView):
             )
 
         
-        cart.type = CartStatus.EXPIRED
+        cart.type = CartStatus.CHECKED_OUT
         cart.total_price = total_price
         cart.save()
 

@@ -7,7 +7,7 @@ class CartStatus(models.IntegerChoices):
     ACTIVE=1,'active'
     CHECKED_OUT=2,'checked_out'
 
-
+#41d42f9d-caf1-41b6-9e6d-1c6c5f871cd1
 
 class Cart(models.Model):
     id=models.UUIDField(primary_key=True,default=uuid.uuid4,editable=False)

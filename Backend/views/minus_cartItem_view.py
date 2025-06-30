@@ -4,14 +4,13 @@ from rest_framework import status
 from ..models.cart_item_model import CartItem
 from ..models.cart_model import Cart
 from ..utils.cart import get_or_create_guest_cart
-
-
 from rest_framework.permissions import IsAuthenticated
-from ..models.cart_model import Cart
 from django.shortcuts import get_object_or_404
+
+
 class minus_cartItem(APIView):
     def patch(self, request, cartItem_id):
-        # Get the correct cart
+        
         if request.user.is_authenticated:
             try:
                 cart = Cart.objects.get(user=request.user, type=1)

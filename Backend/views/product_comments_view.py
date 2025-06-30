@@ -3,6 +3,7 @@ from rest_framework.response import Response
 from rest_framework import status, permissions
 from Backend.models.rating_model import Rating
 from Backend.serializers.rating_serializer import ProductCommentsSerializer
+from django.db.models import Q
 
 class AllCommentsView(APIView):
     permission_classes = [permissions.AllowAny]

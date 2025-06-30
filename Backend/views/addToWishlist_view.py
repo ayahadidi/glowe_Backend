@@ -7,6 +7,10 @@ from drf_yasg.utils import swagger_auto_schema
 from drf_yasg import openapi
 from ..models.product_model import Products
 from ..models.color_model import Colors
+from ..models.wishlist_model import Wishlist
+from ..utils.cart import get_or_create_guest_wishlist
+
+
 
 request_body = openapi.Schema(
     type=openapi.TYPE_OBJECT,
@@ -35,11 +39,20 @@ class addTo_WishList(APIView):
         except (Colors.DoesNotExist, Products.DoesNotExist):
             return Response({"error": "This product isn't available in the selected color."}, status=status.HTTP_404_NOT_FOUND)
         
+
+        if request.user.is_authenticated:
+            wishlist, _ = Wishlist.objects.get_or_create(user=request.user)
+        else:
+            wishlist = get_or_create_guest_wishlist(request)
+
         
         serializer = wishlist_Item_serializer(data={
             'ColorName':request.data.get('ColorName',color.ColorName),
             'productColor':request.data.get('productColor',color.code),
-            },context={'request': request,'product':product})
+            },
+            context={'request': request,
+                     'product':product,
+                     'wishlist':wishlist})
 
         
         if serializer.is_valid():
@@ -48,3 +61,6 @@ class addTo_WishList(APIView):
         return Response(serializer.errors, status=400)
 
         
+
+
+
