@@ -15,7 +15,7 @@ class checkoutView(APIView):
         if not serializer.is_valid():
             return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)
 
-        cart_id = serializer.validated_data.get('cart_id')
+        # cart_id = serializer.validated_data.get('cart_id')
         promo_code_input = serializer.validated_data.get('promo_code', None)
 
         try:
