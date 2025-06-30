@@ -27,12 +27,12 @@ request_body = openapi.Schema(
 )
 class AddToCartView(APIView):
 
-    def post(self,request,product_id, color_id):
     @swagger_auto_schema(
             request_body=request_body,
             operation_description="Add product to cart",
             responses={200: 'Success'}
         )
+    
     def post(self,request):
         product_id=request.data.get('product_id')
         color_id = request.data.get('color_id')
