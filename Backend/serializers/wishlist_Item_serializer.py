@@ -14,17 +14,15 @@ class wishlist_Item_serializer(serializers.ModelSerializer):
 
         product_color = validated_data.get('productColor')
         ColorName=validated_data.get('ColorName')
-        Product=validated_data.get('product')
+        product=self.context.get('product')
 
 
         wishlist_item,_ = wishlist_Item.objects.get_or_create(
             wishlist=wishlist,
-            product=Product,
+            product=product,
             defaults={
                 'productColor': product_color,
-                'ColorName':ColorName,
-                
-
+                'ColorName':ColorName
             }
         )
 

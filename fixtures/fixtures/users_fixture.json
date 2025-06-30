@@ -271,5 +271,90 @@
       "is_staff": true,
       "password": "pbkdf2_sha256$260000$4DwXQDJqlxEk$OcR+qfHMPtaSFXw86+ESkZ3WxumEN/2kM5MJQHVGB2c="
     }
-  }
+  },
+  {
+    "model": "custom_user.User",
+    "pk": "b7fdf934-031c-4b09-a69f-475903bc64d6",
+    "fields": {
+      "first_name": "Yasmin",
+      "last_name": "Almohtaseb",
+      "phone_number": "0710234567",
+      "email": "yasmin@gmail.com",
+      "location": "Manama, Bahrain",
+      "is_active": true,
+      "is_staff": true,
+      "password": "plain"
+      }
+    },
+  {
+    "model": "custom_user.User",
+    "pk": "6f3c27e7-8e9e-4d66-9885-9d7e5cd4935f",
+    "fields": {
+      "first_name": "Aya",
+      "last_name": "Hadidi",
+      "phone_number": "0710234567",
+      "email": "aya@gmail.com",
+      "location": "Manama, Bahrain",
+      "is_active": true,
+      "is_staff": true,
+      "password": "plain"
+      }
+    },
+  {
+    "model": "custom_user.User",
+    "pk": "27944293-5dcb-4de2-885d-48ff2c09ab6a",
+    "fields": {
+      "first_name": "Noor",
+      "last_name": "Alnajjar",
+      "phone_number": "0710234567",
+      "email": "noureddeenalnajjar@gmail.com",
+      "location": "Manama, Bahrain",
+      "is_active": true,
+      "is_staff": true,
+      "password": "plain"
+      }
+    },
+  {
+    "model": "custom_user.User",
+    "pk": "7186eab5-2736-4454-b064-db6b95092562",
+    "fields": {
+      "first_name": "Salah",
+      "last_name": "qudahh",
+      "phone_number": "0710234567",
+      "email": "salahqudah13@gmail.com",
+      "location": "Manama, Bahrain",
+      "is_active": true,
+      "is_staff": true,
+      "password": "plain"
+      }
+    },
+  {
+    "model": "custom_user.User",
+    "pk": "c8126f3a-ac4a-4745-94cc-644fecbc3113",
+    "fields": {
+      "first_name": "Leen",
+      "last_name": "ayesh",
+      "phone_number": "0710234567",
+      "email": "leen@gmail.com",
+      "location": "Manama, Bahrain",
+      "is_active": true,
+      "is_staff": true,
+      "password": "plain"
+      }
+    },
+  {
+    "model": "custom_user.User",
+    "pk": "db826ca4ebba41d9a01e5de3af06258a",
+    "fields": {
+      "first_name": "Rama",
+      "last_name": "Haikal",
+      "phone_number": "0710234567",
+      "email": "rama@gmail.com",
+      "location": "Manama, Bahrain",
+      "is_active": true,
+      "is_staff": true,
+      "password": "plain"
+      }
+    }
+  
 ]

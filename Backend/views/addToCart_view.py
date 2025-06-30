@@ -2,6 +2,8 @@ from rest_framework.views import APIView
 from rest_framework.permissions import IsAuthenticated
 from rest_framework import status
 from rest_framework.response import Response
+from drf_yasg.utils import swagger_auto_schema
+from drf_yasg import openapi
 from ..models.product_model import Products
 from ..serializers.cartItem_serializer import CartItem_Serializer
 from ..models.color_model import Colors
@@ -12,10 +14,28 @@ from ..models.cart_model import Cart
 from ..utils.cart import get_or_create_guest_cart
 
 
-
+request_body = openapi.Schema(
+    type=openapi.TYPE_OBJECT,
+    required=['product_id', 'color_id'],
+    properties={
+        'product_id': openapi.Schema(type=openapi.TYPE_STRING,
+                                    format='uuid',
+                                    description='Product Id (UUID)'),
+        'color_id': openapi.Schema(type=openapi.TYPE_INTEGER,
+                                    description='Color Id (INT)'),
+    }
+)
 class AddToCartView(APIView):
 
     def post(self,request,product_id, color_id):
+    @swagger_auto_schema(
+            request_body=request_body,
+            operation_description="Add product to cart",
+            responses={200: 'Success'}
+        )
+    def post(self,request):
+        product_id=request.data.get('product_id')
+        color_id = request.data.get('color_id')
         try:
             product=Products.objects.get(id=product_id)
             color = Colors.objects.get(id=color_id, product=product)
@@ -39,10 +59,11 @@ class AddToCartView(APIView):
 
 
         if request.user.is_authenticated:
-            cart, _ = Cart.objects.get_or_create(user=request.user, type=2)
+            cart, _ = Cart.objects.get_or_create(user=request.user, type=1)
         else:
             cart = get_or_create_guest_cart(request)
 
+        
 
        
         existing_item = CartItem.objects.filter(cart=cart, product=product, productColor=color.code).first()
@@ -67,10 +88,9 @@ class AddToCartView(APIView):
             'product': str(product.id),
             'cart': str(cart.id),
             'cartItemQuantity':askednumber,
-            'cartItemPrice':request.data.get('cartItemPrice',product.price),
-            'productColor':request.data.get('productColor',color.code),
-            'color_name':request.data.get('color_name',color.ColorName),
-
+            'cartItemPrice':product.price,
+            'productColor':color.code,
+            'color_name':color.ColorName,
             },context={'request':request,'product':product})
         
         if serializer.is_valid():
