@@ -1,5 +1,6 @@
 # utils/cart.py
 from ..models.cart_model import Cart
+from ..models.wishlist_model import Wishlist
 from ..models.cart_item_model import CartItem
 
 def get_or_create_guest_cart(request):
@@ -19,6 +20,22 @@ def get_or_create_guest_cart(request):
 
 
 
+def get_or_create_guest_wishlist(request):
+    wishlist_id = request.session.get('wishlist_id')
+
+    if wishlist_id:
+        try:
+            return Wishlist.objects.get(id=wishlist_id, user=None)
+        except Wishlist.DoesNotExist:
+            pass  
+
+    
+    new_wishlist = Wishlist.objects.create()
+    request.session['wishlist_id'] = str(new_wishlist.id)
+    return new_wishlist
+
+
+
 
 def merge_guest_cart_with_user_cart(request, user):
     guest_cart_id = request.session.get('cart_id')
@@ -30,7 +47,7 @@ def merge_guest_cart_with_user_cart(request, user):
     except Cart.DoesNotExist:
         return
 
-    user_cart, _ = Cart.objects.get_or_create(user=user, defaults={'type': 2})
+    user_cart, _ = Cart.objects.get_or_create(user=user, defaults={'type': 1})
 
     
     for item in CartItem.objects.filter(cart=guest_cart):
@@ -41,8 +58,9 @@ def merge_guest_cart_with_user_cart(request, user):
         ).first()
 
         if existing:
+            unit_price = item.cartItemPrice / item.cartItemQuantity
             existing.cartItemQuantity += item.cartItemQuantity
-            existing.cartItemPrice = existing.cartItemQuantity * (existing.cartItemPrice / (existing.cartItemQuantity - item.cartItemQuantity))
+            existing.cartItemPrice = existing.cartItemQuantity * unit_price
             existing.save()
         else:
             item.cart = user_cart

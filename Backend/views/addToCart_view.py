@@ -48,6 +48,7 @@ class AddToCartView(APIView):
             inventory = Inventory.objects.get(products=product)
         except Inventory.DoesNotExist:
             return Response({"error": "Not enough product quantity in the inventory"})
+        
 
         if request.user.is_authenticated:
             cart, _ = Cart.objects.get_or_create(user=request.user, type=1)
@@ -76,11 +77,12 @@ class AddToCartView(APIView):
 
 
         serializer=CartItem_Serializer(data={
+            'product': str(product.id),
+            'cart': str(cart.id),
             'cartItemQuantity':askednumber,
             'cartItemPrice':product.price,
             'productColor':color.code,
             'color_name':color.ColorName,
-            'cart': str(cart.id)
             },context={'request':request,'product':product})
         
         if serializer.is_valid():
