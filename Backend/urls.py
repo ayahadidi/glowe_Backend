@@ -36,7 +36,7 @@ urlpatterns = [
     path('api/products/<uuid:product_id>/comments', AllCommentsView.as_view(), name='all-ratings'),
     path('api/products/<uuid:product_id>/colors/', ProductColorsView.as_view(), name='product-colors'),
     path('api/plus_cartItem/<int:cartItem_id>', plus_cartItem.as_view(), name="plus_cartItem"),
-    path('api/transaction_list',TransactionList.as_view(), name="transaction_list")
+    path('api/transaction_list',TransactionList.as_view(), name="transaction_list"),
 
     
 ]
