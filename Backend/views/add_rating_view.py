@@ -18,6 +18,7 @@ class AddRatingView(APIView):
         request_body=RatingSerializer,
         responses={201: RatingSerializer, 400: 'Bad Request'}
     )
+    
     def post(self, request):
         serializer=RatingSerializer(data=request.data)
         if not serializer.is_valid():
