@@ -19,16 +19,16 @@
     "model": "Backend.Categories",
     "pk": "3",
     "fields": {
-      "url": "makeup/face/powder",
-      "category_name": "Face Powder"
+      "url": "makeup/face/blush",
+      "category_name": "Blush"
     }
   },
   {
     "model": "Backend.Categories",
     "pk": "4",
     "fields": {
-      "url": "makeup/eyes/eyeshadow",
-      "category_name": "Eyeshadow"
+      "url": "makeup/eyes/mascara",
+      "category_name": "Mascara"
     }
   },
   {
@@ -43,120 +43,56 @@
     "model": "Backend.Categories",
     "pk": "6",
     "fields": {
-      "url": "makeup/eyes/mascara",
-      "category_name": "Mascara"
-    }
-  },
-  {
-    "model": "Backend.Categories",
-    "pk": "7",
-    "fields": {
       "url": "makeup/lips/lipstick",
       "category_name": "Lipstick"
     }
   },
   {
     "model": "Backend.Categories",
+    "pk": "7",
+    "fields": {
+      "url": "makeup/lips/lip-liners",
+      "category_name": "Lip Liners"
+    }
+  },
+  {
+    "model": "Backend.Categories",
     "pk": "8",
     "fields": {
-      "url": "makeup/lips/lip-gloss",
-      "category_name": "Lip Gloss"
+      "url": "skincare/face/moisturizer",
+      "category_name": "Moisturizer"
     }
   },
   {
     "model": "Backend.Categories",
     "pk": "9",
     "fields": {
-      "url": "makeup/lips/lip-liner",
-      "category_name": "Lip Liner"
+      "url": "skincare/face/moisturizer",
+      "category_name": "Makeup Remover"
     }
   },
   {
     "model": "Backend.Categories",
     "pk": "10",
     "fields": {
-      "url": "makeup/cheeks/blush",
-      "category_name": "Blush"
+      "url": "skincare/face/masks",
+      "category_name": "Masks"
     }
   },
   {
     "model": "Backend.Categories",
     "pk": "11",
     "fields": {
-      "url": "makeup/cheeks/highlighter",
-      "category_name": "Highlighter"
+      "url": "skincare/lips/lipbalm",
+      "category_name": "Lip Balm"
     }
   },
   {
     "model": "Backend.Categories",
     "pk": "12",
     "fields": {
-      "url": "makeup/cheeks/bronzer",
-      "category_name": "Bronzer"
-    }
-  },
-  {
-    "model": "Backend.Categories",
-    "pk": "13",
-    "fields": {
-      "url": "skincare/cleanser",
-      "category_name": "Cleanser"
-    }
-  },
-  {
-    "model": "Backend.Categories",
-    "pk": "14",
-    "fields": {
-      "url": "skincare/toner",
-      "category_name": "Toner"
-    }
-  },
-  {
-    "model": "Backend.Categories",
-    "pk": "15",
-    "fields": {
-      "url": "skincare/moisturizer",
-      "category_name": "Moisturizer"
-    }
-  },
-  {
-    "model": "Backend.Categories",
-    "pk": "16",
-    "fields": {
-      "url": "skincare/serum",
-      "category_name": "Serum"
-    }
-  },
-  {
-    "model": "Backend.Categories",
-    "pk": "17",
-    "fields": {
-      "url": "skincare/sunscreen",
-      "category_name": "Sunscreen"
-    }
-  },
-  {
-    "model": "Backend.Categories",
-    "pk": "18",
-    "fields": {
-      "url": "skincare/exfoliator",
-      "category_name": "Exfoliator"
-    }
-  },
-  {
-    "model": "Backend.Categories",
-    "pk": "19",
-    "fields": {
-      "url": "skincare/eye-cream",
-      "category_name": "Eye Cream"
-    }
-  },
-  {
-    "model": "Backend.Categories",
-    "pk": "20",
-    "fields": {
-      "url": "skincare/face-mask",
-      "category_name": "Face Mask"
+      "url": "skincare/hands/hand-creams",
+      "category_name": "Hand Creams"
     }
   }
 ]
