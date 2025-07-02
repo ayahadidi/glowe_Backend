@@ -48,6 +48,10 @@ class PasswordResetRequestView(APIView):
 
 
 class PasswordResetConfirmView(APIView):
+    @swagger_auto_schema(
+        request_body=SetNewPasswordSerializer,
+        responses={200: openapi.Response('Reset link sent if email exists')}
+    )
     def post(self, request):
         serializer = SetNewPasswordSerializer(data=request.data)
         serializer.is_valid(raise_exception=True)
