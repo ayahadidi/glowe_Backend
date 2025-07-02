@@ -4,7 +4,7 @@ from ..models.cart_model import Cart
 from .cart_serializer import CartSerializer
 class CheckoutSerializer(serializers.Serializer):
     cart = serializers.PrimaryKeyRelatedField(queryset=Cart.objects.all())
-    promoCode = serializers.CharField(write_only=True, required=False)
+    promoCode = serializers.CharField(write_only=True, required=False,allow_blank=True)
 
 
 
