@@ -1,11 +1,19 @@
 from rest_framework import serializers
 from ..models.transaction_model import Transactions
-from .promoCode_serializer import PromoCodeSerializer
 from ..models.cart_model import Cart
+from .cart_serializer import CartSerializer
 class CheckoutSerializer(serializers.Serializer):
-    promoCode = serializers.CharField(write_only=True, required=False)
     cart = serializers.PrimaryKeyRelatedField(queryset=Cart.objects.all())
+    promoCode = serializers.CharField(write_only=True, required=False)
 
+
+
+
+
+
+
+class TransactionSerializer(serializers.ModelSerializer):
+    cart = CartSerializer(read_only=True)
     class Meta:
         model = Transactions
         fields = [
@@ -17,5 +25,4 @@ class CheckoutSerializer(serializers.Serializer):
             'products',
             'inventory',
             'cart',
-            'promoCode',
         ]

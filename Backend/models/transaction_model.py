@@ -3,6 +3,7 @@ from django.db import models
 import uuid
 from django.core.validators import MaxValueValidator
 from django.utils import timezone
+from .cart_model import Cart
 
 class Transactions(models.Model):
     id = models.UUIDField(primary_key=True, default=uuid.uuid4, editable=False)
@@ -12,7 +13,7 @@ class Transactions(models.Model):
     user=models.ForeignKey('custom_user.user',on_delete=models.CASCADE)
     products=models.ForeignKey('Backend.Products',on_delete=models.CASCADE)
     inventory=models.ForeignKey('Backend.Inventory',on_delete=models.CASCADE, null=True, blank=True)
-    cart=models.ForeignKey('Backend.Cart',on_delete=models.CASCADE, null=True, blank=True)
+    cart=models.ForeignKey(Cart,on_delete=models.CASCADE, null=True, blank=True)
     
     
     def __str__(self):
