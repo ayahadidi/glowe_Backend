@@ -34,7 +34,7 @@ class PasswordResetRequestView(APIView):
         uid = urlsafe_base64_encode(force_bytes(user.pk))
         token = default_token_generator.make_token(user)
         frontend_url = settings.FRONTEND_URL.rstrip('/')
-        reset_link = f"{frontend_url}/reset-password/{uid}/{token}"
+        reset_link = f"{frontend_url}/reset-password/?uid={uid}&token={token}"
 
         send_mail(
             subject="Reset Your Password",
@@ -43,6 +43,7 @@ class PasswordResetRequestView(APIView):
             recipient_list=[email],
             fail_silently=False,
         )
+
 
         return Response({"detail": "If the email exists, a reset link was sent."}, status=200)
 

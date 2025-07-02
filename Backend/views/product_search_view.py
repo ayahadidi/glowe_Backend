@@ -31,14 +31,14 @@ class ProductSearchView(APIView):
         results = []
 
         if search_query:
-            threshold = 30 if len(search_query) < 3 else 60
+            threshold = 50 if len(search_query) < 3 else 70
 
             for product in all_products:
                 name = normalize(product.name or '')
                 description = normalize(product.description or '')
 
-                name_score = fuzz.partial_ratio(search_query, name)
-                desc_score = fuzz.partial_ratio(search_query, description)
+                name_score = fuzz.ratio(search_query, name)
+                desc_score = fuzz.ratio(search_query, description)
 
                 
                 combined_score = 0.7 * name_score + 0.3 * desc_score
