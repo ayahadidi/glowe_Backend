@@ -17,6 +17,7 @@ from .views.product_comments_view import AllCommentsView
 from .views.product_colors_view import ProductColorsView
 from .views.plus_cartItem_view import plus_cartItem
 from .views.transactionList_view import TransactionList
+from .views.product_search_view import ProductSearchView
 
 urlpatterns = [
     path('api/bestSellers/', Best_Sellers_View.as_view(), name='product-list'),
@@ -36,7 +37,8 @@ urlpatterns = [
     path('api/products/<uuid:product_id>/comments', AllCommentsView.as_view(), name='all-ratings'),
     path('api/products/<uuid:product_id>/colors/', ProductColorsView.as_view(), name='product-colors'),
     path('api/plus_cartItem/<int:cartItem_id>', plus_cartItem.as_view(), name="plus_cartItem"),
-    path('api/transaction_list',TransactionList.as_view(), name="transaction_list")
+    path('api/transaction_list',TransactionList.as_view(), name="transaction_list"),
+    path('products/search/', ProductSearchView.as_view(), name='product-search'),
 
     
 ]
