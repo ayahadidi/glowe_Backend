@@ -10,7 +10,7 @@ class ProductColorsView(APIView):
     def get(self, request, product_id):
         try:
             product = Products.objects.get(id=product_id)
-            colors = Colors.objects.filter(product=product)  # adjust this if your relation is different
+            colors = Colors.objects.filter(product=product)  
             serializer = ColorSerializer(colors, many=True)
             return Response(serializer.data, status=status.HTTP_200_OK)
         except Products.DoesNotExist:

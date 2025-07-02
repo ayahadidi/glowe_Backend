@@ -43,8 +43,6 @@ def get_or_create_guest_wishlist(request):
 
 
 
-
-
 def add_product_to_cart(cart, product, color, quantity):
     from ..models.cart_item_model import CartItem
     from ..models.inventory_model import Inventory

@@ -9,7 +9,7 @@ class TransactionList(APIView):
     permission_classes = [IsAuthenticated]
 
     def get(self, request):
-        carts = Cart.objects.filter(user=request.user, type=2)
+        carts = Cart.objects.filter(user=request.user, type=1)
 
         if not carts:
             return Response({"detail": "No carts checked out"}, status=status.HTTP_400_BAD_REQUEST)
