@@ -2,24 +2,29 @@
 from rest_framework.views import APIView
 from rest_framework.response import Response
 from rest_framework import status
+from rest_framework.permissions import IsAuthenticated
+from drf_yasg.utils import swagger_auto_schema
 from ..models.cart_model import Cart, CartStatus
 from ..models.cart_item_model import CartItem
 from ..models.inventory_model import Inventory
 from ..models.transaction_model import Transactions
 from ..models.promoCode_model import PromoCode
 from ..serializers.checkout_serializer import CheckoutSerializer
-from rest_framework.permissions import IsAuthenticated
-
 
 class checkoutView(APIView):
     permission_classes=[IsAuthenticated]
-    def post(self, request, cart_id):
+
+    @swagger_auto_schema(
+        request_body=CheckoutSerializer,
+        responses={201:CheckoutSerializer,400:'Bad Request'}
+    )
+    def post(self, request):
         serializer = CheckoutSerializer(data=request.data)
         if not serializer.is_valid():
             return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)
 
-        # cart_id = serializer.validated_data.get('cart_id')
-        promo_code_input = serializer.validated_data.get('promo_code', None)
+        cart_id=serializer.validated_data.get('cart')
+        promo_code_input = serializer.validated_data.get('promo_code')
 
         try:
             cart = Cart.objects.get(id=cart_id, type=CartStatus.ACTIVE)
