@@ -28,7 +28,6 @@ class PasswordResetRequestView(APIView):
             if not user.is_active:
                 return Response({"detail": "Inactive user."}, status=status.HTTP_400_BAD_REQUEST)
         except User.DoesNotExist:
-            # Always respond the same for security
             return Response({"detail": "If the email exists, a reset link was sent."}, status=200)
 
         uid = urlsafe_base64_encode(force_bytes(user.pk))
