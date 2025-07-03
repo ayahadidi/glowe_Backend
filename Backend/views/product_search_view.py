@@ -12,14 +12,17 @@ from rapidfuzz import fuzz
 def normalize(text):
     return re.sub(r'\s+', ' ', re.sub(r'[^a-z0-9]+', ' ', text.lower())).strip()
 
+
 class ProductSearchView(APIView):
     @swagger_auto_schema(
         request_body=openapi.Schema(
             type=openapi.TYPE_OBJECT,
             properties={
-                'search': openapi.Schema(type=openapi.TYPE_STRING, description='Search term'),
+                'search': openapi.Schema(
+                    type=openapi.TYPE_STRING,
+                ),
             },
-            required=[],
+            required=[],  # 'search' is optional
         ),
         responses={200: productInfo_serializer(many=True)}
     )
@@ -27,29 +30,38 @@ class ProductSearchView(APIView):
         search_query_raw = request.data.get('search', '')
         search_query = normalize(search_query_raw)
 
-        all_products = Products.objects.all()
-        results = []
+        products = Products.objects.all()
 
         if search_query:
-            threshold = 50 if len(search_query) < 3 else 70
+            query_length = len(search_query)
+            results = []
 
-            for product in all_products:
-                name = normalize(product.name or '')
-                description = normalize(product.description or '')
+            # Set threshold and scorer based on query length
+            if query_length == 1:
+                threshold = 30
+                scorer = fuzz.partial_ratio
+            elif query_length == 2:
+                threshold = 40
+                scorer = fuzz.partial_ratio
+            elif query_length==3:
+                threshold=50
+                scorer=fuzz.partial_ratio
+            elif query_length==4 :
+                threshold=55
+                scorer=fuzz.partial_ratio
+            else:
+                threshold = 60
+                scorer = fuzz.token_set_ratio
 
-                name_score = fuzz.ratio(search_query, name)
-                desc_score = fuzz.ratio(search_query, description)
-
-                
-                combined_score = 0.7 * name_score + 0.3 * desc_score
+            for product in products:
+                name_score = scorer(search_query, normalize(product.name or ''))
+                combined_score = 0.7 * name_score + 0.3 
 
                 if combined_score >= threshold:
                     results.append((product, combined_score))
 
             results.sort(key=lambda x: x[1], reverse=True)
             products = [item[0] for item in results]
-        else:
-            products = all_products
 
         if not products:
             return Response({'message': 'No matching products found.'}, status=status.HTTP_200_OK)

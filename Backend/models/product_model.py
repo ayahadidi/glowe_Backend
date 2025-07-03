@@ -10,7 +10,7 @@ class Products(models.Model):
     image=models.ImageField()
     usage=models.CharField(max_length=500)
     price=models.FloatField(validators=[MaxValueValidator(1000)],default=0)
-    ingredients=models.CharField(max_length=500)
+    ingredients=models.CharField(max_length=1000)
     brandName=models.CharField(max_length=50)
     TotalSoldOfProduct=models.IntegerField(default=0)
     TotalRating=models.FloatField(validators=[MaxValueValidator(5)],default=0)
